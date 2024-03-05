@@ -1,5 +1,5 @@
 # GSP1036 
-[![](https://api.pointscounter.me/servers/img/subscribe)](https://www.youtube.com/@CloudHustlers)
+
 ## Run in cloudshell
 ```cmd
 gcloud services enable iap.googleapis.com
