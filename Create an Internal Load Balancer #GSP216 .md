@@ -1,5 +1,5 @@
 # GSP216 
-[![](https://api.pointscounter.me/servers/img/subscribe)](https://www.youtube.com/@CloudHustlers)
+
 ## Run in cloudshell 
 ### Zone from task 2 >`Create the managed instance groups`> step 3
 ```cmd
