@@ -1,51 +1,11 @@
-# GSP1036 
+export PROJECT_ID=
 
-## Run in cloudshell
-```cmd
-gcloud services enable iap.googleapis.com
-gcloud compute instances create linux-iap \
---machine-type e2-medium \
---subnet=default \
---no-address \
---zone us-east1-c
-gcloud compute instances create windows-iap \
---machine-type e2-medium \
---subnet=default \
---no-address \
---zone us-east1-c \
---create-disk auto-delete=yes,boot=yes,device-name=windows-iap,image=projects/windows-cloud/global/images/windows-server-2016-dc-v20230315,mode=rw,size=50,type=projects/$DEVSHELL_PROJECT_ID/zones/us-east1-c/diskTypes/pd-balanced
-gcloud compute instances create windows-connectivity \
---machine-type e2-medium \
---zone us-east1-c \
---create-disk auto-delete=yes,boot=yes,device-name=windows-connectivity,image=projects/qwiklabs-resources/global/images/iap-desktop-v001,mode=rw,size=50,type=projects/$DEVSHELL_PROJECT_ID/zones/us-east1-c/diskTypes/pd-balanced \
---scopes https://www.googleapis.com/auth/cloud-platform
-```
-### Search Firewall > Create Firewall Rule 
-> Name ```allow-ingress-from-iap```
+gcloud compute instances create linux-iap  --zone=us-east1-c --machine-type=e2-medium --network-interface=subnet=default,no-address --metadata=enable-oslogin=true --maintenance-policy=MIGRATE --provisioning-model=STANDARD --create-disk=auto-delete=yes,boot=yes,device-name=linux-iap,image=projects/debian-cloud/global/images/debian-11-bullseye-v20230306,mode=rw,size=10,type=projects/$PROJECT_ID/zones/us-east1-c/diskTypes/pd-balanced --no-shielded-secure-boot --shielded-vtpm --shielded-integrity-monitoring --reservation-affinity=any
 
->Target ```All instances in the network```
 
->Source IPv4 Ranges ```35.235.240.0/20```
+gcloud compute instances create windows-iap  --zone=us-east1-c --machine-type=e2-medium --network-interface=subnet=default,no-address --metadata=enable-oslogin=true --maintenance-policy=MIGRATE --provisioning-model=STANDARD --create-disk=auto-delete=yes,boot=yes,device-name=windows-iap,image=projects/windows-cloud/global/images/windows-server-2016-dc-v20230216,mode=rw,size=50,type=projects/$PROJECT_ID/zones/us-east1-c/diskTypes/pd-balanced --no-shielded-secure-boot --shielded-vtpm --shielded-integrity-monitoring --reservation-affinity=any
 
->Select TCP and enter ```22, 3389```
 
-## Search Identity-Aware Proxy > SSH and TCP Resources
->Check ```linux-iap```**&**```windows-iap```
+gcloud compute instances create windows-connectivity  --zone=us-east1-c --machine-type=e2-medium --network-interface=network-tier=PREMIUM,subnet=default --metadata=enable-oslogin=true --maintenance-policy=MIGRATE --provisioning-model=STANDARD --create-disk=auto-delete=yes,boot=yes,device-name=windows-connectivity,image=projects/qwiklabs-resources/global/images/iap-desktop-v001,mode=rw,size=50,type=projects/$PROJECT_ID/zones/us-east1-c/diskTypes/pd-balanced --no-shielded-secure-boot --shielded-vtpm --shielded-integrity-monitoring --reservation-affinity=any
 
->Click ```Add principal```
 
->Principle: Enter ```service``` and select the first one 
-
->Role ```IAP-Secured Tunnel User```
-
->Click SAVE
-
->Click ```Add principal```
-
->Principle:  ```Paste your Username```
-
->Role ```IAP-Secured Tunnel User```
-
->Click SAVE
-
-### You will get check for last task also (No need to perform it)
