@@ -1,5 +1,5 @@
 # GSP021
->🚨 [PLEASE SUBSCRIBE OUR CHANNEL CLOUDHUSTLER](https://www.youtube.com/@cloudhustlers) **&** [JOIN OUR COMMUNITY](https://chat.whatsapp.com/KBfUcSleGGEFf2Xvvm8FW3)
+>🚨 [PLEASE SUBSCRIBE OUR CHANNEL CLOUDHUSTLER](https://www.youtube.com/channel/UC7jPMkHB5mX-6H2R3Y1lYZg)
 ## Run in cloudshell
 ```cmd
 gcloud config set compute/zone us-central1-b
