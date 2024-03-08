@@ -1,7 +1,7 @@
 
 # Looker Functions and Operators [GSP857]
 
-# Please like share & subscribe to [Techcps](https://www.youtube.com/@techcps) & join our [WhatsApp Channel](https://whatsapp.com/channel/0029Va9nne147XeIFkXYv71A)
+# Please like share & subscribe to [Techcps](https://www.youtube.com/channel/UC7jPMkHB5mX-6H2R3Y1lYZg) 
 
 > 🚨 Turn on the Development mode
 
@@ -69,6 +69,6 @@ explore: +flights {
 }
 ```
 
-## Congratulations, you're all done with the lab 😄
+## Congratulations, you're all done with the lab 😁
 
-# Thanks for watching :)
+# Thanks for watching👍 :)
