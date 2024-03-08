@@ -35,3 +35,4 @@ kubectl create -f deployments/frontend.yaml
 kubectl create -f services/frontend.yaml
 kubectl get services frontend
 ```
+#thank You😊
