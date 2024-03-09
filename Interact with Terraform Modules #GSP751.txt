@@ -1,0 +1,3 @@
+curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/Interact%20with%20Terraform%20Modules/techcpsgsp751.sh
+sudo chmod +x techcpsgsp751.sh
+./techcpsgsp751.sh
