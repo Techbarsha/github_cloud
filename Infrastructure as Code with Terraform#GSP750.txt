@@ -1,0 +1,5 @@
+export ZONE=
+
+curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/Infrastructure%20as%20Code%20with%20Terraform/techcpsgsp750.sh
+sudo chmod +x techcpsgsp750.sh
+./techcpsgsp750.sh
