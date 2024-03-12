@@ -1,7 +1,7 @@
 
 # Configuring IAM Permissions with gcloud [GSP647]
 
-# Please like share & subscribe to [Techcps](https://www.youtube.com/@techcps) & join our [WhatsApp Channel](https://whatsapp.com/channel/0029Va9nne147XeIFkXYv71A)
+# Please like share & subscribe to [Edutech Barsha](https://www.youtube.com/channel/UC7jPMkHB5mX-6H2R3Y1lYZg)
 
 ```
 export ZONE=
