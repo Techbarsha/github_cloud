@@ -1,3 +1,10 @@
+# Getting Started with Security Command Center [GSP1124]
+# follow the instructions
+
+# If you consider that the video helped you to complete your lab, so please do like and subscribe. https://www.youtube.com/@edutechbarsha
+* In the GCP Console open the Cloud Shell and run the following commands:
+
+```
 view: user_order_lifetime {
   derived_table: {
     sql: SELECT
@@ -35,8 +42,8 @@ view: user_order_lifetime {
     fields: [user_id, lifetime_orders, lifetime_sales]
   }
 }
-
-
+```
+```
 
 3)
 
@@ -147,8 +154,8 @@ view: users {
   }
 }
 
-
-
+```
+```
 4:-
 
 connection: "bigquery_public_data_looker"
@@ -235,3 +242,4 @@ explore: events {
   }
   
 }
+```
