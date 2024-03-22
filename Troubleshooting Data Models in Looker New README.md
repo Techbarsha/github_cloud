@@ -43,10 +43,10 @@ view: user_order_lifetime {
   }
 }
 ```
-```
+
 
 3)
-
+```
 
 view: users {
   sql_table_name: `cloud-training-demos.looker_ecomm.users`
@@ -155,9 +155,9 @@ view: users {
 }
 
 ```
-```
-4:-
 
+4:-
+```
 connection: "bigquery_public_data_looker"
 
 # include all the views
