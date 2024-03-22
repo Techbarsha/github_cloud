@@ -1,3 +1,11 @@
+# Getting Started with Security Command Center [GSP1124]
+# follow the instructions
+
+# If you consider that the video helped you to complete your lab, so please do like and subscribe. https://www.youtube.com/@edutechbarsha
+* In the GCP Console open the Cloud Shell and run the following commands:
+
+
+
 ```
 
 export PROJECT_ID=YOUR_PROJECT_ID
@@ -113,6 +121,9 @@ AND productSKU = "GGOEGOLC013299"
 '
 ```
 
+# Congratulations, you're all done with the lab 😄
+# Don't forget to Subscribe
+# Thanks for watching :)
 
 
 
