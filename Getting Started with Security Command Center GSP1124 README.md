@@ -1,8 +1,8 @@
 
 # Getting Started with Security Command Center [GSP1124]
+# Getting Started with Security Command Center
 
-# If you consider that the video helped you to complete your lab, so please do like and subscribe. https://www.youtube.com/@techcps
-
+# If you consider that the video helped you to complete your lab, so please do like and subscribe. https://www.youtube.com/@edutechbarsha
 * In the GCP Console open the Cloud Shell and run the following commands:
 
 ```
@@ -21,5 +21,5 @@ gcloud compute firewall-rules update default-allow-ssh --source-ranges=35.235.24
 ```
 
 # Congratulations, you're all done with the lab 😄
-
+# Don't forget to Subscribe
 # Thanks for watching :)
