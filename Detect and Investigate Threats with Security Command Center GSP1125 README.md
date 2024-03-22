@@ -1,7 +1,7 @@
 
 # Detect and Investigate Threats with Security Command Center [GSP1125]
 
-# If you consider that the video helped you to complete your lab, so please do like and subscribe [Techcps](https://www.youtube.com/@edutechbarsha)
+# If you consider that the video helped you to complete your lab, so please do like and subscribe [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
 
 ## Note: Go to "IAM & Admin" > "Audit Logs".
 * Click the findbar and type: "Cloud Resource Manager API"
