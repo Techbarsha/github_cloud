@@ -1,6 +1,6 @@
 
 # Getting Started with Security Command Center [GSP1124]
-# Getting Started with Security Command Center
+# follow the instruction
 
 # If you consider that the video helped you to complete your lab, so please do like and subscribe. https://www.youtube.com/@edutechbarsha
 * In the GCP Console open the Cloud Shell and run the following commands:
