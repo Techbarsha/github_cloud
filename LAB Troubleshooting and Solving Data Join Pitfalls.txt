@@ -1,4 +1,4 @@
-
+```
 
 export PROJECT_ID=YOUR_PROJECT_ID
 
@@ -111,7 +111,7 @@ CROSS JOIN ecommerce.site_wide_promotion
 WHERE v2ProductCategory LIKE "%Clearance%"
 AND productSKU = "GGOEGOLC013299"
 '
-
+```
 
 
 
