@@ -1,7 +1,7 @@
 
 # Using BigQuery and Cloud Logging to Analyze BigQuery Usage [GSP617]
 
-# Please like share & subscribe to [Techcps](https://www.youtube.com/@techcps) & join our [WhatsApp Channel](https://whatsapp.com/channel/0029Va9nne147XeIFkXYv71A)
+# # If you consider that the video helped you to complete your lab, so please do like and subscribe. https://www.youtube.com/@edutechbarsha
 
 ```
 bq mk bq_logs
