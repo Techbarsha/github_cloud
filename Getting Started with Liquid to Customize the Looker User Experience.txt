@@ -1,3 +1,4 @@
+```
 view: users {
   sql_table_name: `cloud-training-demos.looker_ecomm.users`
     ;;
@@ -118,11 +119,11 @@ view: users {
   }
 }
 
-
+```
 
 
 Order file: 
-
+```
 view: order_items {
     sql_table_name: `cloud-training-demos.looker_ecomm.order_items`
       ;;
@@ -277,4 +278,4 @@ view: order_items {
       ]
     }
   }
-  
+```  
