@@ -2,7 +2,7 @@
 # Using BigQuery and Cloud Logging to Analyze BigQuery Usage [GSP617]
 
 # # If you consider that the video helped you to complete your lab, so please do like and subscribe. https://www.youtube.com/@edutechbarsha
-
+* In the GCP Console open the Cloud Shell and run the following commands:
 ```
 bq mk bq_logs
 bq query --use_legacy_sql=false "SELECT current_date()"
