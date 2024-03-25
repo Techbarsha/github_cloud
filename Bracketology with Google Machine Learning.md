@@ -1,5 +1,4 @@
-
-# Getting Started with Liquid to Customize the Looker User Experience [GSP933]
+# Bracketology with Google Machine Learning [GSP461]
 # follow the instructions
 
 # If you consider that the video helped you to complete your lab, so please do like and subscribe. https://www.youtube.com/@edutechbarsha
