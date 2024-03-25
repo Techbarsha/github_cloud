@@ -287,3 +287,7 @@ view: order_items {
   }
 
 ```
+# Congratulations, you're all done with the lab 😄
+# Don't forget to Subscribe
+# Thanks for watching :)
+
