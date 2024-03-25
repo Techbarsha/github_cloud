@@ -1,6 +1,11 @@
-# GSP662
->🚨 [PLEASE SUBSCRIBE OUR CHANNEL CLOUDHUSTLER](https://www.youtube.com/@cloudhustlers) **&** [JOIN OUR COMMUNITY](https://chat.whatsapp.com/KBfUcSleGGEFf2Xvvm8FW3)
-## Run in cloudshell
+# Hosting a Web App on Google Cloud Using Compute Engine [GSP662]
+>🚨 # follow the instructions
+
+# If you consider that the video helped you to complete your lab, so please do like and subscribe. https://www.youtube.com/@edutechbarsha
+* In the GCP Console open the Cloud Shell and run the following commands:
+
+
+
 ```cmd
 export ZONE=
 ```
@@ -186,3 +191,7 @@ gcloud compute instance-groups managed rolling-action replace fancy-fe-mig \
     --max-unavailable=100%
 ```
 ## Now check the progress of all left tasks
+
+# Congratulations, you're all done with the lab 😄
+# Don't forget to Subscribe
+# Thanks for watching :)
