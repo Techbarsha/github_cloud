@@ -1,7 +1,7 @@
 
 # HTTP Load Balancer with Cloud Armor [GSP215]
 
-# Please like share & subscribe to [Techcps](https://www.youtube.com/@edutechbarsha)
+# Please like share & subscribe to [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
 
 
 ```
