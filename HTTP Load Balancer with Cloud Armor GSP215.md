@@ -1,7 +1,7 @@
 
 # HTTP Load Balancer with Cloud Armor [GSP215]
 
-# Please like share & subscribe to [Techcps](https://www.youtube.com/@techcps)
+# Please like share & subscribe to [Techcps](https://www.youtube.com/@edutechbarsha)
 
 
 ```
@@ -227,6 +227,6 @@ gcloud compute ssh --zone "$VM_ZONE" "siege-vm" --project "$DEVSHELL_PROJECT_ID"
 ```
 
 
-# Congratulations, you're all done with the lab 😄
+# Congratulations!!! you're all done with the lab 😁
 
 # Thanks for watching :)
