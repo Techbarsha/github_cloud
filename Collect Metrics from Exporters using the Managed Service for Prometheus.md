@@ -1,5 +1,8 @@
+# Collect Metrics from Exporters using the Managed Service for Prometheus [GSP1026]
 
+# Please like share & subscribe to [Edutech Barsha](https://www.youtube.com/channel/UC7jPMkHB5mX-6H2R3Y1lYZg)
 
+```
 
 gcloud beta container clusters create gmp-cluster --num-nodes=1 --zone us-central1-f --enable-managed-prometheus
 
@@ -35,11 +38,12 @@ cd node_exporter-1.3.1.linux-amd64
 
 ./node_exporter
 
+```
 
 
-----------------------------Open a new tab in cloud shell to run the node exporter commands--------------------------------------------------------
+# open a new tab in cloud shell to run the node exporter commands 
 
-
+```
 cat > config.yaml <<EOF
 global:
   scrape_interval: 15s
@@ -57,9 +61,11 @@ gsutil cp config.yaml gs://$PROJECT
 
 gsutil -m acl set -R -a public-read gs://$PROJECT
 
+```
 
+## Congratulations, you're all done with the lab 😄
 
-
+# Thanks for watching :)
 
 
 
