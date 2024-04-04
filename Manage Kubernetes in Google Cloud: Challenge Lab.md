@@ -1,6 +1,7 @@
+## Manage Kubernetes in Google Cloud: Challenge Lab[GSP510]
+# follow the instructions
 
-## Manage Kubernetes in Google Cloud: Challenge Lab
-
+# If you consider that the video helped you to complete your lab, so please do like and subscribe. https://www.youtube.com/@edutechbarsha
 ### 
 
 ***1. Go to log base metric***
@@ -48,4 +49,8 @@ sudo chmod +x quicklabgsp510.sh
 
 ***Wait for to command get execute and make sure laptop will not go for sleep***
 
-### Congratulations !!!
+# Congratulations, you're all done with the lab 😄
+# Don't forget to Subscribe
+# Thanks for watching :)
+
+
