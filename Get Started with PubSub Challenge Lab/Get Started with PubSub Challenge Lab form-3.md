@@ -1,6 +1,6 @@
 # Get Started with Pub/Sub: Challenge Lab || [ARC113](https://www.cloudskillsboost.google/focuses/63246?parent=catalog) ||
 
-## Solution [here](https://youtu.be/BcCcEv2mqAs)
+## Solution [here](https://youtu.be/@edutechbarsha)
 
 # For Get Started with Pub/Sub: Challenge Lab `form-3`
 
@@ -23,6 +23,5 @@ sudo chmod +x form_3.sh
 
 #### *Well done!*
 
-#### Don't Forget to Join the [Telegram Channel](https://t.me/QuickGcpLab) & [Discussion group](https://t.me/QuickGcpLabChats)
-
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+#### Don't Forget to Subscribe
+# [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
