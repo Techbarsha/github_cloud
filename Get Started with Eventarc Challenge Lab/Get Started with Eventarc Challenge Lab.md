@@ -18,6 +18,6 @@ sudo chmod +x arc118.sh
 
 #### *Well done!*
 
-#### Don't Forget to Join the [Telegram Channel](https://t.me/QuickGcpLab) & [Discussion group](https://t.me/QuickGcpLabChats)
+#### Don't Forget to subcribe
 
-# [Edutech Barsha](https://www.youtube.com/@edutechbarsha
+# [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
