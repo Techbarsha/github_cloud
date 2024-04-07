@@ -21,6 +21,5 @@ sudo chmod +x gsp814.sh
 
 #### *Well done!*😊
 
-#### Don't Forget to Join the [Telegram Channel](https://t.me/QuickGcpLab) & [Discussion group](https://t.me/QuickGcpLabChats)
-
+#### Don't Forget to Subscribe
 # [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
