@@ -5,10 +5,8 @@
 ### Run the following Commands in CloudShell
 
 ```
-export LOCATION=
-```
-```
-curl -LO raw.github.com/Techbarsha/github_cloud/blob/3c45b2f34c5944bdd94b8caf79a8714b25446b10/Get%20Started%20with%20Eventarc%20Challenge%20Lab/arc118.sh
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Get%20Started%20with%20Eventarc%20Challenge%20Lab/arc118.sh
+
 sudo chmod +x arc118.sh
 
 ./arc118.sh
