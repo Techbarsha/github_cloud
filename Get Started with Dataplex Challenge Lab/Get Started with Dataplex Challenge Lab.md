@@ -25,8 +25,8 @@ sudo chmod +x arc117.sh
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 
-#### *Well done!*
+#### *Well done!*😊
 
-#### Don't Forget to Join the [Telegram Channel](https://t.me/QuickGcpLab) & [Discussion group](https://t.me/QuickGcpLabChats)
+#### Don't Forget to Subscribe
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
