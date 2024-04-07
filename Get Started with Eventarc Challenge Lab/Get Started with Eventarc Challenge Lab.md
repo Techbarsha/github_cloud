@@ -9,7 +9,6 @@ export LOCATION=
 ```
 ```
 curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Get%20Started%20with%20Eventarc%20Challenge%20Lab/arc118.sh
-
 sudo chmod +x arc118.sh
 
 ./arc118.sh
