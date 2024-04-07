@@ -8,7 +8,7 @@
 export REGION=
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Build%20and%20Execute%20MySQL%20PostgreSQL%20and%20SQLServer%20to%20Data%20Catalog%20Connectors/gsp814.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Build%20and%20Execute%20MySQL%20PostgreSQL%20and%20SQLServer%20to%20Data%20Catalog%20Connectors/gsp814.sh
 
 sudo chmod +x gsp814.sh
 
@@ -19,8 +19,8 @@ sudo chmod +x gsp814.sh
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 
-#### *Well done!*
+#### *Well done!*😊
 
 #### Don't Forget to Join the [Telegram Channel](https://t.me/QuickGcpLab) & [Discussion group](https://t.me/QuickGcpLabChats)
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
