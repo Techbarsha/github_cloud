@@ -23,3 +23,6 @@ sudo chmod +x edutechbarsha.sh
 #### Don't Forget to Subscribe
 
 # [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
+
+# Thanks for watching :)
+
