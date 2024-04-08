@@ -1,6 +1,6 @@
 # Data Analytics SME Academy - Loading Data into Google Cloud SQL || [GSP196](https://www.cloudskillsboost.google/focuses/1157?parent=catalog) ||
 
-## Solution [here](https://youtu.be/Hlm75WgMpko)
+## Solution [here](https://youtu.be/gxmuKXpxKEY)
 
 ### Run the following Commands in CloudShell
 
