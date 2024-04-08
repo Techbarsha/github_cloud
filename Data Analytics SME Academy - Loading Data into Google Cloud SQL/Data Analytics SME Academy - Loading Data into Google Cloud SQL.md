@@ -8,19 +8,18 @@
 export REGION=
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Data%20Analytics%20SME%20Academy%20-%20Loading%20Data%20into%20Google%20Cloud%20SQL/gsp196.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Data%20Analytics%20SME%20Academy%20-%20Loading%20Data%20into%20Google%20Cloud%20SQL/edutech.sh
+sudo chmod +x edutech.sh
 
-sudo chmod +x gsp196.sh
-
-./gsp196.sh
+./edutech.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### Congratulations 🎉 for completing the Lab !!
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 
-#### *Well done!*
+#### *Well done!!*
 
-#### Don't Forget to Join the [Telegram Channel](https://t.me/QuickGcpLab) & [Discussion group](https://t.me/QuickGcpLabChats)
+#### Don't Forget to Subscribe
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
