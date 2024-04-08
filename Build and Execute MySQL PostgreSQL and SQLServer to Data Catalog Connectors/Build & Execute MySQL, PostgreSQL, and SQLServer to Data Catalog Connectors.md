@@ -1,6 +1,6 @@
 # Build and Execute MySQL, PostgreSQL, and SQLServer to Data Catalog Connectors || [GSP814](https://www.cloudskillsboost.google/focuses/11999?parent=catalog) ||
 
-## Solution [here](https://youtu.be/43hA0Is9J1I)
+## Solution [here](https://youtu.be/ggwLu0Z34LY)
 
 ### Run the following Commands in CloudShell
 
