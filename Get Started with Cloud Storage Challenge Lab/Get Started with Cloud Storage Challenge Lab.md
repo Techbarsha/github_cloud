@@ -7,9 +7,8 @@
 ```
 curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Get%20Started%20with%20Cloud%20Storage%20Challenge%20Lab/arc111.sh
 
-sudo chmod +x arc111.sh
-
-./arc111.sh
+sudo chmod +x edutechbarsha.sh
+./edutechbarsha.sh
 ```
 
 ### Congratulations 🎉 for completing the Lab !
