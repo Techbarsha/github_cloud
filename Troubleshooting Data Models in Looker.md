@@ -1,7 +1,6 @@
 
 # Troubleshooting Data Models in Looker [GSP1019]
 
-# Please like share & subscribe to [Techcps](https://www.youtube.com/@techcps) & join our [WhatsApp Channel](https://whatsapp.com/channel/0029Va9nne147XeIFkXYv71A)
 
 # CREATE NEW FILE NAME: 
 ```
@@ -240,6 +239,8 @@ explore: events {
   
 }
 ```
-## Congratulations, you're all done with the lab 😄
+## Congratulations, you're all done with the lab !!!😄
+
+# Please like share & subscribe to [Edutech Barsha](https://www.youtube.com/@edutechbarsha) & join our [WhatsApp Channel](https://whatsapp.com/channel/0029Va5J2r5Jf05cKT1pZh31)
 
 # Thanks for watching :)
