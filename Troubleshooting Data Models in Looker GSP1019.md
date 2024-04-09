@@ -175,7 +175,7 @@ label: "E-Commerce Training"
 
 explore: order_items {
   
-  query: techcps {
+  query: edutechbarsha {
     dimensions: [users.age, users.average_sales, users.country, users.id, users.state]
   }
   join: user_order_lifetime {
