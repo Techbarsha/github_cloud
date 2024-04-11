@@ -1,6 +1,6 @@
 # follow the instructions
 
-# If you consider that the video helped you to complete your lab, so please do like and subscribe[Edutech Barsha](https://www.youtube.com/@edutechbarsha)
+# If you consider that the video helped you to complete your lab, so please do like and subscribe [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
 
 # Build and Deploy Machine Learning Solutions with Vertex AI: Challenge Lab || [GSP354](https://www.cloudskillsboost.google/focuses/22019?parent=catalog) ||
 
