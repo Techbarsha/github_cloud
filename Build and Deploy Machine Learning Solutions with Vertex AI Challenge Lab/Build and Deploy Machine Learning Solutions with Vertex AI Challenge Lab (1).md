@@ -60,6 +60,4 @@ pip install -U -r requirements.txt --user
 
 #### *Well done!*
 
-#### Don't Forget to Subscribe
-# [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
 # Thanks For Watching:)
