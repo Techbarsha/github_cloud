@@ -1,3 +1,7 @@
+# follow the instructions
+
+# If you consider that the video helped you to complete your lab, so please do like and subscribe. https://www.youtube.com/@edutechbarsha
+
 # Build and Deploy Machine Learning Solutions with Vertex AI: Challenge Lab || [GSP354](https://www.cloudskillsboost.google/focuses/22019?parent=catalog) ||
 
 ## Solution [here](https://youtu.be/5YOvpPtWMnI)
@@ -50,13 +54,12 @@ pip install -U -r requirements.txt --user
 
 * *Note: This training can take around `30-40` minutes to train and deploy the model.*
 
-### Congratulations 🎉 for Completing the Lab !
+### Congratulations 🎉 for Completing the Lab!! 😄
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 
 #### *Well done!*
 
-#### Don't Forget to Join the [Telegram Channel](https://t.me/QuickGcpLab) & [Discussion group](https://t.me/QuickGcpLabChats)
-
+#### Don't Forget to Subscribe
 # [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
 # Thanks For Watching:)
