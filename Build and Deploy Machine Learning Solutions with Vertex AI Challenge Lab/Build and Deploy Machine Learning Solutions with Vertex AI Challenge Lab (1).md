@@ -58,4 +58,5 @@ pip install -U -r requirements.txt --user
 
 #### Don't Forget to Join the [Telegram Channel](https://t.me/QuickGcpLab) & [Discussion group](https://t.me/QuickGcpLabChats)
 
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
+# Thanks For Watching:)
