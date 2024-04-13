@@ -12,11 +12,10 @@
 export LOCATION=
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Get%20Started%20with%20PubSub%20Challenge%20Lab/form_3.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Get%20Started%20with%20PubSub%20Challenge%20Lab/edutechbarsha_form3.sh
 
-sudo chmod +x form_3.sh
-
-./form_3.sh
+sudo chmod +x edutechbarsha_form3.sh
+./edutechbarsha_form3.sh
 ```
 
 ### Congratulations 🎉 for completing the Lab !😄
