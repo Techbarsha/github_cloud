@@ -1,5 +1,7 @@
 # App Dev: Deploying the Application into Kubernetes Engine - Python || [GSP188](https://www.cloudskillsboost.google/focuses/1073?parent=catalog) ||
+# Follow the instructions
 
+# If you consider that the video helped you to complete your lab, so please do like and subscribe [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
 ## Solution [here](https://youtu.be/ITLdXsePsMM)
 
 ### Run the following Commands in CloudShell
@@ -15,12 +17,10 @@ sudo chmod +x gsp188.sh
 ./gsp188.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### Congratulations 🎉 for completing the Lab !😄
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 
 #### *Well done!*
 
-#### Don't Forget to Join the [Telegram Channel](https://t.me/QuickGcpLab) & [Discussion group](https://t.me/QuickGcpLabChats)
-
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# Thanks For Watching:)
