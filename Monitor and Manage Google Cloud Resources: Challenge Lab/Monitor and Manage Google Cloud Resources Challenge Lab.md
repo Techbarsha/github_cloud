@@ -21,12 +21,10 @@ sudo chmod +x arc101.sh
 ./arc101.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### Congratulations 🎉 for completing the Lab !😄
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 
 #### *Well done!*
 
-#### Don't Forget to Join the [Telegram Channel](https://t.me/QuickGcpLab) & [Discussion group](https://t.me/QuickGcpLabChats)
-
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# Thanks For Watching:)
