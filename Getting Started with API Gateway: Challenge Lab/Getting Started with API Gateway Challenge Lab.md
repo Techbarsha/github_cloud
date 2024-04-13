@@ -10,11 +10,11 @@
 export REGION=
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Getting%20Started%20with%20API%20Gateway%20Challenge%20Lab/arc109.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Getting%20Started%20with%20API%20Gateway%3A%20Challenge%20Lab/edutechbarshaARC109.sh
 
-sudo chmod +x arc109.sh
+sudo chmod +x edutechbarshaARC109.sh
 
-./arc109.sh
+./edutechbarshaARC109.sh
 ```
 
 ### Congratulations 🎉 for completing the Lab !😄
