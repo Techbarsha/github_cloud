@@ -14,11 +14,11 @@ export REGION=
 export BUCKET_USER=
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Monitor%20and%20Manage%20Google%20Cloud%20Resources%20Challenge%20Lab/arc101.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Monitor%20and%20Manage%20Google%20Cloud%20Resources%3A%20Challenge%20Lab/edutechbarshaARC101.sh
 
-sudo chmod +x arc101.sh
+sudo chmod +x edutechbarshaARC101.sh
 
-./arc101.sh
+./edutechbarshaARC101.sh
 ```
 
 ### Congratulations 🎉 for completing the Lab !😄
