@@ -1,5 +1,7 @@
 # Get Started with Pub/Sub: Challenge Lab || [ARC113](https://www.cloudskillsboost.google/focuses/63246?parent=catalog) ||
+# Follow the instructions
 
+# If you consider that the video helped you to complete your lab, so please do like and subscribe [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
 ## Solution [here](https://youtu.be/@edutechbarsha)
 
 # For Get Started with Pub/Sub: Challenge Lab `form-2`
@@ -20,11 +22,10 @@ sudo chmod +x form_2.sh
 
 * `Now Follow Video Instructions`
 
-### Congratulations 🎉 for completing the Lab !
+### Congratulations 🎉 for completing the Lab !😄
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 
 #### *Well done!*
 
-#### Don't Forget to subscribe
-# [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
+# Thanks For Watching:)
