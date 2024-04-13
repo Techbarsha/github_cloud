@@ -9,11 +9,11 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Get%20Started%20with%20PubSub%20Challenge%20Lab/form_2.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Get%20Started%20with%20PubSub%20Challenge%20Lab/edutechbarsha_form2.sh
 
-sudo chmod +x form_2.sh
+sudo chmod +x edutechbarsha_form2.sh
 
-./form_2.sh
+./edutechbarsha_form2.sh
 ```
 
 ### Task 3. Create a trigger cloud function with Pub/Sub topic
