@@ -10,11 +10,10 @@
 export ZONE=
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/App%20Dev%20Deploying%20the%20Application%20into%20Kubernetes%20Engine%20-%20Python/gsp188.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/App%20Dev%3A%20Deploying%20the%20Application%20into%20Kubernetes%20Engine%20-%20Python/edutechbarshaGSP188.sh
 
-sudo chmod +x gsp188.sh
-
-./gsp188.sh
+sudo chmod +x edutechbarshaGSP188.sh
+./edutechbarshaGSP188.sh
 ```
 
 ### Congratulations 🎉 for completing the Lab !😄
