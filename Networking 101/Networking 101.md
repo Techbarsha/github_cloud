@@ -16,6 +16,7 @@ export ZONE_3=
 curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Networking%20101/edutechbarshaGSP016.sh
 
 sudo chmod +x edutechbarshaGSP016.sh
+
 ./edutechbarshaGSP016.sh
 ```
 
