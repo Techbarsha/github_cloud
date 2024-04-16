@@ -1,7 +1,9 @@
+# Configure Secure RDP using a Windows Bastion Host: Challenge Lab || [GSP303](https://www.cloudskillsboost.google/focuses/1737?parent=catalog) ||
 
-# Configure Secure RDP using a Windows Bastion Host
+# If you consider that the video helped you to complete your lab, so please do like and subscribe [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
+## Solution [here](https://youtu.be/markO68BtxM)
 
-Click Activate Cloud Shell Activate Cloud Shell icon at the top of the Google Cloud console.
+### Run the following Commands in CloudShell
 
 ## EXPORT "ZONE"
 
@@ -44,4 +46,10 @@ gcloud compute reset-windows-password vm-securehost --user app_admin --zone $ZON
 
 ##
 
-## Congratulation!!!
+### Congratulations 🎉 for completing the Lab !😄
+
+##### *You Have Successfully Demonstrated Your Skills And Determination.*
+
+#### *Well done!*
+
+# Thanks For Watching:)
