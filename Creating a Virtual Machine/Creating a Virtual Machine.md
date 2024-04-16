@@ -6,6 +6,10 @@
 ### Run the following Commands in CloudShell
 
 ```
+export REGION=
+
+export ZONE=
+
 curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Creating%20a%20Virtual%20Machine/edutechbarshaGSP001.sh
 
 sudo chmod +x edutechbarshaGSP001.sh
