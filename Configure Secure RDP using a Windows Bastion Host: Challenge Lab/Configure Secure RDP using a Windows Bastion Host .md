@@ -1,6 +1,11 @@
-# GSP303
->🚨 [PLEASE SUBSCRIBE OUR CHANNEL CLOUDHUSTLER](https://www.youtube.com/@cloudhustlers) **&** [JOIN OUR COMMUNITY](https://chat.whatsapp.com/KBfUcSleGGEFf2Xvvm8FW3)
-## Run in Cloudshell
+# Configure Secure RDP using a Windows Bastion Host: Challenge Lab || [GSP303](https://www.cloudskillsboost.google/focuses/1737?parent=catalog) ||
+
+# If you consider that the video helped you to complete your lab, so please do like and subscribe [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
+## Solution [here](https://youtu.be/markO68BtxM)
+
+### Run the following Commands in CloudShell
+
+## EXPORT "ZONE"
 ```cmd
 export ZONE=
 ```
@@ -14,3 +19,15 @@ gcloud compute instances create vm-securehost --zone=$ZONE --machine-type=e2-med
 ```
 ### Check the progress till task 5 
 ### Go to the lab and check if green tick came beside it or not.
+
+##
+
+##
+
+### Congratulations 🎉 for completing the Lab !😄
+
+##### *You Have Successfully Demonstrated Your Skills And Determination.*
+
+#### *Well done!*
+
+# Thanks For Watching:)
