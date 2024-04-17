@@ -1,7 +1,7 @@
-# Creating a Virtual Machine || [GSP001](https://www.cloudskillsboost.google/focuses/12007?parent=catalog) ||
+# Set Up Network and HTTP Load Balancers || [GSP007](https://www.cloudskillsboost.google/focuses/12007?parent=catalog) ||
 
 # If you consider that the video helped you to complete your lab, so please do like and subscribe [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
-## Solution [here](https://youtu.be/markO68BtxM)
+## Solution [here](https://youtu.be/5CDC9AAD14k)
 
 ### Run the following Commands in CloudShell
 
