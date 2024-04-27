@@ -1,4 +1,9 @@
-## ***Monitor and Log with Google Cloud Operations Suite: Challenge Lab***
+# Analyze BigQuery data in Connected Sheets: Challenge Lab || [GSP338] ||
+
+# If you consider that the video helped you to complete your lab, so please do like and subscribe [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
+## Solution [here](https://youtu.be/mrJHiMwd5IE)
+
+### Run the following Commands in CloudShell
 
 ### 
 
@@ -28,4 +33,6 @@ gcloud alpha monitoring policies create --policy-from-file="app-engine-error-per
 
 ###
 ###
-### ***```Congratulations:-)```***
+### Congratulations 🎉 for completing the Lab !😄
+
+# Thanks For Watching:)
