@@ -1,7 +1,7 @@
 # Using the Google Cloud Speech API: Challenge Lab || [ARC131](https://www.cloudskillsboost.google/games/5044/labs/32928) ||
 
 # If you consider that the video helped you to complete your lab, so please do like and subscribe [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
-## Solution [here](https://youtu.be/mrJHiMwd5IE)
+## Solution [here](https://youtu.be/KPK1xaI-ueE)
 
 ### Run the following Commands in CloudShell
 ```
