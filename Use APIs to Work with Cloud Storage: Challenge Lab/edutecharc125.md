@@ -1,7 +1,7 @@
 # Use APIs to Work with Cloud Storage: Challenge Lab || [ARC125](https://www.cloudskillsboost.google/games/5044/labs/32926) ||
 
 # If you consider that the video helped you to complete your lab, so please do like and subscribe [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
-## Solution [here](https://youtu.be/mrJHiMwd5IE)
+## Solution [here](https://youtu.be/k0zY4o6NbnY)
 
 ### Run the following Commands in CloudShell
 
