@@ -1,7 +1,7 @@
 # Use Functions, Formulas, and Charts in Google Sheets: Challenge Lab || [GSP379] ||
 
 # If you consider that the video helped you to complete your lab, so please do like and subscribe [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
-## Solution [here](https://youtu.be/mrJHiMwd5IE)
+## Solution [here](https://youtu.be/ks0dMV610Ug)
 
 
 ### Task 1:-
