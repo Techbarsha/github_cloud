@@ -35,4 +35,8 @@ gcloud alpha monitoring policies create --policy-from-file="app-engine-error-per
 ###
 ### Congratulations 🎉 for completing the Lab !😄
 
+##### *You Have Successfully Demonstrated Your Skills And Determination.*
+
+#### *Well done!*
+
 # Thanks For Watching:)
