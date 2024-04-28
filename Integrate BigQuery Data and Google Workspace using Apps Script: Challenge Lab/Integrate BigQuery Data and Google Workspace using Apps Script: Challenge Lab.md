@@ -1,7 +1,7 @@
-# Integrate BigQuery Data and Google Workspace using Apps Script: Challenge Lab || [ARC133](https://www.cloudskillsboost.google/games/5019/labs/32745) ||
+# Integrate BigQuery Data and Google Workspace using Apps Script: Challenge Lab || [ARC133](https://www.cloudskillsboost.google/games/5044/labs/32929) ||
 
 # If you consider that the video helped you to complete your lab, so please do like and subscribe [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
-## Solution [here](https://youtu.be/mrJHiMwd5IE)
+## Solution [here](https://youtu.be/8sa6PkizRfw)
 
 ### **TASK 1:-** 
 ### open [AppsScript](http://script.google.com/) >> create appscript >> services >> Choose ``` Bigquery API ```
