@@ -138,9 +138,9 @@ function runQuery() {
 
 ### Check the ``` Group by option ``` and select ``` Year-Month ``` from the dropdown list.
 
-### Drag fare into the Series field.
+### Drag ``` fare ``` into the Series field.
 
-### Under Filter click Add > ```payment_type ```
+### Under Filter click Add  ```payment_type ```
 
 ### Select the Showing all items status dropdown.
 
