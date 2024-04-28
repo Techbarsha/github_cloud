@@ -2,9 +2,9 @@
 
 ## Solution [here](https://youtu.be/6vnL7IS9CXE)
 
-### Task 2.
+### Task 1 & 2
 ## Follow the video instructions
-
+### Task 3
 ### Run the following Commands in CloudShell
 
 ```
