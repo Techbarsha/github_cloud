@@ -15,6 +15,7 @@ export JOB_NAME=
 curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Streaming%20Analytics%20into%20BigQuery%3A%20Challenge%20Lab/arc106.sh
 sudo chmod +x arc106.sh
 ./arc106.sh
+
 ```
 
 ### Congratulations 🎉 for completing the Lab !😄
