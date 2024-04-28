@@ -1,6 +1,6 @@
 # Using OpenTSDB to Monitor Time-Series Data on Cloud Platform || [GSP142](https://www.cloudskillsboost.google/focuses/629?parent=catalog) ||
 
-## Solution [here](https://youtu.be/6vnL7IS9CXE)
+## Solution [here](https://youtu.be/Pk4eTFoarug)
 
 ### For Task 1 & 2 Follow the video instructions
 ### Task 3
