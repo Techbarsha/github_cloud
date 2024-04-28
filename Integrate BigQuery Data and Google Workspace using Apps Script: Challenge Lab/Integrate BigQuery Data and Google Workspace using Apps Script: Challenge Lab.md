@@ -110,12 +110,15 @@ function runQuery() {
 ```
 
 ### Find the percentage of taxi rides in Chicago that included a tip.
-```=COUNTIF(taxi_trips!tips,">0")
+```
+=COUNTIF(taxi_trips!tips,">0")
+
 ```
 
 ### Find the total number of trips where the fare was greater than 0.
 ```
 =COUNTIF(taxi_trips!fare,">0")
+
 ```
 
 ### **Task 3:-** 
