@@ -9,12 +9,11 @@
 export REGION=
 
 
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Managing%20Terraform%20State/quicklabgsp752.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Managing%20Terraform%20State/gsp752.sh
 
 
-sudo chmod +x quicklabgsp752.sh
-
-./quicklabgsp752.sh
+sudo chmod +x gsp752.sh
+./gsp752.sh
 
 ```
 
