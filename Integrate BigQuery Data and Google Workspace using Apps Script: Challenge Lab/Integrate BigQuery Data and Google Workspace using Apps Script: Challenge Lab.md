@@ -101,7 +101,7 @@ function runQuery() {
 }
 ```
 ### Rename file name 
-## code.gs >> bq-sheets-slides.gs
+## code.gs >> ``` bq-sheets-slides.gs ```
 
 ### **TASK 2:-** 
 ### ▶️ Find out how many taxi companies there are in Chicago.
