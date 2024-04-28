@@ -128,7 +128,7 @@ function runQuery() {
 
 ### Drag ``` payment_type ``` to the Label field. Then drag ``` fare ``` into the Value field 
 
-### Under Value > ``` Fare ``, change ``` Sum to Count ``` Click Apply.
+### Under Value > ``` Fare ``` change ``` Sum to Count ``` Click Apply.
 
 ### *As a line chart, how has revenue from mobile payments for taxi trips changed over time?
 
