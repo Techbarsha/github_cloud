@@ -8,7 +8,7 @@
 ```
 export custom_metric=
 
-curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/Monitor%20and%20Log%20with%20Google%20Cloud%20Operations%20Suite%3A%20Challenge%20Lab/techcps338.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Monitor%20and%20Log%20with%20Google%20Cloud%20Operations%20Suite%3A%20Challenge%20Lab/gsp338.sh
 sudo chmod +x gsp338.sh
 ./gsp338.sh
 
