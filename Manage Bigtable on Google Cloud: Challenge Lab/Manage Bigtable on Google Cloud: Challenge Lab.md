@@ -1,7 +1,7 @@
 # Manage Bigtable on Google Cloud: Challenge Lab || [GSP380](https://www.cloudskillsboost.google/games/5044/labs/32923) ||
 
 # If you consider that the video helped you to complete your lab, so please do like and subscribe [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
-## Solution [here](https://youtu.be/mrJHiMwd5IE)
+## Solution [here](https://youtu.be/FhRf8Sx-UkY)
 
 ### Run the following Commands in CloudShell
 ```
