@@ -65,7 +65,7 @@ sudo mysql_secure_installation <<EOF
 Enter current password for root (enter for none): 
 N
 Y
-Btecky
+EdutechBarsha
 N
 N
 N
