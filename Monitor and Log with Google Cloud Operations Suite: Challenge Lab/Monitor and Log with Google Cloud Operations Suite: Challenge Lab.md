@@ -1,4 +1,4 @@
-# Creating a Virtual Machine || [LAB](https://www.cloudskillsboost.google/games/5019/labs/32745) ||
+# Monitor and Log with Google Cloud Operations Suite: Challenge Lab || [GSP338](https://www.cloudskillsboost.google/games/5044/labs/32924#step6) ||
 
 # If you consider that the video helped you to complete your lab, so please do like and subscribe [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
 ## Solution [here](https://youtu.be/mrJHiMwd5IE)
