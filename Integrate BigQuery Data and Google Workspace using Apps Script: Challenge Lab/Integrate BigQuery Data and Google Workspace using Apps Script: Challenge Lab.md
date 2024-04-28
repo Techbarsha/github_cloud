@@ -1,4 +1,4 @@
-# Creating a Virtual Machine || [LAB](https://www.cloudskillsboost.google/games/5019/labs/32745) ||
+# Integrate BigQuery Data and Google Workspace using Apps Script: Challenge Lab || [ARC133](https://www.cloudskillsboost.google/games/5019/labs/32745) ||
 
 # If you consider that the video helped you to complete your lab, so please do like and subscribe [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
 ## Solution [here](https://youtu.be/mrJHiMwd5IE)
@@ -100,6 +100,7 @@ function runQuery() {
   Logger.log('Results spreadsheet created: %s', spreadsheet.getUrl());
 }
 ```
+### Save 👍
 ### Rename file name 
 ## code.gs >> ``` bq-sheets-slides.gs ```
 
