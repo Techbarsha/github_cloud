@@ -1,7 +1,7 @@
 # Managing Terraform State || [GSP752](https://www.cloudskillsboost.google/games/5043/labs/32915) ||
 
 # If you consider that the video helped you to complete your lab, so please do like and subscribe [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
-## Solution [here](https://youtu.be/mrJHiMwd5IE)
+## Solution [here](https://youtu.be/xe2E0DZRGzY)
 
 ### Run the following Commands in CloudShell
 
