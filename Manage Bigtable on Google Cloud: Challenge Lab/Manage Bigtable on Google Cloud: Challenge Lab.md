@@ -7,9 +7,9 @@
 ```
 export ZONE=
 
-curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/Manage%20Bigtable%20on%20Google%20Cloud:%20Challenge%20Lab/techcps380.sh
-sudo chmod +x techcps380.sh
-./techcps380.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Manage%20Bigtable%20on%20Google%20Cloud%3A%20Challenge%20Lab/gsp380.sh
+sudo chmod +x gsp380.sh
+./gsp380.sh
 ```
 
 ### Congratulations 🎉 for completing the Lab !😄
