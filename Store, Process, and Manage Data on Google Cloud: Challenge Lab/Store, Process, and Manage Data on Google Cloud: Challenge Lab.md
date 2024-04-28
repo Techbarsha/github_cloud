@@ -1,7 +1,7 @@
 # Store, Process, and Manage Data on Google Cloud: Challenge Lab || [LAB](https://www.cloudskillsboost.google/games/5044/labs/32922) ||
 
 # If you consider that the video helped you to complete your lab, so please do like and subscribe [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
-## Solution [here](https://youtu.be/mrJHiMwd5IE)
+## Solution [here](https://youtu.be/uRGyEYPXJeA)
 
 ### Run the following Commands in CloudShell
 
