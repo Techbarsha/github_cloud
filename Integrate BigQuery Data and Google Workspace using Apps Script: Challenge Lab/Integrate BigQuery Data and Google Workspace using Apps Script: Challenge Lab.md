@@ -4,7 +4,7 @@
 ## Solution [here](https://youtu.be/mrJHiMwd5IE)
 
 ### **TASK 1:-** 
-open [AppsScript](http://script.google.com/)
+### open [AppsScript](http://script.google.com/) >> create appscript >> services >> Choose Bigquery API
 
 
 ### **TASK 2:-** 
@@ -28,40 +28,39 @@ open [AppsScript](http://script.google.com/)
 
 ### **Task 3:-** 
 
-```
-* As a pie chart, what forms of payments are people using for their taxi rides?
 
-Drag payment_type to the Label field. Then drag fare into the Value field 
+### * As a pie chart, what forms of payments are people using for their taxi rides?
 
-Under Value > Fare, change Sum to Count. Click Apply.
+### Drag payment_type to the Label field. Then drag fare into the Value field 
 
-
-
-*As a line chart, how has revenue from mobile payments for taxi trips changed over time?
-*As a line chart, how have mobile payments changed over time since revenue peaked in 2015?
+### Under Value > ``` Fare ``, change Sum to Count. Click Apply.
 
 
 
-Drag trip_start_timestamp to the X-axis field.
+### *As a line chart, how has revenue from mobile payments for taxi trips changed over time?
+### *As a line chart, how have mobile payments changed over time since revenue peaked in 2015?
 
-Check the Group by option and select Year-Month from the dropdown list.
 
-Drag fare into the Series field.
+### Drag trip_start_timestamp to the X-axis field.
 
-Under Filter click Add > payment_type.
+### Check the Group by option and select Year-Month from the dropdown list.
 
-Select the Showing all items status dropdown.
+### Drag fare into the Series field.
 
-Click on the Filter by Condition dropdown and select Text contains from the list.
+### Under Filter click Add > payment_type.
 
-Input mobile in the Value field.
+### Select the Showing all items status dropdown.
 
-Click OK.
-```
+### Click on the Filter by Condition dropdown and select Text contains from the list.
+
+### Input ``` mobile ``` in the Value field.
+
+### Click OK.
+
 ### **Task 4:-** 
-```
- create a new sheet >> click into the first cell in the upper-left corner (A1) >> enter this >>
-```
+
+### create a new sheet >> click into the first cell in the upper-left corner (A1) >> enter this >>
+
 ### Enter the following address in the first cell
 ```
 76 9th Ave, New York
