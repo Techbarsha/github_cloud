@@ -11,11 +11,12 @@
 export ZONE=
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Using%20OpenTSDB%20to%20Monitor%20Time-Series%20Data%20on%20Cloud%20Platform/gsp142.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Using%20OpenTSDB%20to%20Monitor%20Time-Series%20Data%20on%20Cloud%20Platform/edutechbarshagsp142.sh
+sudo chmod +x edutechbarshagsp142.sh
 
-sudo chmod +x gsp142.sh
 
-./gsp142.sh
+./edutechbarshagsp142.sh
+
 ```
 
 ### Congratulations 🎉 for Completing the Lab !
