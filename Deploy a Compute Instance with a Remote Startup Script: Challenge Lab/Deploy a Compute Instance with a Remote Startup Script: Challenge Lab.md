@@ -8,9 +8,9 @@
 ```
 export ZONE=
 
-curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/Deploy%20a%20Compute%20Instance%20with%20a%20Remote%20Startup%20Script%3A%20Challenge%20Lab/techcps301.sh
-sudo chmod +x techcps301.sh
-./techcps301.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Deploy%20a%20Compute%20Instance%20with%20a%20Remote%20Startup%20Script%3A%20Challenge%20Lab/edutechbarshagsp301.sh
+sudo chmod +x edutechbarshagsp301.sh
+./edutechbarshagsp301.sh
 ```
 
 ### Congratulations 🎉 for completing the Lab !😄
