@@ -8,7 +8,7 @@ gcloud compute instances create techcps --project=$DEVSHELL_PROJECT_ID --zone=$Z
 
 gcloud compute firewall-rules create allow-http \
     --allow=tcp:80 \
-    --description="subscribe to techcps" \
+    --description="subscribe to edutechbarsha" \
     --direction=INGRESS \
     --target-tags=http-server
 
