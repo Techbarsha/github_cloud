@@ -1,4 +1,4 @@
-# Creating a Virtual Machine || [GSP301](https://www.cloudskillsboost.google/games/5019/labs/32747) ||
+# Deploy a Compute Instance with a Remote Startup Script: Challenge Lab || [GSP301](https://www.cloudskillsboost.google/games/5019/labs/32747) ||
 
 # If you consider that the video helped you to complete your lab, so please do like and subscribe [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
 ## Solution [here](https://youtu.be/mrJHiMwd5IE)
