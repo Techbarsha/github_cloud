@@ -9,8 +9,8 @@
 export REGION=
 
 curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/IAM%20Custom%20Roles/techcps190.sh
-sudo chmod +x techcps190.sh
-./techcps190.sh
+sudo chmod +x gsp190.sh
+./gsp190.sh
 ```
 
 ### Congratulations 🎉 for completing the Lab !😄
