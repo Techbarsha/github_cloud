@@ -7,8 +7,7 @@
 ## Solution [here](https://youtu.be/xREEyBh2OeE)
 ### Run the following Commands in CloudShell
 
-### Assign Veriables
-
+### task1
 ```
 export PROJECT_2=
 export ZONE=
@@ -19,7 +18,7 @@ sudo chmod +x task1.sh
 ./task1.sh
 ```
 
-### Run again the following Commands in CloudShell
+### task2
 
 ### Assign Veriables
 
@@ -35,12 +34,10 @@ sudo chmod +x task2.sh
 
 #  Now Check Your Progress for `TASK 1` & `TASK 2` and then Follow [Video's]() Instructions🗣️
 
+### task3
 ```
 user2
 ```
-
-### Run again the following Commands in CloudShell
-
 ### Assign Veriables
 
 ```
