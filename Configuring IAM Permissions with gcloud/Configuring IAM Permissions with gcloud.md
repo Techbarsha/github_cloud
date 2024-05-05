@@ -31,13 +31,13 @@ sudo chmod +x task2.sh
 ./task2.sh
 
 ```
-
-#  Now Check Your Progress for `TASK 1` & `TASK 2` and then Follow [Video's]() Instructions🗣️
-
-### task3
 ```
 user2
 ```
+#  Now Check Your Progress for `TASK 1` & `TASK 2` and then Follow [Video's]() Instructions🗣️
+
+### task3
+
 ### Assign Veriables
 
 ```
