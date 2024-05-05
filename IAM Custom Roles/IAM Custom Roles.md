@@ -1,7 +1,7 @@
 # IAM Custom Roles || [GSP190](https://www.cloudskillsboost.google/focuses/33036?parent=game) ||
 
 # If you consider that the video helped you to complete your lab, so please do like and subscribe [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
-## Solution [here](https://youtu.be/mrJHiMwd5IE)
+## Solution [here](https://youtu.be/Es_YdLJjFEk)
 
 ### Run the following Commands in CloudShell
 
