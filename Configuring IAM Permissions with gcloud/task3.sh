@@ -74,4 +74,4 @@ gcloud compute instances create lab-3 --machine-type=e2-standard-2 --service-acc
 
 echo "${RED}${BOLD}Congratulations${RESET}" "${WHITE}${BOLD}for${RESET}" "${GREEN}${BOLD}Completing the Lab !!!${RESET}"
 
-#-----------------------------------------------------end----------------------------------------------------------#
+#-----------------------------------------------------subscribe now----------------------------------------------------------#
