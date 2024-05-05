@@ -20,7 +20,7 @@ BOLD=`tput bold`
 RESET=`tput sgr0`
 #----------------------------------------------------start--------------------------------------------------#
 
-echo "${YELLOW}${BOLD}Starting${RESET}" "${GREEN}${BOLD}Execution${RESET}"
+echo "${YELLOW}${BOLD}GetStarting${RESET}" "${GREEN}${BOLD}Execution${RESET}"
 
 gcloud auth list
 
@@ -60,6 +60,6 @@ gcloud sql import sql $INSTANCE_NAME \
     --database=$DATABASE_NAME \
     --quiet
     
-echo "${RED}${BOLD}Congratulations${RESET}" "${WHITE}${BOLD}for${RESET}" "${GREEN}${BOLD}Completing the Lab !!!${RESET}"
+echo "${RED}${BOLD}Congratulations${RESET}" "${WHITE}${BOLD}for${RESET}" "${GREEN}${BOLD}Completing the Lab !!! Subscribe Edutech barsha${RESET}"
 
 #-----------------------------------------------------end----------------------------------------------------------#
