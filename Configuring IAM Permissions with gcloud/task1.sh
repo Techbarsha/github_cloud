@@ -36,4 +36,4 @@ gcloud compute ssh centos-clean --zone=$ZONE --quiet
 
 echo "${YELLOW}${BOLD}NOW${RESET}" "${WHITE}${BOLD}FOLLOW${RESET}" "${GREEN}${BOLD}VIDEO'S INSTRUCTIONS${RESET}"
 
-#-----------------------------------------------------end subscribe our channel----------------------------------------------------------#
+#-----------------------------------------------------subscribe now----------------------------------------------------------#
