@@ -72,6 +72,6 @@ EOF_CP
 chmod +x gsp903.sh
 
 
-docker run -it -e DEVSHELL_PROJECT_ID=$DEVSHELL_PROJECT_ID -e BUCKET_NAME=$BUCKET_NAME -e PROJECT_ID=$PROJECT_ID -e REGION=$REGION -e TOPIC_ID=$TOPIC_ID -v $(pwd)/techcps.sh:/techcps.sh python:3.7 /bin/bash -c "/techcps.sh"
+docker run -it -e DEVSHELL_PROJECT_ID=$DEVSHELL_PROJECT_ID -e BUCKET_NAME=$BUCKET_NAME -e PROJECT_ID=$PROJECT_ID -e REGION=$REGION -e TOPIC_ID=$TOPIC_ID -v $(pwd)/gsp903.sh:/gsp903.sh python:3.7 /bin/bash -c "/gsp903.sh"
 
 
