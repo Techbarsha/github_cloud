@@ -9,12 +9,9 @@
 export REGION=
 
 
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Stream%20Processing%20with%20Cloud%20Pub%3ASub%20and%20Dataflow%20Qwik%20Start/quicklabpythongsp903.sh
-
-sudo chmod +x quicklabpythongsp903.sh
-
-./quicklabpythongsp903.sh
-
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Stream%20Processing%20with%20Cloud%20PubSub%20and%20Dataflow%3A%20Qwik%20Start/gsp903.sh
+sudo chmod +x gsp903.sh
+./gsp903.sh
 ```
 
 ### Congratulations 🎉 for completing the Lab !😄
