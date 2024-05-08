@@ -1,6 +1,6 @@
 # Managing a GKE Multi-tenant Cluster with Namespaces || [GSP766](https://www.cloudskillsboost.google/focuses/14861?parent=catalog) ||
 
-## Solution [here](https://youtu.be/ggwLu0Z34LY)
+## Solution [here](https://youtu.be/ZY3vXRnLvoA)
 
 ### Run the following Commands in CloudShell
 
