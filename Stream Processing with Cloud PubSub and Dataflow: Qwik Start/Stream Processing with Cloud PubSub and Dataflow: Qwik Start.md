@@ -6,11 +6,53 @@
 ### Run the following Commands in CloudShell
 
 ```
-export REGION=
+gcloud auth list
 
-curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Stream%20Processing%20with%20Cloud%20PubSub%20and%20Dataflow%3A%20Qwik%20Start/gsp903.sh
-sudo chmod +x gsp903.sh
-./gsp903.sh
+gcloud config list project
+
+gcloud config set compute/region "REGION"
+
+gcloud services disable dataflow.googleapis.com
+
+gcloud services enable dataflow.googleapis.com
+
+PROJECT_ID=$(gcloud config get-value project)
+BUCKET_NAME="${PROJECT_ID}-bucket"
+TOPIC_ID=my-id
+REGION=us-central1
+AE_REGION=us-central
+
+gsutil mb gs://$BUCKET_NAME
+
+gcloud pubsub topics create $TOPIC_ID
+
+gcloud app create --region=$AE_REGION
+
+gcloud scheduler jobs create pubsub publisher-job --schedule="* * * * *" \
+    --topic=$TOPIC_ID --message-body="Hello!"
+    
+gcloud scheduler jobs run publisher-job
+
+git clone https://github.com/GoogleCloudPlatform/java-docs-samples.git
+cd java-docs-samples/pubsub/streaming-analytics
+
+
+
+
+
+mvn compile exec:java \
+-Dexec.mainClass=com.examples.pubsub.streaming.PubSubToGcs \
+-Dexec.cleanupDaemonThreads=false \
+-Dexec.args=" \
+    --project=$PROJECT_ID \
+    --region=$REGION \
+    --inputTopic=projects/$PROJECT_ID/topics/$TOPIC_ID \
+    --output=gs://$BUCKET_NAME/samples/output \
+    --runner=DataflowRunner \
+    --windowSize=2"
+    
+
+
 ```
 
 ### Congratulations 🎉 for completing the Lab !😄
