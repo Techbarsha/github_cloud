@@ -1,4 +1,4 @@
-# Build and Execute MySQL, PostgreSQL, and SQLServer to Data Catalog Connectors || [GSP814](https://www.cloudskillsboost.google/focuses/11999?parent=catalog) ||
+# Managing a GKE Multi-tenant Cluster with Namespaces || [GSP766](https://www.cloudskillsboost.google/focuses/14861?parent=catalog) ||
 
 ## Solution [here](https://youtu.be/ggwLu0Z34LY)
 
@@ -8,12 +8,10 @@
 export ZONE=
 
 
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Managing%20a%20GKE%20Multi-tenant%20Cluster%20with%20Namespaces/quicklabgsp766.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Managing%20a%20GKE%20Multi-tenant%20Cluster%20with%20Namespaces/gsp766.sh
 
-sudo chmod +x quicklabgsp766.sh
-
-./quicklabgsp766.sh
-
+sudo chmod +x gsp766.sh
+./gsp766.sh
 ```
 
 ### Congratulations 🎉 for completing the Lab !
