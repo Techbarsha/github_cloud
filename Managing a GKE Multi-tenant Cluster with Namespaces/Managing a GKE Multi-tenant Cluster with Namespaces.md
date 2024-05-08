@@ -13,6 +13,20 @@ curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Managing%20a%20G
 sudo chmod +x gsp766.sh
 ./gsp766.sh
 ```
+# Create the data source in Looker Studio
+
+* Open the [Looker Studio Data Sources page](https://lookerstudio.google.com/overview)
+
+## Perform the lab and video instructions
+
+> Enter the following query in the custom query box.
+
+* Replace [PROJECT-ID] with your Qwiklabs project id:
+
+```
+ SELECT * FROM `[PROJECT-ID].cluster_dataset.usage_metering_cost_breakdown`
+``` 
+* Click CONNECT.
 
 ### Congratulations 🎉 for completing the Lab !
 
