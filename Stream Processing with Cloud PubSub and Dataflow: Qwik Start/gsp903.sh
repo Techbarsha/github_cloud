@@ -44,7 +44,7 @@ while true; do
         echo "Command executed successfully. Now running next command.."
         break 
     else
-        echo "Retrying.. Please like and subscribe to techcps[https://www.youtube.com/@techcps]."
+        echo "Retrying.. Please like and subscribe to edutech barsha[https://www.youtube.com/@edutechbarsha]."
         sleep 10 
     fi
 done
@@ -52,7 +52,7 @@ done
 
 
 
-cat > techcps.sh <<EOF_CP
+cat > gsp903.sh <<EOF_CP
 #!/bin/bash
 
 git clone https://github.com/GoogleCloudPlatform/python-docs-samples.git
@@ -69,7 +69,7 @@ python PubSubToGCS.py \
 --temp_location=gs://$BUCKET_NAME/temp
 EOF_CP
 
-chmod +x techcps.sh
+chmod +x gsp903.sh
 
 
 docker run -it -e DEVSHELL_PROJECT_ID=$DEVSHELL_PROJECT_ID -e BUCKET_NAME=$BUCKET_NAME -e PROJECT_ID=$PROJECT_ID -e REGION=$REGION -e TOPIC_ID=$TOPIC_ID -v $(pwd)/techcps.sh:/techcps.sh python:3.7 /bin/bash -c "/techcps.sh"
