@@ -1,4 +1,4 @@
-# Cloud Natural Language API: Qwik Start || [GSP097](https://www.cloudskillsboost.google/focuses/1073?parent=catalog) ||
+# Cloud Natural Language API: Qwik Start || [GSP097](https://www.cloudskillsboost.google/focuses/582?parent=catalog) ||
 # Follow the instructions
 
 # If you consider that the video helped you to complete your lab, so please do like and subscribe [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
