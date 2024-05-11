@@ -44,7 +44,7 @@ bq mk ecommerce
 
 echo "${GREEN}${BOLD}
 
-Task 2 Completed
+Task 2 Completed!
 
 ${RESET}"
 
@@ -77,7 +77,7 @@ LIMIT 5
 
 echo "${GREEN}${BOLD}
 
-Task 5 Completed
+Task 5 Completed!
 
 ${RESET}"
 
@@ -134,7 +134,7 @@ ORDER BY total_ordered DESC
 
 echo "${GREEN}${BOLD}
 
-Task 6 Completed
+Task 6 Completed!
 
 ${RESET}"
 
@@ -170,7 +170,7 @@ WHERE _TABLE_SUFFIX = '0802'
 
 echo "${GREEN}${BOLD}
 
-Task 7 Completed
+Task 7 Completed!
 
 ${RESET}"
 
@@ -179,7 +179,7 @@ read -p "${BOLD}${RED}Subscribe to Quicklab [y/n] : ${RESET}" CONSENT_REMOVE
 
 while [ "$CONSENT_REMOVE" != 'y' ]; do
   sleep 10
-  read -p "${BOLD}${YELLOW}Do Subscribe to Quicklab [y/n] : ${RESET}" CONSENT_REMOVE
+  read -p "${BOLD}${YELLOW}Do Subscribe to Our Channel [y/n] : ${RESET}" CONSENT_REMOVE
 done
 
 echo "${BLUE}${BOLD}Thanks For Subscribing :)${RESET}"
