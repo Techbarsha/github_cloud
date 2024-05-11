@@ -6,12 +6,12 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Creating%20a%20Data%20Warehouse%20Through%20Joins%20and%20Unions/quicklabgsp413.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Creating%20a%20Data%20Warehouse%20Through%20Joins%20and%20Unions/gsp413.sh
 
 
-sudo chmod +x quicklabgsp413.sh
+sudo chmod +x gsp413.sh
 
-./quicklabgsp413.sh
+./gsp413.sh
 ```
 
 ### Congratulations 🎉 for completing the Lab !😄
