@@ -50,7 +50,7 @@ bq load --source_format=NEWLINE_DELIMITED_JSON --autodetect $DEVSHELL_PROJECT_ID
 
 echo "${GREEN}${BOLD}
 
-Task 2 Completed
+Task 2 Completed Successfully!
 
 ${RESET}"
 
@@ -74,7 +74,7 @@ ORDER BY date
 
 echo "${GREEN}${BOLD}
 
-Task 3 Completed
+Task 3 Completed Successfully!
 
 ${RESET}"
 
@@ -94,7 +94,7 @@ LIMIT 10
 
 echo "${GREEN}${BOLD}
 
-Task 4 Completed
+Task 4 Completed Successfully!
 
 ${RESET}"
 
@@ -135,7 +135,7 @@ bq load --source_format=NEWLINE_DELIMITED_JSON --schema=schema.json $DEVSHELL_PR
 
 echo "${GREEN}${BOLD}
 
-Task 6 Completed
+Task 6 Completed Successfully!
 
 ${RESET}"
 
@@ -150,7 +150,7 @@ FROM racing.race_results AS r, UNNEST(r.participants) AS p
 
 echo "${GREEN}${BOLD}
 
-Task 7 Completed
+Task 7 Completed Successfully!
 
 ${RESET}"
 
@@ -173,7 +173,7 @@ ORDER BY total_race_time ASC;
 
 echo "${GREEN}${BOLD}
 
-Task 8 Completed
+Task 8 Completed Successfully!
 
 ${RESET}"
 
@@ -193,18 +193,18 @@ WHERE split_time = 23.2;
 
 echo "${GREEN}${BOLD}
 
-Task 9 Completed
+Task 9 Completed Successfully!
 
-Lab Completed !!!
+Yeah! You Completed the Lab !!!
 
 ${RESET}"
 
 #-----------------------------------------------------end----------------------------------------------------------#
-read -p "${BOLD}${RED}Subscribe to Quicklab [y/n] : ${RESET}" CONSENT_REMOVE
+read -p "${BOLD}${RED}Subscribe to Edutech Barsha [y/n] : ${RESET}" CONSENT_REMOVE
 
 while [ "$CONSENT_REMOVE" != 'y' ]; do
   sleep 10
-  read -p "${BOLD}${YELLOW}Do Subscribe to Quicklab [y/n] : ${RESET}" CONSENT_REMOVE
+  read -p "${BOLD}${YELLOW}Do Subscribe to Edutech Barsha [y/n] : ${RESET}" CONSENT_REMOVE
 done
 
 echo "${BLUE}${BOLD}Thanks For Subscribing :)${RESET}"
