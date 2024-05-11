@@ -1,4 +1,4 @@
-# Creating a Data Warehouse Through Joins and Unions || [GSP413](https://www.cloudskillsboost.google/games/5019/labs/32745) ||
+# Creating a Data Warehouse Through Joins and Unions || [GSP413](https://www.cloudskillsboost.google/focuses/3640?parent=catalog) ||
 
 # If you consider that the video helped you to complete your lab, so please do like and subscribe [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
 ## Solution [here](https://youtu.be/mrJHiMwd5IE)
