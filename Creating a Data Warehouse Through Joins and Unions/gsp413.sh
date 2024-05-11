@@ -179,7 +179,7 @@ read -p "${BOLD}${RED}Subscribe to Quicklab [y/n] : ${RESET}" CONSENT_REMOVE
 
 while [ "$CONSENT_REMOVE" != 'y' ]; do
   sleep 10
-  read -p "${BOLD}${YELLOW}Do Subscribe to Our Channel [y/n] : ${RESET}" CONSENT_REMOVE
+  read -p "${BOLD}${YELLOW}Do You Subscribe Our Channel [y/n] : ${RESET}" CONSENT_REMOVE
 done
 
 echo "${BLUE}${BOLD}Thanks For Subscribing :)${RESET}"
