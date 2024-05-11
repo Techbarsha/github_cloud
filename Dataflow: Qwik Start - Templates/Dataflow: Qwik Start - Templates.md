@@ -1,9 +1,12 @@
 
 # Dataflow: Qwik Start - Templates [GSP192]
 
-# If you consider that the video helped you to complete your lab, so please do like and subscribe. https://www.youtube.com/@techcps
+# Follow the instructions
 
-Click Activate Cloud Shell Activate Cloud Shell icon at the top of the Google Cloud console
+# If you consider that the video helped you to complete your lab, so please do like and subscribe [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
+## Solution [here](https://youtu.be/markO68BtxM)
+
+### Run the following Commands in CloudShell
 
 ## Go to Task 3. Run the pipeline
 * Copy Region
@@ -33,6 +36,11 @@ gcloud dataflow jobs run iotflow \
 --parameters inputTopic=projects/pubsub-public-data/topics/taxirides-realtime,outputTableSpec=$DEVSHELL_PROJECT_ID:taxirides.realtime
 ```
 
-# Congratulations, you're all done with the lab 😄
-# Thanks for watching :)
+### Congratulations 🎉 for completing the Lab !😄
+
+##### *You Have Successfully Demonstrated Your Skills And Determination.*
+
+#### *Well done!*
+
+# Thanks For Watching:)
 
