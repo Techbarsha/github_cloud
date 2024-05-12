@@ -1,11 +1,8 @@
+# Predict Visitor Purchases with a Classification Model in BigQuery ML || [GSP229](https://www.cloudskillsboost.google/focuses/1794?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=31620424) ||
 
-# Build and Deploy Machine Learning Solutions with Vertex AI: Challenge Lab || [GSP354](https://www.cloudskillsboost.google/focuses/22019?parent=catalog) ||
-
-# follow the instructions
+# Follow the instructions carefully 👇👇
 
 # If you consider that the video helped you to complete your lab, so please do like and subscribe [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
-
-
 
 ## Solution [here](https://youtu.be/xREEyBh2OeE)
 
