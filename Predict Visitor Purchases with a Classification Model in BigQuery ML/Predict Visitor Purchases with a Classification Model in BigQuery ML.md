@@ -8,11 +8,10 @@
 
 ### Active your Cloud Shell and run the following commands:
 ```
-curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/Predict%20Visitor%20Purchases%20with%20a%20Classification%20Model%20in%20BigQuery%20ML/techcpsgsp229.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Predict%20Visitor%20Purchases%20with%20a%20Classification%20Model%20in%20BigQuery%20ML/gsp229.sh
+sudo chmod +x gsp229.sh
 
-sudo chmod +x techcpsgsp229.sh
-
-./techcpsgsp229.sh
+./gsp229.sh
 
 ```
 ### After completed the above commands, Go to BigQuery & run the following commands:
