@@ -1,4 +1,4 @@
-# Creating a Data Transformation Pipeline with Cloud Dataprep|| [GSP430](https://www.cloudskillsboost.google/focuses/4415?parent=catalog) ||
+# Creating a Data Transformation Pipeline with Cloud Dataprep || [GSP430](https://www.cloudskillsboost.google/focuses/4415?parent=catalog) ||
 
 # If you consider that the video helped you to complete your lab, so please do like and subscribe [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
 ## Solution [here](https://youtu.be/mrJHiMwd5IE)
