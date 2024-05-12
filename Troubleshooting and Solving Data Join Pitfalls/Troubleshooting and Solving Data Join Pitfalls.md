@@ -10,6 +10,7 @@ curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Troubleshooting%
 sudo chmod +x gsp412.sh
 
 ./gsp412.sh
+
 ```
 
 ### Congratulations 🎉 for completing the Lab !
