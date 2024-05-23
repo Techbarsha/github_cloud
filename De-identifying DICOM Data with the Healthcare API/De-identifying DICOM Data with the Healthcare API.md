@@ -4,6 +4,7 @@
 
 ### Run the following Commands in CloudShell
 ### Copy Command from ```Task 4```
+### then copy this 👇
 ```
 export ZONE=
 ```
