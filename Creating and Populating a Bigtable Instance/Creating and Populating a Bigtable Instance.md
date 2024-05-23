@@ -8,11 +8,9 @@
 export ZONE=
 ```
 ```
-curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Creating%20and%20Populating%20a%20Bigtable%20Instance/gsp1054.sh
-
-sudo chmod +x gsp1054.sh
-
-./gsp1054.sh
+curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/Creating%20and%20Populating%20a%20Bigtable%20Instance/techcps1054.sh
+sudo chmod +x techcps1054.sh
+./techcps1054.sh
 ```
 
 ### Congratulations 🎉 for completing the Lab !
