@@ -5,9 +5,7 @@
 ### Run the following Commands in CloudShell
 ### Copy Command from ```Task 4```
 ### then copy this 👇
-```
-export ZONE=
-```
+
 ```
 curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/De-identifying%20DICOM%20Data%20with%20the%20Healthcare%20API/gsp626.sh
 sudo chmod +x gsp626.sh
