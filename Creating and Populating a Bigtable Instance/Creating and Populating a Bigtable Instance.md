@@ -12,7 +12,7 @@ curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Creating%20and%2
 sudo chmod +x gsp1054.sh
 ./gsp1054.sh
 ```
-### Check your progress on Task 1-3
+### Check your progress till Task 3
 *▶️Note Do not run the next command until you get a score on Task 1 to 3*
 ```
 cbt -instance personalized-sales ls
