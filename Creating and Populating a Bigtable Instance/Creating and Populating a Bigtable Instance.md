@@ -12,6 +12,8 @@ curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/Creating%20and
 sudo chmod +x techcps1054.sh
 ./techcps1054.sh
 ```
+### Check your progress on Task 1-3
+*Note Do not run the next command until you get a score on Task 1 to 3*
 
 ### Congratulations 🎉 for completing the Lab !
 
