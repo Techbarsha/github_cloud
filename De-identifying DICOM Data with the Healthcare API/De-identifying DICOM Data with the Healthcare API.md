@@ -8,8 +8,7 @@
 export ZONE=
 ```
 ```
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Deidentifying%20DICOM%20Data%20with%20the%20Healthcare%20API/quicklabgsp626.sh
-
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/De-identifying%20DICOM%20Data%20with%20the%20Healthcare%20API/gsp626.sh
 sudo chmod +x gsp626.sh
 
 ./gsp626.sh
