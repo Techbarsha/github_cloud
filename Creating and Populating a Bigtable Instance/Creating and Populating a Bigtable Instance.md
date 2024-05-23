@@ -13,7 +13,7 @@ sudo chmod +x gsp1054.sh
 ./gsp1054.sh
 ```
 ### Check your progress till Task 3
-*▶️Note Do not run the next command until you get a score on Task 1 to 3*
+*▶️Note Do not run the next command until you get a score on ```Task 1 to 3```*
 ```
 cbt -instance personalized-sales ls
 
