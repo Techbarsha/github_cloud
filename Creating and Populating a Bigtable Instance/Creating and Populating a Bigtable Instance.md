@@ -3,7 +3,7 @@
 ## Solution📽️ [here](https://youtu.be/ggwLu0Z34LY)
 
 ### Run the following Commands in CloudShell
-
+### Task 1 & 2
 ```
 export ZONE=
 ```
