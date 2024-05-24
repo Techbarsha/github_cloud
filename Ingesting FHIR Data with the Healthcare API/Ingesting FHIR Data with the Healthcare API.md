@@ -2,7 +2,7 @@
 # Follow the instructions
 
 # If you consider that the video helped you to complete your lab, so please do like and subscribe [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
-## Solution📽️ [here](https://youtu.be/markO68BtxM)
+## Solution📽️ [here](https://youtu.be/CR9-W9-n6Bs)
 
 ### Run the following Commands in CloudShell
 ### First, exports all the values from task 1 as showed.
