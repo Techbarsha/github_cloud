@@ -7,11 +7,11 @@
 ### Run the following Commands in CloudShell
 ### First, exports all the values from task 1 as showed.
 ```
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Ingesting%20FHIR%20Data%20with%20the%20Healthcare%20API/quicklabgsp457.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Ingesting%20FHIR%20Data%20with%20the%20Healthcare%20API/gsp457.sh
 
-sudo chmod +x quicklabgsp457.sh
+sudo chmod +x gsp457.sh
 
-./quicklabgsp457.sh
+./gsp457.sh
 ```
 ### FHIR Data De-identification and Export to BigQuery
 ▶️ FHIR Data De-identification
