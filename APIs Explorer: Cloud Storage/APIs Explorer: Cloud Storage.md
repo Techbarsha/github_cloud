@@ -7,9 +7,9 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Summarize%20Text%20using%20SQL%20and%20LLMs%20in%20BigQuery%20ML/gsp835.sh
-sudo chmod +x gsp835.sh
-./gsp835.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/APIs%20Explorer%3A%20Cloud%20Storage/gsp421.sh
+sudo chmod +x gsp421.sh
+./gsp421.sh
 ```
 
 ### Congratulations 🎉 for completing the Lab !😄
