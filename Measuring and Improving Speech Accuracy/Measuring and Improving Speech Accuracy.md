@@ -1,0 +1,26 @@
+# Measuring and Improving Speech Accuracy || [GSP758](https://www.cloudskillsboost.google/focuses/1241?parent=catalog) ||
+# Follow the instructions
+
+# If you consider that the video helped you to complete your lab, so please do like and subscribe [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
+## Solution [here](https://youtu.be/bgY6epUZEr4)
+
+### Run the following Commands in CloudShell
+
+```
+export ZONE=
+
+curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Measuring%20and%20Improving%20Speech%20Accuracy/quicklabgsp758.sh
+
+sudo chmod +x quicklabgsp758.sh
+
+./quicklabgsp758.sh
+```
+
+### Congratulations 🎉 for completing the Lab !😄
+
+##### *You Have Successfully Demonstrated Your Skills And Determination.*
+
+#### *Well done!*
+
+# Thanks For Watching:)
+
