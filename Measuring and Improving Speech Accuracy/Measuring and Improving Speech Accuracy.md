@@ -9,11 +9,10 @@
 ```
 export ZONE=
 
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Measuring%20and%20Improving%20Speech%20Accuracy/quicklabgsp758.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Measuring%20and%20Improving%20Speech%20Accuracy/gsp758.sh
+sudo chmod +x gsp758.sh
 
-sudo chmod +x quicklabgsp758.sh
-
-./quicklabgsp758.sh
+./gsp758.sh
 ```
 
 ### Congratulations 🎉 for completing the Lab !😄
