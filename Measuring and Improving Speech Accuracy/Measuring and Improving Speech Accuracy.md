@@ -1,4 +1,4 @@
-# Measuring and Improving Speech Accuracy || [GSP758](https://www.cloudskillsboost.google/focuses/1241?parent=catalog) ||
+# Measuring and Improving Speech Accuracy || [GSP758](https://www.cloudskillsboost.google/focuses/13597?parent=catalog) ||
 # Follow the instructions
 
 # If you consider that the video helped you to complete your lab, so please do like and subscribe [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
