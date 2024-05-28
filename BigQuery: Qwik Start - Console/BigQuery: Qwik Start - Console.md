@@ -6,11 +6,12 @@
 
 ### Run the following Commands in CloudShell
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/BigQuery%20Qwik%20Start%20-%20Console/gsp072.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/BigQuery%3A%20Qwik%20Start%20-%20Console/gsp072.sh
 
 sudo chmod +x gsp072.sh
 
 ./gsp072.sh
+
 ```
 ### Congratulations 🎉 for completing the Lab !😄
 
