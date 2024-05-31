@@ -1,4 +1,4 @@
-# APIs Explorer: Cloud Storage || [GSP421](https://www.cloudskillsboost.google/focuses/3632?parent=catalog) ||
+# BigQuery Machine Learning using Soccer Data || [GSP851](https://www.cloudskillsboost.google/focuses/23293?parent=catalog) ||
 # Follow the instructions
 
 # If you consider that the video helped you to complete your lab, so please do like and subscribe [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
