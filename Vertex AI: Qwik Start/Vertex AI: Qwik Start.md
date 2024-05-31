@@ -1,4 +1,4 @@
-## Vertex AI: Qwik Start || [GSP917] ||
+# Vertex AI: Qwik Start || [GSP917] ||
 # Follow the instructions
 
 # If you consider that the video helped you to complete your lab, so please do like and subscribe [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
