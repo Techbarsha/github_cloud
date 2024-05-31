@@ -271,6 +271,6 @@ ORDER BY
   predictedgoalProb
 "
 
-echo "${RED}${BOLD}Congratulations${RESET}" "${WHITE}${BOLD}for${RESET}" "${GREEN}${BOLD}Completing the Lab !!!${RESET}"
+echo "${RED}${BOLD}Congratulations${RESET}" "${WHITE}${BOLD}for Completing the Lab !!!${RESET}" "${GREEN}${BOLD}Subscribe Now!${RESET}"
 
 #-----------------------------------------------------end----------------------------------------------------------#
