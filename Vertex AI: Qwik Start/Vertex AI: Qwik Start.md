@@ -1,5 +1,10 @@
 ## Vertex AI: Qwik Start || [GSP917] ||
+# Follow the instructions
 
+# If you consider that the video helped you to complete your lab, so please do like and subscribe [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
+## Solution [here](https://youtu.be/2MtpsN8tRvo)
+
+### Run the following Commands in CloudShell
 ```
 gcloud auth list
 gcloud config list project
@@ -30,3 +35,10 @@ gcloud projects add-iam-policy-binding $PROJECT_ID \
     --member=serviceAccount:$SERVICE_ACCOUNT_ID@$PROJECT_ID.iam.gserviceaccount.com \
     --role="roles/aiplatform.user"
 ```
+### Congratulations 🎉 for completing the Lab !😄
+
+##### *You Have Successfully Demonstrated Your Skills And Determination.*
+
+#### *Well done!*
+
+# Thanks For Watching:)
