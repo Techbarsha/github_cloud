@@ -1,4 +1,4 @@
-# Employing Best Practices for Improving the Usability of LookML Projects || [GSP1020] ||
+# Employing Best Practices for Improving the Usability of LookML Projects || [GSP1020] (https://www.cloudskillsboost.google/focuses/3632?parent=catalog) ||
 # Follow the instructions
 
 # If you consider that the video helped you to complete your lab, so please do like and subscribe [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
