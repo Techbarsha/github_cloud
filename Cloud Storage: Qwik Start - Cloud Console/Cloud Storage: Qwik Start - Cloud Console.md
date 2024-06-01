@@ -1,8 +1,8 @@
-# Cloud Storage: Qwik Start - Cloud Console || [GSP073](https://www.cloudskillsboost.google/focuses/3632?parent=catalog) ||
+# Cloud Storage: Qwik Start - Cloud Console || [GSP073](https://www.cloudskillsboost.google/focuses/1760?parent=catalog) ||
 # Follow the instructions
 
 # If you consider that the video helped you to complete your lab, so please do like and subscribe [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
-## Solution [here](https://youtu.be/2MtpsN8tRvo)
+## Solution [here](https://youtu.be/8WEAOyBEbIM)
 
 ### Run the following Commands in CloudShell
 
