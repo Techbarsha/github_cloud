@@ -8,6 +8,7 @@
 
 ### ▶️ From the Develop menu, select the qwiklabs_ecommerce project.
 
+### Open ```order_items.view.```
 ```
 view: order_items {
   sql_table_name: `cloud-training-demos.looker_ecomm.order_items`
@@ -177,20 +178,180 @@ view: order_items {
   }
 }
 ```
+### Open ```users.view.```
+```
+view: users {
+  sql_table_name: `cloud-training-demos.looker_ecomm.users`
+    ;;
+  drill_fields: [id]
+
+  dimension: id {
+    primary_key: yes
+    type: number
+    sql: ${TABLE}.id ;;
+  }
+
+  dimension: latitude {
+    hidden: yes
+    type: number
+    sql: ${TABLE}.latitude ;;
+  }
+  dimension: longitude {
+    hidden:  yes
+    type: number
+    sql: ${TABLE}.longitude ;;
+  }
+
+  dimension: age {
+    type: number
+    sql: ${TABLE}.age ;;
+  }
+
+  dimension: city {
+    group_label: "Location"
+    type: string
+    sql: ${TABLE}.city ;;
+  }
+  dimension: country {
+    group_label: "Location"
+    type: string
+    map_layer_name: countries
+    sql: ${TABLE}.country ;;
+  }
+  dimension: state {
+    group_label: "Location"
+    type: string
+    sql: ${TABLE}.state ;;
+    map_layer_name: us_states
+  }
+  dimension: zip {
+    group_label: "Location"
+    type: zipcode
+    sql: ${TABLE}.zip ;;
+  }
 
 
 
+  dimension_group: created {
+    type: time
+    timeframes: [
+      raw,
+      time,
+      date,
+      week,
+      month,
+      quarter,
+      year
+    ]
+    sql: ${TABLE}.created_at ;;
+  }
+
+  dimension: email {
+    type: string
+    sql: ${TABLE}.email ;;
+  }
+
+  dimension: first_name {
+    type: string
+    sql: ${TABLE}.first_name ;;
+  }
+
+  dimension: gender {
+    type: string
+    sql: ${TABLE}.gender ;;
+  }
+
+  dimension: last_name {
+    type: string
+    sql: ${TABLE}.last_name ;;
+  }
 
 
 
+  dimension: traffic_source {
+    type: string
+    sql: ${TABLE}.traffic_source ;;
+  }
 
 
 
+  measure: count {
+    type: count
+    drill_fields: [id, last_name, first_name, events.count, order_items.count]
+  }
 
 
+}
+```
+### Open ```training_ecommerce.model.```
+```
+connection: "bigquery_public_data_looker"
 
+# include all the views
+include: "/views/*.view"
+include: "/z_tests/*.lkml"
+include: "/**/*.dashboard"
 
+datagroup: training_ecommerce_default_datagroup {
+  # sql_trigger: SELECT MAX(id) FROM etl_log;;
+  max_cache_age: "1 hour"
+}
 
+persist_with: training_ecommerce_default_datagroup
+
+label: "E-Commerce Training"
+
+explore: order_items {
+  group_label: "E-commerce - Inventory Team"
+  label: "Orders and Users"
+  description: "Use this Explore to review details for orders and users,
+  including information on inventory, products, and distribution centers."
+  join: users {
+    type: left_outer
+    sql_on: ${order_items.user_id} = ${users.id} ;;
+    relationship: many_to_one
+  }
+
+  join: inventory_items {
+    type: left_outer
+    sql_on: ${order_items.inventory_item_id} = ${inventory_items.id} ;;
+    relationship: many_to_one
+  }
+
+  join: products {
+    type: left_outer
+    sql_on: ${inventory_items.product_id} = ${products.id} ;;
+    relationship: many_to_one
+  }
+
+  join: distribution_centers {
+    type: left_outer
+    sql_on: ${products.distribution_center_id} = ${distribution_centers.id} ;;
+    relationship: many_to_one
+  }
+}
+
+explore: events {
+  group_label: "E-commerce - Marketing Team"
+  fields: [ALL_FIELDS*, -users.city, -users.email, -users.first_name,
+    -users.gender, -users.last_name, -users.state]
+  join: event_session_facts {
+    type: left_outer
+    sql_on: ${events.session_id} = ${event_session_facts.session_id} ;;
+    relationship: many_to_one
+  }
+  join: event_session_funnel {
+    type: left_outer
+    sql_on: ${events.session_id} = ${event_session_funnel.session_id} ;;
+    relationship: many_to_one
+  }
+  join: users {
+    type: left_outer
+    sql_on: ${events.user_id} = ${users.id} ;;
+    relationship: many_to_one
+  }
+}
+```
 
 ### Congratulations 🎉 for completing the Lab !😄
 
