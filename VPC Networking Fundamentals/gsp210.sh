@@ -211,9 +211,9 @@ gcloud compute networks update vpc-demo --bgp-routing-mode GLOBAL
 
 gcloud compute networks describe vpc-demo
 
-echo "Thanks for Watching, subscribe edutechbarsha!"
+echo "Thanks for Watching, Stay tuned edutechbarsha!!"
 
-echo "Please like share and subscribe to techcps, https://www.youtube.com/@techcps!"
+echo "Please like share and subscribe to edutechbarsha, https://www.youtube.com/@edutechbarsha!!"
 
 
 
