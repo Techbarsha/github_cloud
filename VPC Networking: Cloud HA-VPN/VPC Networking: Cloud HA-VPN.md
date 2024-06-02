@@ -16,7 +16,6 @@ export ZONE_3=
 
 curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/VPC%20Networking%3A%20Cloud%20HA-VPN/gsp619.sh
 sudo chmod +x gsp619.sh
-
 ./gsp619.sh
 ```
 
