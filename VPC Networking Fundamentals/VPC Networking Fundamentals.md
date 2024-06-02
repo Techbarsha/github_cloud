@@ -7,11 +7,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-export ZONE2=
-
 export ZONE=
-
-export ZONE1=
 
 curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/VPC%20Networking%20Fundamentals/gsp210.sh
 sudo chmod +x gsp210.sh
