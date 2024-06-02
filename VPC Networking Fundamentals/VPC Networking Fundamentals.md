@@ -1,8 +1,8 @@
-# VPC Networking Fundamentals || [GSP210](https://www.cloudskillsboost.google/focuses/3632?parent=catalog) ||
+# VPC Networking Fundamentals || [GSP210](https://www.cloudskillsboost.google/focuses/1229?parent=catalog) ||
 # Follow the instructions
 
 # If you consider that the video helped you to complete your lab, so please do like and subscribe [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
-## Solution [here](https://youtu.be/2MtpsN8tRvo)
+## Solution [here](https://youtu.be/OSrAMsuoMm8)
 
 ### Run the following Commands in CloudShell
 
