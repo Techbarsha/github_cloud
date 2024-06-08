@@ -7,9 +7,9 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/Caching%20Content%20with%20Cloud%20CDN/techcps.sh
-sudo chmod +x techcps.sh
-./techcps.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Caching%20Content%20with%20Cloud%20CDN/edutechbarsha.sh
+sudo chmod +x edutechbarsha.sh
+./edutechbarsha.sh
 ```
 
 ### Congratulations 🎉 for completing the Lab !😄
