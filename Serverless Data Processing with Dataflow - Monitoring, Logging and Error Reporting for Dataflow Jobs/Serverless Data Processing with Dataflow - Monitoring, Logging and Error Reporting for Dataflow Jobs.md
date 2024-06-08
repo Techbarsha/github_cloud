@@ -1,4 +1,4 @@
-# Gating Deployments with Binary Authorization || [GSP1183](https://www.cloudskillsboost.google/focuses/83255?parent=catalog) ||
+# Serverless Data Processing with Dataflow - Monitoring, Logging and Error Reporting for Dataflow Jobs || [LAB](https://www.cloudskillsboost.google/focuses/19434?parent=catalog) ||
 
 # Follow the instructions
 
@@ -10,9 +10,9 @@
 ```
 export REGION=
 
-curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/Serverless%20Data%20Processing%20with%20Dataflow%20-%20Monitoring%2C%20Logging%20and%20Error%20Reporting%20for%20Dataflow%20Jobs/techcps.sh
-sudo chmod +x techcps.sh
-./techcps.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Serverless%20Data%20Processing%20with%20Dataflow%20-%20Monitoring%2C%20Logging%20and%20Error%20Reporting%20for%20Dataflow%20Jobs/edutechbarsha.sh
+sudo chmod +x edutechbarsha.sh
+./edutechbarsha.sh
 ```
 
 ### Congratulations 🎉 for completing the Lab !😄
