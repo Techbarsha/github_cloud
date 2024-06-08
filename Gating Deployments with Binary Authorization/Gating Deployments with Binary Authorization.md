@@ -11,7 +11,8 @@
 export ZONE=
 ```
 ```
-curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Gating%20Deployments%20with%20Binary%20Authorization/gsp1183.sh
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Gating%20Deployments%20with%20Binary%20Authorization/gsp1183.sh
+
 sudo chmod +x gsp1183.sh
 
 ./gsp1183.sh
