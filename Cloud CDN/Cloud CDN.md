@@ -7,11 +7,11 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Cloud%20CDN/quicklabgsp217.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Cloud%20CDN/gsp217.sh
 
-sudo chmod +x quicklabgsp217.sh
+sudo chmod +x gsp217.sh
 
-./quicklabgsp217.sh
+./gsp217.sh
 ```
 ### Congratulations 🎉 for completing the Lab !😄
 
