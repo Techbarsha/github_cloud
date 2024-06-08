@@ -9,9 +9,9 @@
 export ZONE=
 ```
 ```
-curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/VPC%20Flow%20Logs%20-%20Analyzing%20Network%20Traffic/techcps212.sh
-sudo chmod +x techcps212.sh
-./techcps212.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/VPC%20Flow%20Logs%20-%20Analyzing%20Network%20Traffic/gsp212.sh
+sudo chmod +x gsp212.sh
+./gsp212.sh
 ```
 ```
 CP_IP=$(gcloud compute instances describe web-server --zone=$ZONE --format='get(networkInterfaces[0].accessConfigs[0].natIP)')
