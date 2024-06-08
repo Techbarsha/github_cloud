@@ -11,9 +11,9 @@
 export ZONE=
 export ZONE2=
 
-curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/Building%20a%20High-throughput%20VPN/techcpsgsp062.sh
-sudo chmod +x techcpsgsp062.sh
-./techcpsgsp062.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Building%20a%20High-throughput%20VPN/gsp062.sh
+sudo chmod +x gsp062.sh
+./gsp062.sh
 ```
 
 ### Congratulations 🎉 for completing the Lab !😄
