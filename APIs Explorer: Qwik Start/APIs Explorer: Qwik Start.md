@@ -7,9 +7,11 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/APIs%20Explorer%3A%20Cloud%20Storage/gsp421.sh
-sudo chmod +x gsp421.sh
-./gsp421.sh
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/APIs%20Explorer%20Qwik%20Start/gsp277.sh
+
+sudo chmod +x gsp277.sh
+
+./gsp277.sh
 ```
 
 ### Congratulations 🎉 for completing the Lab !😄
