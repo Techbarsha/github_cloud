@@ -1,4 +1,4 @@
-# Build a Serverless App with Cloud Run that Creates PDF Files || [GSP644](https://www.cloudskillsboost.google/focuses/8390?parent=catalog) ||
+# Build a Serverless App with Cloud Run that Creates PDF Files|| [GSP644](https://www.cloudskillsboost.google/focuses/8390?parent=catalog) ||
 # Follow the instructions
 
 # If you consider that the video helped you to complete your lab, so please do like and subscribe [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
