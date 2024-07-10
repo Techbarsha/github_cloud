@@ -9,7 +9,7 @@
 export REGION=
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Cloud%20Storage%20Qwik%20Start%20-%20CLI%20SDK/gsp074.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Cloud%20Storage%3A%20Qwik%20Start%20-%20CLI-SDK/gsp074.sh
 
 sudo chmod +x gsp074.sh
 
