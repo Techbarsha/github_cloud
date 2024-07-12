@@ -6,7 +6,7 @@
 
 ### Run the following Commands in CloudShell
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/PubSub%20Qwik%20Start%20-%20Command%20Line/gsp095.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Pub-Sub%3A%20Qwik%20Start%20-%20Command%20Line/gsp095.sh
 
 sudo chmod +x gsp095.sh
 
