@@ -9,7 +9,7 @@
 export ZONE=
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Reinforcement%20Learning%20Qwik%20Start/gsp691.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Reinforcement%20Learning%3A%20Qwik%20Start/gsp691.sh
 
 sudo chmod +x gsp691.sh
 
