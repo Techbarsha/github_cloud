@@ -23,7 +23,7 @@ BOLD=`tput bold`
 RESET=`tput sgr0`
 #----------------------------------------------------start--------------------------------------------------#
 
-echo "${BG_MAGENTA}${BOLD}Starting Execution${RESET}"
+echo "${BG_RED}${BOLD}Starting Execution${RESET}"
 
 gsutil -m cp -r gs://spls/gsp067/python-docs-samples .
 
