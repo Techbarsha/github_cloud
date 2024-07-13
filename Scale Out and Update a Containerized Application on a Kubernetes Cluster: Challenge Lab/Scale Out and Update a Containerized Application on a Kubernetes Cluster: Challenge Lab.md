@@ -9,8 +9,7 @@
 export ZONE=
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Scale%20Out%20and%20Update%20a%20Containerized%20Application%20on%20a%20Kubernetes%20Cluster%20Challenge%20Lab/gsp305.sh
-
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Scale%20Out%20and%20Update%20a%20Containerized%20Application%20on%20a%20Kubernetes%20Cluster%3A%20Challenge%20Lab/gsp305.sh
 sudo chmod +x gsp305.sh
 
 ./gsp305.sh
