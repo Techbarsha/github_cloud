@@ -1,4 +1,4 @@
-# Scale Out and Update a Containerized Application on a Kubernetes Cluster: Challenge Lab || [GSP305](https://www.cloudskillsboost.google/focuses/17996?parent=catalog) ||
+# Scale Out and Update a Containerized Application on a Kubernetes Cluster: Challenge Lab || [GSP305](https://www.cloudskillsboost.google/focuses/1739?parent=catalog) ||
 # Follow the instructions
 
 # If you consider that the video helped you to complete your lab, so please do like and subscribe [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
