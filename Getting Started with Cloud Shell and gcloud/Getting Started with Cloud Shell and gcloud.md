@@ -9,8 +9,7 @@
 export ZONE=
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Getting%20Started%20with%20Cloud%20Shell%20and%20gcloud/gsp002.sh
-
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Getting%20Started%20with%20Cloud%20Shell%20and%20gcloud/gsp002.sh
 sudo chmod +x gsp002.sh
 
 ./gsp002.sh
