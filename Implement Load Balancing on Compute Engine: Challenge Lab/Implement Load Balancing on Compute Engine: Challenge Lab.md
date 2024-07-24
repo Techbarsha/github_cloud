@@ -11,8 +11,7 @@ export FIREWALL=
 export ZONE=
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Implement%20Load%20Balancing%20on%20Compute%20Engine%20Challenge%20Lab/gsp313.sh
-
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Implement%20Load%20Balancing%20on%20Compute%20Engine%3A%20Challenge%20Lab/gsp313.sh
 sudo chmod +x gsp313.sh
 
 ./gsp313.sh
