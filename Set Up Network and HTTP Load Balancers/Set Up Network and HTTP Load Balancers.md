@@ -7,7 +7,8 @@
 
 ```
 export ZONE=
-
+```
+```
 curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Set%20Up%20Network%20and%20HTTP%20Load%20Balancers/edutechbarshaGSP007.sh
 sudo chmod +x edutechbarshaGSP007.sh
 
