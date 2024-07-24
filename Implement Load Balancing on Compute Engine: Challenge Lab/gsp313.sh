@@ -31,7 +31,7 @@ gcloud compute instances create $INSTANCE \
     --zone=$ZONE \
     --machine-type=e2-micro
 
-echo "${RED}${BOLD}Task 1. ${RESET}""${WHITE}${BOLD}Create a project jumphost instance${RESET}" "${YELOW}${BOLD}Completed${RESET}"
+echo "${RED}${BOLD}Task 1. ${RESET}""${BLUE}${BOLD}Create a project jumphost instance${RESET}" "${YELOW}${BOLD}Completed${RESET}"
 
 cat << EOF > startup.sh
 #! /bin/bash
@@ -86,7 +86,7 @@ gcloud compute forwarding-rules create http-content-rule \
  
 gcloud compute forwarding-rules list
 
-echo "${RED}${BOLD}Task 2. ${RESET}""${WHITE}${BOLD}Set up an HTTP load balancer${RESET}" "${GREEN}${BOLD}Completed${RESET}"
+echo "${RED}${BOLD}Task 2. ${RESET}""${YELOW}${BOLD}Set up an HTTP load balancer${RESET}" "${GREEN}${BOLD}Completed${RESET}"
 
 echo "${YELLOW}${BOLD}Note:${RESET}""${CYAN}${BOLD}You may need to wait for ${RESET}""${RED}${BOLD}5 to 7 minutes${RESET}""${CYAN}${BOLD} to get the score for this task.${RESET}"
 
