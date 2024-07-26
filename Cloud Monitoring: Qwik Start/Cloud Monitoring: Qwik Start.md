@@ -9,12 +9,12 @@
 export ZONE=
 
 
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Cloud%20Monitoring%20Qwik%20Start/quicklabgsp089.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Cloud%20Monitoring%3A%20Qwik%20Start/gsp089.sh
 
 
-sudo chmod +x quicklabgsp089.sh
+sudo chmod +x gsp089.sh
 
-./quicklabgsp089.sh
+./gsp089.sh
 ```
 ### Congratulations 🎉 for completing the Lab !😄
 
