@@ -1,44 +1,40 @@
 
 
-
+gcloud auth list
 
 gcloud config set compute/zone $ZONE
+
+gcloud config set project $DEVSHELL_PROJECT_ID
 
 export PROJECT_ID=$(gcloud info --format='value(config.project)')
 
 
 gcloud container clusters create gmp-cluster --num-nodes=1 --zone $ZONE
 
-gcloud logging metrics create stopped-vm \
-    --description="Metric for stopped VMs" \
-    --log-filter='resource.type="gce_instance" protoPayload.methodName="v1.compute.instances.stop"'
+
+gcloud logging metrics create stopped-vm --log-filter='resource.type="gce_instance" protoPayload.methodName="v1.compute.instances.stop"' --description="Metric for stopped VMs"
 
 
-
-
-# Create a Pub/Sub notification channel
-cat > pubsub-channel.json <<EOF_END
+cat > cp-channel.json <<EOF_CP
 {
   "type": "pubsub",
-  "displayName": "Edutech Barsha",
-  "description": "Subscribe to Edutech Barsha",
+  "displayName": "techcps",
+  "description": "subscribe to techcps",
   "labels": {
     "topic": "projects/$DEVSHELL_PROJECT_ID/topics/notificationTopic"
   }
 }
-EOF_END
+EOF_CP
 
-# Create the Pub/Sub notification channel
-gcloud beta monitoring channels create --channel-content-from-file=pubsub-channel.json
 
-# Get the channel ID
-email_channel_info=$(gcloud beta monitoring channels list)
-email_channel_id=$(echo "$email_channel_info" | grep -oP 'name: \K[^ ]+' | head -n 1)
+gcloud beta monitoring channels create --channel-content-from-file=cp-channel.json
 
-# Create an email notification channel
 
-# Create the alert policy
-cat > stopped-vm-alert-policy.json <<EOF_END
+email_channel=$(gcloud beta monitoring channels list)
+channel_id=$(echo "$email_channel" | grep -oP 'name: \K[^ ]+' | head -n 1)
+
+
+cat > stopped-vm-cp-policy.json <<EOF_CP
 {
   "displayName": "stopped vm",
   "documentation": {
@@ -63,24 +59,27 @@ cat > stopped-vm-alert-policy.json <<EOF_END
   "combiner": "OR",
   "enabled": true,
   "notificationChannels": [
-    "$email_channel_id"
+    "$channel_id"
   ]
 }
 
-
-EOF_END
-
-# Create the alert policy
-gcloud alpha monitoring policies create --policy-from-file=stopped-vm-alert-policy.json
+EOF_CP
 
 
-gcloud compute instances stop instance1 --zone=us-central1-a --quiet
+gcloud alpha monitoring policies create --policy-from-file=stopped-vm-cp-policy.json
 
-sleep 30
+export ZONE2=us-central1-a
+gcloud compute instances stop instance1 --zone=$ZONE2 --quiet
+
+sleep 45
+
+gcloud container clusters list
 
 gcloud container clusters get-credentials gmp-cluster
 
+
 kubectl create ns gmp-test
+
 
 kubectl -n gmp-test apply -f https://storage.googleapis.com/spls/gsp091/gmp_flask_deployment.yaml
 
@@ -96,11 +95,7 @@ resource.labels.container_name="hello-app"
 textPayload: "ERROR: 404 Error page not found"' 
 
 
-
-
-
-# Create the alert policy
-cat > edutechbarsha.json <<'EOF_END'
+cat > edutechbarsha.json <<'EOF_CP'
 {
   "displayName": "log based metric alert",
   "userLabels": {},
@@ -117,7 +112,7 @@ cat > edutechbarsha.json <<'EOF_END'
           }
         ],
         "comparison": "COMPARISON_GT",
-        "duration": "0s",
+        "duration": "60s",
         "trigger": {
           "count": 1
         }
@@ -133,11 +128,11 @@ cat > edutechbarsha.json <<'EOF_END'
   "severity": "SEVERITY_UNSPECIFIED"
 }
 
-EOF_END
+EOF_CP
 
-# Create the alert policy
+
 gcloud alpha monitoring policies create --policy-from-file=edutechbarsha.json
 
 
-
 timeout 120 bash -c -- 'while true; do curl $(kubectl get services -n gmp-test -o jsonpath='{.items[*].status.loadBalancer.ingress[0].ip}')/error; sleep $((RANDOM % 4)) ; done'
+
