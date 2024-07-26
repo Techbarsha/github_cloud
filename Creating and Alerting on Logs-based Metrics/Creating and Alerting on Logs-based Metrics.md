@@ -1,4 +1,4 @@
-# Monitoring and Logging for Cloud Functions || [GSP092](https://www.cloudskillsboost.google/focuses/1833?parent=catalog) ||
+# Creating and Alerting on Logs-based Metrics || [GSP091](https://www.cloudskillsboost.google/focuses/619?parent=catalog) ||
 # Follow the instructions
 
 # If you consider that the video helped you to complete your lab, so please do like and subscribe [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
@@ -6,13 +6,12 @@
 
 ### Run the following Commands in CloudShell
 ```
-export REGION=
 
+export ZONE=
 
-curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Monitoring%20and%20Logging%20for%20Cloud%20Functions/gsp092.sh
-sudo chmod +x gsp092.sh
-
-./gsp092.sh
+curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/Creating%20and%20Alerting%20on%20Logs-based%20Metrics/techcps091.sh
+sudo chmod +x gsp091.sh
+./gsp091.sh
 
 ```
 ### Congratulations 🎉 for completing the Lab !😄
