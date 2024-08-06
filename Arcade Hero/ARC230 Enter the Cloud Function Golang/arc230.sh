@@ -2,8 +2,7 @@ gcloud config set compute/region $REGION
 export PROJECT_ID=$(gcloud config get-value project)
 
 
-mkdir quicklab && cd quicklab
-
+mkdir edutechbarsha && cd edutechbarsha
 
 cat > function.go <<'EOF_END'
 package helloworld
