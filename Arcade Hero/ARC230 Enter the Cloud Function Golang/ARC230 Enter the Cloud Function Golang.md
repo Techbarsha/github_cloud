@@ -8,7 +8,7 @@
 ```
 export REGION=
 
-curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Arcade%20Hero/Arcade%20Hero%3A%20Enter%20the%20Cloud%20Function%20Golang/arc230.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Arcade%20Hero/ARC230%20Enter%20the%20Cloud%20Function%20Golang/arc230.sh
 sudo chmod +x arc230.sh
 
 ./arc230.sh
