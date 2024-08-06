@@ -8,11 +8,10 @@
 ```
 export REGION=
 
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Arcade%20Hero/quicklabarc230.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Arcade%20Hero/Arcade%20Hero%3A%20Enter%20the%20Cloud%20Function%20Golang/arc230.sh
+sudo chmod +x arc230.sh
 
-sudo chmod +x quicklabarc230.sh
-
-./quicklabarc230.sh
+./arc230.sh
 ```
 ### Congratulations 🎉 for completing the Lab !😄
 
