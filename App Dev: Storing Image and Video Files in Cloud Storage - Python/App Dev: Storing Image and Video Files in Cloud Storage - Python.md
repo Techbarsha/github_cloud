@@ -9,11 +9,11 @@
 export REGION==
 ```
 ```
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/App%20Dev%20Storing%20Image%20and%20Video%20Files%20in%20Cloud%20Storage%20Python/quicklabgsp185.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/App%20Dev%3A%20Storing%20Image%20and%20Video%20Files%20in%20Cloud%20Storage%20-%20Python/gsp185.sh
 
-sudo chmod +x quicklabgsp185.sh
+sudo chmod +x gsp185.sh
 
-./quicklabgsp185.sh
+./gsp185.sh
 ```
 ### Congratulations 🎉 for completing the Lab !😄
 
