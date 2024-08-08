@@ -12,7 +12,7 @@ export TOPIC=
 export FUNCTION=
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Set%20Up%20an%20App%20Dev%20Environment%20on%20Google%20Cloud%20Challenge%20Lab/gsp315.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/App%20Building%20with%20AppSheet%3A%20Challenge%20Lab/gsp315.sh
 
 sudo chmod +x gsp315.sh
 
