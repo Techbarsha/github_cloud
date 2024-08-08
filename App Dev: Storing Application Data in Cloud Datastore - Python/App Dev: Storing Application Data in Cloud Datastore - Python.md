@@ -9,7 +9,7 @@
 export REGION=
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/App%20Dev%20Storing%20Application%20Data%20in%20Cloud%20Datastore%20Python/gsp184.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/App%20Dev%3A%20Storing%20Application%20Data%20in%20Cloud%20Datastore%20-%20Python/gsp184.sh
 
 sudo chmod +x gsp184.sh
 
