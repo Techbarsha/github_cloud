@@ -3,7 +3,9 @@
 ## Solution [here](https://youtu.be/vLijVoJ214k)
 
 ### Run the following Commands in CloudShell
-
+```
+export ZONE=
+```
 ```
 curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Autoscaling%20an%20Instance%20Group%20with%20Custom%20Cloud%20Monitoring%20Metrics/gsp087.sh
 
