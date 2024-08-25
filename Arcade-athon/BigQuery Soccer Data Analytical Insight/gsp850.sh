@@ -23,7 +23,7 @@ BOLD=`tput bold`
 RESET=`tput sgr0`
 #----------------------------------------------------start--------------------------------------------------#
 
-echo "${BG_RED}${BOLD}Starting Execution${RESET}"
+echo "${BG_CYAN}${BOLD}Starting Execution${RESET}"
 
 bq query --use_legacy_sql=false \
 "
@@ -201,6 +201,6 @@ ORDER BY
  ShotAngleRound0
 "
 
-echo "${BG_YELLOW}${BOLD}Congratulations For Completing The Lab ! Subscribe Now!${RESET}"
+echo "${BG_RED}${BOLD}Congratulations For Completing The Lab! Subscribe Now!${RESET}"
 
 #-----------------------------------------------------end----------------------------------------------------------#
