@@ -9,7 +9,7 @@
 export REGION=
 ```
 ```
-curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Arcade-athon/Predict%20Visitor%20Purchases%20with%20a%20Classification%20Model%20in%20BigQuery%20ML/gsp229.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Arcade-athon/ETL%20Processing%20on%20Google%20Cloud%20Using%20Dataflow%20and%20BigQuery%20(Python)/gsp290.sh
 
 sudo chmod +x gsp229.sh
 
