@@ -1,4 +1,4 @@
-# ETL Processing on Google Cloud Using Dataflow and BigQuery (Python) || [GSP290](https://www.cloudskillsboost.google/focuses/3460?parent=catalog) ||
+# BigQuery Soccer Data Ingestion || [GSP848](https://www.cloudskillsboost.google/focuses/23114?parent=catalog) ||
 # Follow the instructions
 
 # If you consider that the video helped you to complete your lab, so please do like and subscribe [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
@@ -6,7 +6,7 @@
 
 ### Run the following Commands in CloudShell
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/BigQuery%20Soccer%20Data%20Ingestion/gsp848.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Arcade-athon/BigQuery%20Soccer%20Data%20Ingestion/gsp848.sh
 
 sudo chmod +x gsp848.sh
 
