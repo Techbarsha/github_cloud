@@ -6,7 +6,7 @@
 
 ### Run the following Commands in CloudShell
 ```
-curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Arcade-athon/BigQuery%20Soccer%20Data%20Ingestion/gsp848.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Arcade-athon/BigQuery%20Soccer%20Data%20Analysis/gsp849.sh
 
 sudo chmod +x gsp848.sh
 
