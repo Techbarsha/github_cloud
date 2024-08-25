@@ -17,7 +17,7 @@ export FUNC_2=
 export MODEL=
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Perform%20Predictive%20Data%20Analysis%20in%20BigQuery%20Challenge%20Lab/gsp374.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Arcade-athon/Perform%20Predictive%20Data%20Analysis%20in%20BigQuery%3A%20Challenge%20Lab/gsp374.sh
 
 sudo chmod +x gsp374.sh
 
