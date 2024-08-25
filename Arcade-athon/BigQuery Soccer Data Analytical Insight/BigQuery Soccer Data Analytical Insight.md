@@ -6,11 +6,11 @@
 
 ### Run the following Commands in CloudShell
 ```
-curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Arcade-athon/BigQuery%20Soccer%20Data%20Analysis/gsp849.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Arcade-athon/BigQuery%20Soccer%20Data%20Analytical%20Insight/gsp850.sh
 
-sudo chmod +x gsp848.sh
+sudo chmod +x gsp850.sh
 
-./gsp848.sh
+./gsp850.sh
 ```
 
 
