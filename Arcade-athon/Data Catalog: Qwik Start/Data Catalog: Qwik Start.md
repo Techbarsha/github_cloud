@@ -6,8 +6,7 @@
 
 ### Run the following Commands in CloudShell
 ```
-curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Arcade-athon/BigQuery%20Soccer%20Data%20Ingestion/gsp848.sh
-
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Arcade-athon/Data%20Catalog%3A%20Qwik%20Start/gsp729.sh
 sudo chmod +x gsp729.sh
 
 ./gsp729.sh
