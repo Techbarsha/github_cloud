@@ -11,9 +11,9 @@ export REGION=
 ```
 curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Arcade-athon/ETL%20Processing%20on%20Google%20Cloud%20Using%20Dataflow%20and%20BigQuery%20(Python)/gsp290.sh
 
-sudo chmod +x gsp229.sh
+sudo chmod +x gsp290.sh
 
-./gsp229.sh
+./gsp290.sh
 ```
 
 # It will take 20-25 minutes 👇
