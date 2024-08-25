@@ -24,7 +24,7 @@ sudo chmod +x gsp374.sh
 ./gsp374.sh
 ```
 
-# Go to BigQuery from[here](https://console.cloud.google.com/bigquery)
+# Go to BigQuery from [here](https://console.cloud.google.com/bigquery)
 ```
 CREATE FUNCTION `shot distance to goal`(x INT64, y INT64)
 RETURNS FLOAT64
