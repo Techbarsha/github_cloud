@@ -25,18 +25,8 @@ sudo chmod +x gsp374.sh
 ```
 
 # Go to BigQuery from [here](https://console.cloud.google.com/bigquery)
-```
-CREATE FUNCTION `shot distance to goal`(x INT64, y INT64)
-RETURNS FLOAT64
-AS (
- /* Translate 0-100 (x,y) coordinate-based distances to absolute positions
- using "average" field dimensions of X-axis lengthxY-axis length before combining in 2D dist calc */
- SQRT(
-   POW((X-axis goal mouth length - x) * X-axis length/100, 2) +
-   POW((Y-axis goal mouth length - y) * Y-axis length/100, 2)
-   )
- );
-```
+# FOLLOW THE INSTRUCTIONS
+
 ### Congratulations 🎉 for completing the Lab !😄
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
