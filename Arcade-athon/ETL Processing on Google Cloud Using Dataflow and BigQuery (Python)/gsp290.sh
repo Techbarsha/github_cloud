@@ -23,7 +23,7 @@ BOLD=`tput bold`
 RESET=`tput sgr0`
 #----------------------------------------------------start--------------------------------------------------#
 
-echo "${BG_RED}${BOLD}Starting Execution${RESET}"
+echo "${BG_MAGENTA}${BOLD}Starting Execution${RESET}"
 
 gcloud services disable dataflow.googleapis.com
 gcloud services enable dataflow.googleapis.com
@@ -44,6 +44,6 @@ bq mk lake
 
 docker run -it -e PROJECT=$PROJECT -v $(pwd)/dataflow-python-examples:/dataflow python:3.7 /bin/bash
 
-echo "${BG_BLUE}${BOLD}Congratulations For Completing The Lab !!!${RESET}"
+echo "${BG_RED}${BOLD}Congratulations For Completing The Lab !!!${RESET}"
 
 #-----------------------------------------------------end----------------------------------------------------------#
