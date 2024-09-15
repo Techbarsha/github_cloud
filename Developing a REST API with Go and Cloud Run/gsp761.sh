@@ -1,47 +1,23 @@
-#!/bin/bash
-# Define color variables
+echo "*** Execution Started ***"
 
-BLACK=`tput setaf 0`
-RED=`tput setaf 1`
-GREEN=`tput setaf 2`
-YELLOW=`tput setaf 3`
-BLUE=`tput setaf 4`
-MAGENTA=`tput setaf 5`
-CYAN=`tput setaf 6`
-WHITE=`tput setaf 7`
-
-BG_BLACK=`tput setab 0`
-BG_RED=`tput setab 1`
-BG_GREEN=`tput setab 2`
-BG_YELLOW=`tput setab 3`
-BG_BLUE=`tput setab 4`
-BG_MAGENTA=`tput setab 5`
-BG_CYAN=`tput setab 6`
-BG_WHITE=`tput setab 7`
-
-BOLD=`tput bold`
-RESET=`tput sgr0`
-#----------------------------------------------------start--------------------------------------------------#
-
-echo "${BG_MAGENTA}${BOLD}Starting Execution${RESET}"
+gcloud services enable cloudbuild.googleapis.com
 
 gcloud services enable run.googleapis.com
-gcloud services enable cloudbuild.googleapis.com
+
 
 gcloud config set project $(gcloud projects list --format='value(PROJECT_ID)' --filter='qwiklabs-gcp')
 
 git clone https://github.com/rosera/pet-theory.git && cd pet-theory/lab08
 
-cat > main.go <<EOF
-package main
 
+cat > main.go <<EOF_END
+package main
 import (
   "fmt"
   "log"
   "net/http"
   "os"
 )
-
 func main() {
   port := os.Getenv("PORT")
   if port == "" {
@@ -55,21 +31,21 @@ func main() {
       log.Fatalf("Error launching Pets REST API server: %v", err)
   }
 }
-EOF
+EOF_END
 
-cat > Dockerfile <<EOF
-FROM gcr.io/distroless/base-debian12
+
+cat > Dockerfile <<EOF_END
+FROM gcr.io/distroless/base-debian10
 WORKDIR /usr/src/app
 COPY server .
 CMD [ "/usr/src/app/server" ]
-EOF
+EOF_END
 
 go build -o server
 
-ls -la
-
 gcloud builds submit \
   --tag gcr.io/$GOOGLE_CLOUD_PROJECT/rest-api:0.1
+
 
 gcloud run deploy rest-api \
   --image gcr.io/$GOOGLE_CLOUD_PROJECT/rest-api:0.1 \
@@ -78,11 +54,14 @@ gcloud run deploy rest-api \
   --allow-unauthenticated \
   --max-instances=2
 
+
+
 gcloud firestore databases create --location nam5
 
-cat > main.go <<'EOF_END'
-package main
 
+
+cat > main.go <<EOF_END
+package main
 import (
 	"context"
 	"encoding/json"
@@ -90,48 +69,40 @@ import (
 	"log"
 	"net/http"
 	"os"
-
 	"cloud.google.com/go/firestore"
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
 	"google.golang.org/api/iterator"
 )
-
-  var client *firestore.Client
-
-  func main() {
-    var err error
-    ctx := context.Background()
-    client, err = firestore.NewClient(ctx, "\"Filled in at lab startup\"")
-    if err != nil {
-    log.Fatalf("Error initializing Cloud Firestore client: %v", err)
-  }
-
-  port := os.Getenv("PORT")
-  if port == "" {
-    port = "8080"
-  }
-
-  r := mux.NewRouter()
-  r.HandleFunc("/v1/", rootHandler)
-  r.HandleFunc("/v1/customer/{id}", customerHandler)
-
-  log.Println("Pets REST API listening on port", port)
-  cors := handlers.CORS(
-    handlers.AllowedHeaders([]string{"X-Requested-With", "Authorization", "Origin"}),
-    handlers.AllowedOrigins([]string{"https://storage.googleapis.com"}),
-    handlers.AllowedMethods([]string{"GET", "HEAD", "POST", "OPTIONS", "PATCH", "CONNECT"}),
-  )
-
+var client *firestore.Client
+func main() {
+	var err error
+	ctx := context.Background()
+	client, err = firestore.NewClient(ctx, "$GOOGLE_CLOUD_PROJECT")
+	if err != nil {
+	log.Fatalf("Error initializing Cloud Firestore client: %v", err)
+	}
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "8080"
+	}
+	r := mux.NewRouter()
+	r.HandleFunc("/v1/", rootHandler)
+	r.HandleFunc("/v1/customer/{id}", customerHandler)
+	log.Println("Pets REST API listening on port", port)
+	cors := handlers.CORS(
+		handlers.AllowedHeaders([]string{"X-Requested-With", "Authorization", "Origin"}),
+		handlers.AllowedOrigins([]string{"https://storage.googleapis.com"}),
+		handlers.AllowedMethods([]string{"GET", "HEAD", "POST", "OPTIONS", "PATCH", "CONNECT"}),
+	)
 	if err := http.ListenAndServe(":"+port, cors(r)); err != nil {
-    log.Fatalf("Error launching Pets REST API server: %v", err)
+		log.Fatalf("Error launching Pets REST API server: %v", err)
 	}
 }
 
 func rootHandler(w http.ResponseWriter, r *http.Request) {
   fmt.Fprintf(w, "{status: 'running'}")
 }
-
 func customerHandler(w http.ResponseWriter, r *http.Request) {
   id := mux.Vars(r)["id"]
   ctx := context.Background()
@@ -168,11 +139,9 @@ type Customer struct {
   Name  string `firestore:"name"`
   Phone string `firestore:"phone"`
 }
-
 func getCustomer(ctx context.Context, id string) (*Customer, error) {
   query := client.Collection("customers").Where("id", "==", id)
   iter := query.Documents(ctx)
-
   var c Customer
   for {
     doc, err := iter.Next()
@@ -189,7 +158,6 @@ func getCustomer(ctx context.Context, id string) (*Customer, error) {
   }
   return &c, nil
 }
-
 func getAmounts(ctx context.Context, c *Customer) (map[string]int64, error) {
   if c == nil {
     return map[string]int64{}, fmt.Errorf("Customer should be non-nil: %v", c)
@@ -217,13 +185,16 @@ func getAmounts(ctx context.Context, c *Customer) (map[string]int64, error) {
   }
   return result, nil
 }
+
 EOF_END
+
 
 go build -o server
 
 gcloud builds submit \
   --tag gcr.io/$GOOGLE_CLOUD_PROJECT/rest-api:0.2
 
-echo "${BG_RED}${BOLD}Congratulations For Completing The Lab !!!${RESET}"
 
-#-----------------------------------------------------end----------------------------------------------------------#
+  echo "*** Lab Completed ***"
+
+  echo "*** Subscribe to Abhi Arcade Solution ***"
