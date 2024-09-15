@@ -195,6 +195,4 @@ gcloud builds submit \
   --tag gcr.io/$GOOGLE_CLOUD_PROJECT/rest-api:0.2
 
 
-  echo "*** Lab Completed ***"
-
-  echo "*** Subscribe to Abhi Arcade Solution ***"
+  echo "*** Congratulations for Completing the Lab! ***"
