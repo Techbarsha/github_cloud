@@ -4,10 +4,6 @@
 # If you consider that the video helped you to complete your lab, so please do like and subscribe [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
 ## Solution [here](https://youtu.be/B_yaZVAnMSA)
 
-# Build a Serverless Web App with Firebase || [GSP643](https://www.cloudskillsboost.google/focuses/8391?parent=catalog) ||
-
-## Solution [here](https://youtu.be/68qNZlz21kg)
-
 * Go to `Firebase Console` from [here](https://console.firebase.google.com/)
 
 ### NOW FOLLOW VIDEOS'S INSTRUCTION
