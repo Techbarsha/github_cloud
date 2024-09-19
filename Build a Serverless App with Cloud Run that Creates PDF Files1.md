@@ -3,7 +3,7 @@
 
 # If you consider that the video helped you to complete your lab, so please do like and subscribe [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
 ## Solution [here](https://youtu.be/B_yaZVAnMSA)
-
+### Run the following Commands in CloudShell
 ```
 export REGION=us-west1
 gcloud auth list
