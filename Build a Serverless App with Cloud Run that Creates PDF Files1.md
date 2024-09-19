@@ -5,7 +5,7 @@
 ## Solution [here](https://youtu.be/B_yaZVAnMSA)
 ### Run the following Commands in CloudShell
 ```
-export REGION=us-west1
+export REGION=
 gcloud auth list
 
 
