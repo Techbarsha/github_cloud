@@ -9,10 +9,10 @@
 export REGION=
 ```
 ```
-curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Get%20Started%20with%20Google%20Workspace%20Tools%3A%20Challenge%20Lab/gsp376.sh
-sudo chmod +x gsp376.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/API%20Gateway%3A%20Qwik%20Start/gsp872.sh
+sudo chmod +x gsp872.sh
 
-./gsp376.sh
+./gsp872.sh
 ```
 ### Congratulations 🎉 for completing the Lab !😄
 
