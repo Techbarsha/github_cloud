@@ -25,35 +25,35 @@
 
 ### **Task 3:-** 
 
-### *As a pie chart, what forms of payments are people using for their taxi rides?*
+# *As a pie chart, what forms of payments are people using for their taxi rides?*
 
-### *Drag ```payment_type``` to the Label field. Then drag ```fare``` into the Value field*
+# *Drag ```payment_type``` to the Label field. Then drag ```fare``` into the Value field*
 
-### *Under Value > ```Fare``` change ```Sum to Count``` Click Apply.*
+# *Under Value > ```Fare``` change ```Sum to Count``` Click Apply.*
 
-### *As a line chart, how has revenue from mobile payments for taxi trips changed over time?*
+# *As a line chart, how has revenue from mobile payments for taxi trips changed over time?*
 
-### *As a line chart, how have mobile payments changed over time since revenue peaked in 2015?*
+# *As a line chart, how have mobile payments changed over time since revenue peaked in 2015?*
 
-### Drag ``` trip_start_timestamp ``` to the X-axis field.
+# Drag ``` trip_start_timestamp ``` to the X-axis field.
 
-### Check the ``` Group by option ``` and select ``` Year-Month ``` from the dropdown list.
+# Check the ``` Group by option ``` and select ``` Year-Month ``` from the dropdown list.
 
-### Drag ``` fare ``` into the Series field.
+# Drag ``` fare ``` into the Series field.
 
-### Under Filter click Add  ```payment_type ```
+# Under Filter click Add  ```payment_type ```
 
-### Select the Showing all items status dropdown.
+# Select the Showing all items status dropdown.
 
-### Click on the Filter by Condition dropdown and select ``` Text contains ``` from the list.
+# Click on the Filter by Condition dropdown and select ``` Text contains ``` from the list.
 
-### Input ``` mobile ``` in the Value field.
+# Input ``` mobile ``` in the Value field.
 
-### Click ``` OK ```
+# Click ``` OK ```
 
 ### **Task 4:-** 
 
-### create a new sheet >> click into the first cell in the upper-left corner (A1) >> enter this >>
+# create a new sheet >> click into the first cell in the upper-left corner (A1) >> enter this >>
 
 ### Enter the following address in the first cell
 ```
