@@ -1,4 +1,4 @@
-# Continuous Delivery with Jenkins in Kubernetes Engine || [GSP872](https://www.cloudskillsboost.google/focuses/1104?parent=catalog) ||
+# Continuous Delivery with Jenkins in Kubernetes Engine || [GSP051](https://www.cloudskillsboost.google/focuses/1104?parent=catalog) ||
 # Follow the instructions
 ---
 ### ⚠️ Disclaimer
