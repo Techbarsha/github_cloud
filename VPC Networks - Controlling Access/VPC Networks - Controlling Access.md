@@ -14,7 +14,7 @@
 export ZONE=
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/VPC%20Networks%20-%20Controlling%20Access/gsp213.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/VPC%20Networks%20-%20Controlling%20Access/gsp213.sh
 
 sudo chmod +x gsp213.sh
 
