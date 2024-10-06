@@ -12,11 +12,10 @@
 export REGION=
 ```
 ```
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Cloud%20Functions%20Qwik%20Start%20%20Console/quicklabsgsp081.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Cloud%20Functions%3A%20Qwik%20Start%20-%20Console/gsp081.sh
+sudo chmod +x gsp081.sh
 
-sudo chmod +x quicklabsgsp081.sh
-
-./quicklabsgsp081.sh
+./gsp081.sh
 
 ```
  - ***Go to ``BigQuery`` from [Click here](https://console.cloud.google.com/projectselector2/bigquery?supportedpurview=project)***
