@@ -21,7 +21,7 @@ sudo chmod +x gsp1158.sh
 ```
  ***Go to ``BigQuery`` from [Click here](https://console.cloud.google.com/projectselector2/bigquery?supportedpurview=project)***
 
-***In the *SQL Editor*, click on *Compose a new query*. Paste the following query and then click *Run*: ( REPLACE PROJECT_ID WITH YOUR PROJECT )***
+***In the *SQL Editor*,click on ``Compose a new query``. Paste the following query and then click ``Run``( REPLACE PROJECT_ID WITH YOUR PROJECT )***
 ```
   SELECT * FROM `PROJECT_ID.customers.contact_info`
   ORDER BY id
