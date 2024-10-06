@@ -23,7 +23,7 @@ BOLD=`tput bold`
 RESET=`tput sgr0`
 #----------------------------------------------------start--------------------------------------------------#
 
-echo "${YELLOW}${BOLD}Starting${RESET}" "${GREEN}${BOLD}Execution${RESET}"
+echo "${RED}${BOLD}Starting${RESET}" "${MAGENTA}${BOLD}Execution${RESET}"
 
 gcloud compute firewall-rules delete open-access --quiet
 
@@ -57,6 +57,6 @@ gcloud compute scp prepare_disk.sh bastion:/tmp --project=$DEVSHELL_PROJECT_ID -
 
 gcloud compute ssh bastion --project=$DEVSHELL_PROJECT_ID --zone=$ZONE --quiet --command="bash /tmp/prepare_disk.sh"
 
-echo "${RED}${BOLD}Congratulations${RESET}" "${WHITE}${BOLD}for${RESET}" "${GREEN}${BOLD}Completing the Lab !!!${RESET}" "${RED}${BOLD}Subscribe Edutech Barsha !!!${RESET}"
+echo "${GREEN}${BOLD}Congratulations${RESET}" "${WHITE}${BOLD}for${RESET}" "${RED}${BOLD}Completing the Lab!  SUBSCRIBE NOW!${RESET}"
 
 #-----------------------------------------------------end----------------------------------------------------------#
