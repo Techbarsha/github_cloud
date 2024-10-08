@@ -13,7 +13,6 @@ export REGION=
 ```
 ```
 curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Cloud%20Functions%3A%20Qwik%20Start%20-%20Command%20Line/gsp080.sh
-
 sudo chmod +x gsp080.sh
 
 ./gsp080.sh
