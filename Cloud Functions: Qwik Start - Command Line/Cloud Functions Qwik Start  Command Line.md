@@ -12,11 +12,11 @@
 export REGION=
 ```
 ```
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Cloud%20Functions%20Qwik%20Start%20Command%20Line/quicklabgsp080.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Cloud%20Functions%3A%20Qwik%20Start%20-%20Command%20Line/gsp080.sh
 
-sudo chmod +x quicklabgsp080.sh
+sudo chmod +x gsp080.sh
 
-./quicklabgsp080.sh
+./gsp080.sh
 ```
 
 ### Congratulations 🎉 for completing the Lab !😄
