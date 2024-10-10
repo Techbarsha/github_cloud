@@ -20,7 +20,7 @@ sudo chmod +x gsp330.sh
 
 ./gsp330.sh
 ```
-##*IT WILL TAKE UPTO 15 MINUTES*
+## *IT WILL TAKE UPTO 15 MINUTES*
 ### Congratulations 🎉 for completing the Lab !😄
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
