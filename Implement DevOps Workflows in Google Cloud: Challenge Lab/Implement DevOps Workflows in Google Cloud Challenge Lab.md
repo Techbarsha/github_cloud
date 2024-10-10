@@ -14,7 +14,7 @@
 export ZONE=
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Implement%20DevOps%20Workflows%20in%20Google%20Cloud%20Challenge%20Lab/gsp330.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Implement%20DevOps%20Workflows%20in%20Google%20Cloud%3A%20Challenge%20Lab/gsp330.sh
 
 sudo chmod +x gsp330.sh
 
