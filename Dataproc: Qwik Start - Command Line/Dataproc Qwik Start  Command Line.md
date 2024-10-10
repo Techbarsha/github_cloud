@@ -14,8 +14,7 @@
 export REGION=
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Dataproc%20Qwik%20Start%20-%20Command%20Line/gsp104.sh
-
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Dataproc%3A%20Qwik%20Start%20-%20Command%20Line/gsp104.sh
 sudo chmod +x gsp104.sh
 
 ./gsp104.sh
