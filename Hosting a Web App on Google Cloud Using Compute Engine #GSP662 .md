@@ -1,10 +1,8 @@
-# Hosting a Web App on Google Cloud Using Compute Engine [GSP662]
+# Hosting a Web App on Google Cloud Using Compute Engine [GSP662](https://www.cloudskillsboost.google/focuses/11952?parent=catalog)
 ## follow the instructions
 
 # If you consider that the video helped you to complete your lab, so please do like and subscribe. [EDUTECH BARSHA](https://www.youtube.com/@edutechbarsha)
 * In the GCP Console open the Cloud Shell and run the following commands:
-
-
 
 ```cmd
 export ZONE=
@@ -192,6 +190,10 @@ gcloud compute instance-groups managed rolling-action replace fancy-fe-mig \
 ```
 ## Now check the progress of all left tasks
 
-# Congratulations, you're all done with the lab 😄
-# Don't forget to Subscribe
-# Thanks for watching :)
+### Congratulations 🎉 for completing the Lab !😄
+
+##### *You Have Successfully Demonstrated Your Skills And Determination.*
+
+#### *Well done!*
+
+# Thanks For Watching:)
