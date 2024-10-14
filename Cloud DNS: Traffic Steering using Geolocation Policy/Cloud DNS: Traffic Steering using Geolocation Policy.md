@@ -14,10 +14,9 @@ export ZONE_2=
 export ZONE_3=
 ```
 ```
-curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Cloud%20DNS%3A%20Traffic%20Steering%20using%20Geolocation%20Policy/gsp1008.sh
-sudo chmod +x gsp1008.sh
-
-./gsp1008.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Cloud%20DNS%3A%20Traffic%20Steering%20using%20Geolocation%20Policy/GSP1008.sh
+sudo chmod +x GSP1008.sh
+./GSP1008.sh
 ```
 
 ### Congratulations 🎉 for completing the Lab !😄
