@@ -84,6 +84,6 @@ gcloud beta dns record-sets create geo.example.com \
 
 gcloud beta dns record-sets list --zone=example
 
-echo "${BG_YELLOW}${BOLD}Congratulations For Completing The Lab! Subscribe Now!${RESET}"
+echo "${BG_MAGENTA}${BOLD}Congratulations For Completing The Lab! Subscribe Now!${RESET}"
 
 #-----------------------------------------------------end----------------------------------------------------------#
