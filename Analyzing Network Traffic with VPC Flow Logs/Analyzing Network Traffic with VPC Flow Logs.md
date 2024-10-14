@@ -12,11 +12,10 @@
 export ZONE=
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Analyzing%20Network%20Traffic%20with%20VPC%20Flow%20Logs/shell.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Analyzing%20Network%20Traffic%20with%20VPC%20Flow%20Logs/edutech.sh
+sudo chmod +x edutech.sh
 
-sudo chmod +x shell.sh
-
-./shell.sh
+./edutech.sh
 ```
 # NOW FOLLOW VIDEO'S INSTRUCTIONS
 
