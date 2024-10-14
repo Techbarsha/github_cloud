@@ -15,7 +15,7 @@
 export REGION=
 ```
 ```
-curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Caching%20Content%20with%20Cloud%20CDN/edutechbarsha.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Caching%20Content%20with%20Cloud%20CDN/edutechbarsha.sh
 sudo chmod +x edutechbarsha.sh
 ./edutechbarsha.sh
 ```
