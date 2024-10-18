@@ -9,12 +9,6 @@
 
 ### Run the following Commands in CloudShell
 
-# Cloud Speech API 3 Ways: Challenge Lab || [ARC132](https://www.cloudskillsboost.google/focuses/67215?parent=catalog) ||
-
-## Solution [here](https://youtu.be/eQIWNzs-0NA)
-
-### Run the following Commands in CloudShell
-
 ```
 export ZONE=$(gcloud compute instances list lab-vm --format 'csv[no-heading](zone)')
 gcloud compute ssh lab-vm --project=$DEVSHELL_PROJECT_ID --zone=$ZONE --quiet
@@ -43,8 +37,5 @@ sudo chmod +x arc132.sh
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 
-#### *Well done!*
+#### *Thank you*
 
-#### Don't Forget to Join the [Telegram Channel](https://t.me/quickgcplab) & [Discussion group](https://t.me/quickgcplabchats)
-
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
