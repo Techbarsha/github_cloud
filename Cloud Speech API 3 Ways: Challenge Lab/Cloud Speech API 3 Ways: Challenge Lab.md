@@ -33,9 +33,9 @@ sudo chmod +x arc132.sh
 ./arc132.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### Congratulations 🎉 for completing the Lab !😄
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 
-#### *Thank you*
+# Thanks For Watching:)
 
