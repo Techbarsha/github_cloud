@@ -1,4 +1,4 @@
-# Monitor a Compute Engine Virtual Machine: Qwik Start || [GSP1108](https://www.cloudskillsboost.google/focuses/56596?parent=catalog) ||
+# Monitor an Apache Web Server using Ops Agent || [GSP1108](https://www.cloudskillsboost.google/focuses/56596?parent=catalog) ||
 
 ---
 ### ⚠️ Disclaimer
