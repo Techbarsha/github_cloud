@@ -14,8 +14,7 @@ export INSTANCE=
 export ZONE=
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Deploy%20and%20Troubleshoot%20a%20Website%20Challenge%20Lab/gsp101.sh
-
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Deploy%20and%20Troubleshoot%20a%20Website%3A%20Challenge%20Lab/gsp101.sh
 sudo chmod +x gsp101.sh
 
 ./gsp101.sh
