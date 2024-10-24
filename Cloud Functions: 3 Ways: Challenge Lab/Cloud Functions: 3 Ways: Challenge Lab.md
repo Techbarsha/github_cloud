@@ -15,7 +15,7 @@ export FUNCTION_NAME=
 export REGION=
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Cloud%20Functions%203%20Ways%20Challenge%20Lab/arc104.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Cloud%20Functions%3A%203%20Ways%3A%20Challenge%20Lab/arc104.sh
 
 sudo chmod +x arc104.sh
 
