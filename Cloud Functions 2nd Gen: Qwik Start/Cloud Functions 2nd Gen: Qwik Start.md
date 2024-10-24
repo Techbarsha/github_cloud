@@ -7,7 +7,6 @@
 ### If you consider that the video helped you to complete your lab, so please do like and subscribe [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
 ## Solution [here](https://youtu.be/T5vr5fS1awg)
 
-```
 * Go to `Audit Logs` from [here](https://console.cloud.google.com/iam-admin/audit?)
 
 * Copy & Paste in filter
