@@ -300,7 +300,6 @@ gcloud run deploy slow-concurrent-function \
  && gcloud run services update-traffic slow-concurrent-function --to-latest --region=$REGION
 
 ```
-# NOW FOLLOW VIDEO'S INSTRUCTIONS
 
 ### Congratulations 🎉 for completing the Lab !😄
 
