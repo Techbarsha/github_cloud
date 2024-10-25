@@ -44,6 +44,6 @@ gcloud dataproc jobs submit spark --cluster example-cluster \
   --class org.apache.spark.examples.SparkPi \
   --jars file:///usr/lib/spark/examples/jars/spark-examples.jar -- 1000
 
-echo "${BG_RED}${BOLD}Congratulations For Completing The Lab! Subscribe Now!${RESET}"
+echo "${BG_RED}${BOLD}Congratulations For Completing The Lab!! Subscribe Edutech Barsha!!${RESET}"
 
 #-----------------------------------------------------end----------------------------------------------------------#
