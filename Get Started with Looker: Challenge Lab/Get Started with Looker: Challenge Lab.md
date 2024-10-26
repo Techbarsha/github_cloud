@@ -110,11 +110,11 @@ explore: events {
 }
 ```
 
-# *NOW FOLLOW VIDEO'S INSTRUCTIONS*
+## *NOW FOLLOW VIDEO'S INSTRUCTIONS*
 
-# *Create a bar chart of the `top 3 event types based on the highest number of users`*
+## *Create a bar chart of the `top 3 event types based on the highest number of users`*
 
-# *Save your bar chart to a new dashboard named `User Events`*
+## *Save your bar chart to a new dashboard named `User Events`*
 
 
 ### Congratulations 🎉 for completing the Lab !😄
