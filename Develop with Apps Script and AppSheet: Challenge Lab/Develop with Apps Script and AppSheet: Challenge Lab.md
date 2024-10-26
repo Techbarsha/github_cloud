@@ -108,12 +108,6 @@ function onRemoveFromSpace(event) {
 
 * Go and Test Your **Helper Bot** [here](https://mail.google.com/chat/u/0/#chat/home)
 
-## *NOW FOLLOW VIDEO'S INSTRUCTIONS*
-
-## *Create a bar chart of the `top 3 event types based on the highest number of users`*
-
-## *Save your bar chart to a new dashboard named `User Events`*
-
 
 ### Congratulations 🎉 for completing the Lab !😄
 
