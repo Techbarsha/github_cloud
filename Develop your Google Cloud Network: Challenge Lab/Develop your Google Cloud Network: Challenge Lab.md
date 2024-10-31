@@ -20,7 +20,7 @@ sudo chmod +x gsp321.sh
 
 ./gsp321.sh
 ```
-- *Task 8: Enable monitoring*
+## - *Task 8: Enable monitoring*
 
 1. Go to [*Services and Ingress*](https://console.cloud.google.com/kubernetes/discovery)
 2. Copy `endpoint's`(wordpress) `IP address`.
@@ -35,12 +35,9 @@ sudo chmod +x gsp321.sh
 
 5. Leave everything as default. Click `Next` -> `Next` -> `Create`
 
-### Congratulations 🎉 for completing the Challenge Lab !
+
+### Congratulations 🎉 for completing the Lab !😄
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 
-#### *Well done!*
-
-#### Don't Forget to Join the [Telegram Channel](https://t.me/quickgcplab) & [Discussion group](https://t.me/quickgcplabchats)
-
-# [QUICK GCP LAB](https://www.youtube.com/@quickgcplab)
+# Thanks For Watching:)
