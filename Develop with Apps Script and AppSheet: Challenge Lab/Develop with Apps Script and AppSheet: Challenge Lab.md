@@ -15,7 +15,8 @@
 
 2. In the left navigation menu, click **Copy app**.
 
-3. In the **Copy app** form, for **App name**, type or paste the following and leave the remaining settings as their defaults. ```ATM Maintenance Tracker```
+3. In the **Copy app** form, for **App name**, type or paste the following and leave the remaining settings as their defaults.
+   ```ATM Maintenance Tracker```
 
 4. Click **Copy app**.
 
