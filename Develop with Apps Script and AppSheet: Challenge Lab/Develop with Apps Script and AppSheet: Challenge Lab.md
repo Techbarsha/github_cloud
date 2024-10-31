@@ -103,7 +103,7 @@ function onRemoveFromSpace(event) {
 | Description |	Helper chat bot |
 | Functionality | Select **Receive 1:1 messages and Join spaces and group conversations** |
 | Connection settings | Check **Apps Script project**, and then paste the **Head Deployment ID** for the test deployment into the Deployment ID field**
-| Visibility | **username** |
+| Visibility | **USERNAME** |
 | App Status | LIVE – available to users |
 
 * Go and Test Your **Helper Bot** [here](https://mail.google.com/chat/u/0/#chat/home)
