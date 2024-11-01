@@ -53,6 +53,6 @@ gsutil acl ch -u AllUsers:R gs://$PROJECT_ID/selfie.png
 
 gsutil acl ch -u AllUsers:R gs://$PROJECT_ID/city.png
 
-echo "${BLUE}${BOLD}Hey!!${RESET}" "${WHITE}${BOLD}Congratulations for${RESET}" "${GREEN}${BOLD}Completing the Lab!! Subscribe Now!!${RESET}"
+echo "${BLUE}${BOLD}Hey!!${RESET}" "${RED}${BOLD}Congratulations for${RESET}" "${GREEN}${BOLD}Completing the Lab!! Subscribe Now!!${RESET}"
 
 #-----------------------------------------------------end----------------------------------------------------------#
