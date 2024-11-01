@@ -22,7 +22,7 @@ BOLD=`tput bold`
 RESET=`tput sgr0`
 #----------------------------------------------------start--------------------------------------------------#
 
-echo "${YELLOW}${BOLD}Starting${RESET}" "${GREEN}${BOLD}Execution${RESET}"
+echo "${RED}${BOLD}Starting${RESET}" "${GREEN}${BOLD}Execution!!${RESET}"
 
 gcloud services enable run.googleapis.com
 
@@ -48,6 +48,6 @@ gcloud eventarc triggers create pubsub-events-trigger \
 gcloud pubsub topics publish $DEVSHELL_PROJECT_ID-topic \
   --message="Test message"
 
-echo "${RED}${BOLD}Congratulations${RESET}" "${WHITE}${BOLD}for${RESET}" "${GREEN}${BOLD}Completing the Lab !!!${RESET}"
+echo "${RED}${BOLD}Hey!!${RESET}" "${WHITE}${BOLD}Congratulations for${RESET}" "${GREEN}${BOLD}Completing the Lab!! Subscribe Now!!${RESET}"
 
 #-----------------------------------------------------end----------------------------------------------------------#
