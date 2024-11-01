@@ -21,4 +21,4 @@ sudo chmod +x arc118.sh
 
 #### *Well done!*
 
-#### Don't Forget to subcribe
+### Don't Forget to subscribe
