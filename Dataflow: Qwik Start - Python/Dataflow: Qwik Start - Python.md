@@ -22,6 +22,8 @@ sudo chmod +x gsp207.sh
 
 ./gsp207.sh
 ```
+## Now Follow Video Instructions
+
 
 ### Congratulations 🎉 for completing the Lab !😄
 
