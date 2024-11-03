@@ -23,8 +23,6 @@ sudo chmod +x gsp207.sh
 ./gsp207.sh
 ```
 
-* Go to `Dataflow Jobs` from [here](https://console.cloud.google.com/dataflow/jobs?)
-
 ### Congratulations 🎉 for completing the Lab !😄
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
