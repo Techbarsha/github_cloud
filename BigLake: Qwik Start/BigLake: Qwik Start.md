@@ -11,7 +11,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/BigLake%20Qwik%20Start/gsp1040.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/BigLake%3A%20Qwik%20Start/gsp1040.sh
 
 sudo chmod +x gsp1040.sh
 
