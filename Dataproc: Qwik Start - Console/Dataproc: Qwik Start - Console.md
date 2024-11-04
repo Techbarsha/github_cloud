@@ -13,8 +13,7 @@
 export ZONE=
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Dataproc%20Qwik%20Start%20-%20Console/gsp103.sh
-
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Dataproc%3A%20Qwik%20Start%20-%20Console/gsp103.sh
 sudo chmod +x gsp103.sh
 
 ./gsp103.sh
