@@ -1,70 +1,108 @@
-echo ""
-echo ""
-echo "Please export the values."
+#!/bin/bash
+# Define color variables
 
+BLACK=`tput setaf 0`
+RED=`tput setaf 1`
+GREEN=`tput setaf 2`
+YELLOW=`tput setaf 3`
+BLUE=`tput setaf 4`
+MAGENTA=`tput setaf 5`
+CYAN=`tput setaf 6`
+WHITE=`tput setaf 7`
 
-# Prompt user to input three regions
-read -p "Enter ZONE: " ZONE
-read -p "Enter KEY_1: " KEY_1
-read -p "Enter VALUE_1: " VALUE_1
+BG_BLACK=`tput setab 0`
+BG_RED=`tput setab 1`
+BG_GREEN=`tput setab 2`
+BG_YELLOW=`tput setab 3`
+BG_BLUE=`tput setab 4`
+BG_MAGENTA=`tput setab 5`
+BG_CYAN=`tput setab 6`
+BG_WHITE=`tput setab 7`
 
+BOLD=`tput bold`
+RESET=`tput sgr0`
+#----------------------------------------------------start--------------------------------------------------#
 
+echo "${BG_RED}${BOLD}Starting Execution!!${RESET}"
 
-export REGION="${ZONE%-*}"
+cat > email-channel.json <<EOF_END
+{
+  "type": "email",
+  "displayName": "quickgcplab",
+  "description": "Awesome",
+  "labels": {
+    "email_address": "$USER_EMAIL"
+  }
+}
+EOF_END
 
-#TASK 1
-gsutil mb -p $DEVSHELL_PROJECT_ID -l $REGION -b on gs://$DEVSHELL_PROJECT_ID-bucket/
+gcloud beta monitoring channels create --channel-content-from-file="email-channel.json"
 
+# Get the channel ID
+email_channel_info=$(gcloud beta monitoring channels list)
+email_channel_id=$(echo "$email_channel_info" | grep -oP 'name: \K[^ ]+' | head -n 1)
 
-#TASK 2
-gcloud alpha dataplex lakes create customer-lake \
---display-name="Customer-Lake" \
- --location=$REGION \
- --labels="key_1=$KEY_1,value_1=$VALUE_1"
+cat > edutech.json <<EOF_END
+{
+  "displayName": "edutech",
+  "userLabels": {},
+  "conditions": [
+    {
+      "displayName": "VM Instance - CPU utilization",
+      "conditionThreshold": {
+        "filter": "resource.type = \"gce_instance\" AND metric.type = \"compute.googleapis.com/instance/cpu/utilization\"",
+        "aggregations": [
+          {
+            "alignmentPeriod": "60s",
+            "crossSeriesReducer": "REDUCE_NONE",
+            "perSeriesAligner": "ALIGN_MEAN"
+          }
+        ],
+        "comparison": "COMPARISON_GT",
+        "duration": "0s",
+        "trigger": {
+          "count": 1
+        },
+        "thresholdValue": 0.2
+      }
+    },
+    {
+      "displayName": "VM Instance - CPU utilization",
+      "conditionThreshold": {
+        "filter": "resource.type = \"gce_instance\" AND metric.type = \"compute.googleapis.com/instance/cpu/utilization\"",
+        "aggregations": [
+          {
+            "alignmentPeriod": "60s",
+            "crossSeriesReducer": "REDUCE_NONE",
+            "perSeriesAligner": "ALIGN_MEAN"
+          }
+        ],
+        "comparison": "COMPARISON_GT",
+        "duration": "0s",
+        "trigger": {
+          "count": 1
+        },
+        "thresholdValue": 0.2
+      }
+    }
+  ],
+  "alertStrategy": {
+    "notificationPrompts": [
+      "OPENED"
+    ]
+  },
+  "combiner": "AND_WITH_MATCHING_RESOURCE",
+  "enabled": true,
+  "notificationChannels": [
+    "$email_channel_id"
+  ],
+  "severity": "SEVERITY_UNSPECIFIED"
+}
+EOF_END
 
+# Create the alert policy
+gcloud alpha monitoring policies create --policy-from-file=edutech.json
 
-gcloud dataplex zones create public-zone \
-    --lake=customer-lake \
-    --location=$REGION \
-    --type=RAW \
-    --resource-location-type=SINGLE_REGION \
-    --display-name="Public-Zone"
+echo "${BG_BLUE}${BOLD}Congratulations For Completing The Lab! Subscribe Now!${RESET}"
 
-
-gcloud dataplex environments create dataplex-lake-env \
-           --project=$DEVSHELL_PROJECT_ID --location=$REGION --lake=customer-lake \
-           --os-image-version=1.0 --compute-node-count 3  --compute-max-node-count 3 
-
-
-#TASK3
-
-gcloud dataplex assets create customer-raw-data --location=$REGION \
-            --lake=customer-lake --zone=public-zone \
-            --resource-type=STORAGE_BUCKET \
-            --resource-name=projects/$DEVSHELL_PROJECT_ID/buckets/$DEVSHELL_PROJECT_ID-customer-bucket \
-            --discovery-enabled \
-            --display-name="Customer Raw Data"
-
-
-gcloud dataplex assets create customer-reference-data --location=$REGION \
-            --lake=customer-lake --zone=public-zone \
-            --resource-type=BIGQUERY_DATASET \
-            --resource-name=projects/$DEVSHELL_PROJECT_ID/datasets/customer_reference_data \
-            --display-name="Customer Reference Data"
-
-#TASK 4
-
-
-# gcloud data-catalog tag-templates create customer_data_tag_template \
-#    --project=$DEVSHELL_PROJECT_ID \
-#    --location=$REGION \
-#    --display-name="Customer Data Tag Template"
-#    --field=id=DataOwner,display-name=Data\ Owner,type=string,required=TRUE \
-#    --field=id=PIIData,display-name=PII\ Data,type='enum(Yes|No)',required=TRUE
-
-# gcloud data-catalog tag-templates create customer_data_tag_template \
-#     --project=$DEVSHELL_PROJECT_ID \
-#     --location=$REGION \
-#     --display-name="Customer Data Tag Template" \
-#     --field=id=DataOwner,type=string,display-name="Data Owner" \
-#     --field=id=PIIData,type='enum(Yes|No)',display-name="PII Data"
+#-----------------------------------------------------end----------------------------------------------------------#
