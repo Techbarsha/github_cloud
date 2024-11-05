@@ -1,6 +1,4 @@
-
-
-## 🚀 Secure Data Lake on Cloud Storage - Challenge Lab | [ARC119](https://www.cloudskillsboost.google/catalog_lab/6445)
+## Secure Data Lake on Cloud Storage - Challenge Lab | [ARC119](https://www.cloudskillsboost.google/catalog_lab/6445)
 ---
 ### ⚠️ Disclaimer
 - **This script and guide are provided for  the educational purposes to help you understand the lab services and boost your career. Before using the script, please open and review it to familiarize yourself with Google Cloud services. Ensure that you follow 'Qwiklabs' terms of service and YouTube’s community guidelines. The goal is to enhance your learning experience, not to bypass it.**
