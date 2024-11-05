@@ -14,7 +14,6 @@ curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Creat
 sudo chmod +x edutechbarsha.sh
 ./edutechbarsha.sh
 ```
-## For task 3 & 4 Follow the video instructions
 
 ### Congratulations 🎉 for completing the Lab !😄
 
