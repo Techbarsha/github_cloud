@@ -13,9 +13,9 @@
 ```
 curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Distributed%20Load%20Testing%20Using%20Kubernetes/gsplab182.sh
 
-sudo chmod +x gsp182.sh
+sudo chmod +x gsplab182.sh
 
-./gsp182.sh
+./gsplab182.sh
 ```
 
 ### Congratulations 🎉 for completing the Lab !😄
