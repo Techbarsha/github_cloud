@@ -71,7 +71,7 @@ gsutil defstorageclass set ARCHIVE gs://$BUCKET_3
 }
 
 # Main script block
-echo "${YELLOW}${BOLD}"
+echo "${CYAN}${BOLD}"
 
 # Get the form number from user input
 read -p "Enter Form Number (1, 2, or 3): " form_number
