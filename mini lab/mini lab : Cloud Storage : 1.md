@@ -11,7 +11,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/mini%20lab%20%3A%20Cloud%20Storage%20%3A%201/minilab1.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/mini%20lab/minilab1.sh
 
 sudo chmod +x minilab1.sh
 
