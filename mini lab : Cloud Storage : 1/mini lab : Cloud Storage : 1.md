@@ -11,11 +11,11 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/BigLake%3A%20Qwik%20Start/gsp1040.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/mini%20lab%20%3A%20Cloud%20Storage%20%3A%201/minilab1.sh
 
-sudo chmod +x gsp1040.sh
+sudo chmod +x minilab1.sh
 
-./gsp1040.sh
+./minilab1.sh
 ```
 
 ### Congratulations 🎉 for completing the Lab !😄
