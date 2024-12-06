@@ -6,12 +6,12 @@
 ---
 # Follow the instructions:
 ### If you consider that the video helped you to complete your lab, so please do like and subscribe [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
-## Solution [here](https://youtu.be/sx3KnHGDFPg)
+
 
 ### Run the following Commands in CloudShell
 
 ## **mini lab : Cloud Storage : 1:**
-### 🔗 **Solution Video:** [Watch Here](https://youtu.be/lkPWkhCxfxo)
+### 🔗 ## Solution [here](https://youtu.be/sx3KnHGDFPg)
 
 
 
@@ -22,7 +22,7 @@ sudo chmod +x quicklab1.sh
 ```
 
 ## **mini lab : Cloud Storage : 2:**
-### 🔗 **Solution Video:** [Watch Here]()
+### 🔗 ## Solution [here](https://youtu.be/sx3KnHGDFPg)
 
 
 
@@ -34,7 +34,7 @@ sudo chmod +x quicklab2.sh
 
 
 ## **mini lab : Cloud Storage : 4:**
-### 🔗 **Solution Video:** [Watch Here]()
+### 🔗 ## Solution [here](https://youtu.be/sx3KnHGDFPg)
 
 
 
@@ -45,7 +45,7 @@ sudo chmod +x quicklab4.sh
 ```
 
 ## **mini lab : Cloud Storage : 5:**
-### 🔗 **Solution Video:** [Watch Here]()
+### 🔗 ## Solution [here](https://youtu.be/sx3KnHGDFPg)
 
 
 
