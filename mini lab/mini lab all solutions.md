@@ -16,9 +16,9 @@
 
 
 ```
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/refs/heads/master/mini%20lab/quicklab1.sh
-sudo chmod +x quicklab1.sh
-./quicklab1.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/mini%20lab/minilab1.sh
+sudo chmod +x minilab1.sh
+./minilab1.sh
 ```
 
 ## **mini lab : Cloud Storage : 2:**
@@ -27,9 +27,9 @@ sudo chmod +x quicklab1.sh
 
 
 ```
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/refs/heads/master/mini%20lab/quicklab2.sh
-sudo chmod +x quicklab2.sh
-./quicklab2.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/mini%20lab/minilab2.sh
+sudo chmod +x minilab2.sh
+./minilab2.sh
 ```
 
 
@@ -39,9 +39,9 @@ sudo chmod +x quicklab2.sh
 
 
 ```
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/refs/heads/master/mini%20lab/quicklab4.sh
-sudo chmod +x quicklab4.sh
-./quicklab4.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/mini%20lab/minilab4.sh
+sudo chmod +x minilab4.sh
+./minilab4.sh
 ```
 
 ## **mini lab : Cloud Storage : 5:**
@@ -50,9 +50,9 @@ sudo chmod +x quicklab4.sh
 
 
 ```
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/refs/heads/master/mini%20lab/quicklab5.sh
-sudo chmod +x quicklab5.sh
-./quicklab5.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/mini%20lab/minilab5.sh
+sudo chmod +x minilab5.sh
+./minilab5.sh
 ```
 
 ### Congratulations 🎉 for completing the Lab !😄
