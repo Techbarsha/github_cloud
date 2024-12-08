@@ -10,11 +10,11 @@
 
 ### Run the following Commands in CloudShell
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Analyze%20data%20with%20Gemini%20assistance/shell.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Analyze%20data%20with%20Gemini%20assistance/lab.sh
 
-sudo chmod +x shell.sh
+sudo chmod +x lab.sh
 
-./shell.sh
+./lab.sh
 ```
 
 ### Congratulations 🎉 for completing the Lab !😄
