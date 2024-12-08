@@ -7,8 +7,8 @@
 # Follow the instructions:
 ### If you consider that the video helped you to complete your lab, so please do like and subscribe [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
 
-
 ### Run the following Commands in CloudShell
+- CLOUD STORAGE
 
 ## **mini lab : Cloud Storage : 1:**
 ### 🔗Solution [here](https://youtu.be/sx3KnHGDFPg)
@@ -55,6 +55,7 @@ sudo chmod +x minilab5.sh
 ./minilab5.sh
 ```
 
+- BIGQUERY
 ## **mini lab : BigQuery : 1:**
 ### 🔗Solution [here](https://youtu.be/sx3KnHGDFPg)
 
