@@ -61,11 +61,10 @@ sudo chmod +x minilab5.sh
 
 
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Mini%20lab%20BigQuery%201/shell.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/mini%20lab/minilabbq1.sh
+sudo chmod +x minilabbq1.sh
 
-sudo chmod +x shell.sh
-
-./shell.sh
+./minilabbq1.sh
 ```
 
 ### Congratulations 🎉 for completing the Lab !😄
