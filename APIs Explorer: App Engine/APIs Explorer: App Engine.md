@@ -1,4 +1,4 @@
-# Analyze data with Gemini assistance || [LAB](https://www.cloudskillsboost.google/focuses/80989?parent=catalog) ||
+# APIs Explorer: App Engine || [GSP422](https://www.cloudskillsboost.google/focuses/80989?parent=catalog) ||
 
 ---
 ### ⚠️ Disclaimer
@@ -10,9 +10,9 @@
 
 ### Run the following Commands in CloudShell
 ```
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/refs/heads/master/APIs%20Explorer%20App%20Engine/quicklabgsp422.sh
-sudo chmod +x quicklabgsp422.sh
-./quicklabgsp422.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/APIs%20Explorer%3A%20App%20Engine/gsp422.sh
+sudo chmod +x gsp422.sh
+./gsp422.sh
 ```
 
 ### Congratulations 🎉 for completing the Lab !😄
