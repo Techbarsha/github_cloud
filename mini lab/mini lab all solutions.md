@@ -55,6 +55,19 @@ sudo chmod +x minilab5.sh
 ./minilab5.sh
 ```
 
+## **mini lab : BigQuery : 1:**
+### 🔗Solution [here](https://youtu.be/sx3KnHGDFPg)
+
+
+
+```
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Mini%20lab%20BigQuery%201/shell.sh
+
+sudo chmod +x shell.sh
+
+./shell.sh
+```
+
 ### Congratulations 🎉 for completing the Lab !😄
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
