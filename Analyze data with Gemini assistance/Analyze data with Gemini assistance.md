@@ -1,4 +1,4 @@
- Analyze data with Gemini assistance || [LAB](https://www.cloudskillsboost.google/focuses/80989?parent=catalog) ||
+# Analyze data with Gemini assistance || [LAB](https://www.cloudskillsboost.google/focuses/80989?parent=catalog) ||
 
 ---
 ### ⚠️ Disclaimer
