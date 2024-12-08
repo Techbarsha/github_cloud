@@ -12,9 +12,9 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/mini%20lab/minilab1.sh
-sudo chmod +x minilab1.sh
-./minilab1.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Cloud%20Data%20Loss%20Prevention%20API%3A%20Qwik%20Start/gsp107.sh
+sudo chmod +x gsp107.sh
+./gsp107.sh
 ```
 ### Congratulations 🎉 for completing the Lab !😄
 
