@@ -68,6 +68,21 @@ sudo chmod +x minilabbq1.sh
 ./minilabbq1.sh
 ```
 
+## **mini lab : BigQuery : 2:**
+### 🔗Solution [here](https://youtu.be/sx3KnHGDFPg)
+
+
+
+```
+REGION=""
+```
+```
+export PROJECT_ID=$(gcloud config get-value project)
+bq mk --connection --connection_type='CLOUD_SPANNER' --properties='{"database":"projects/'$PROJECT_ID'/instances/ecommerce-instance/databases/ecommerce"}' --project_id=$PROJECT_ID --location=$REGION my_connection_id
+bq query --use_legacy_sql=false "SELECT * FROM EXTERNAL_QUERY('$PROJECT_ID.$REGION.my_connection_id', 'SELECT * FROM orders;');"
+bq query --use_legacy_sql=false "CREATE VIEW ecommerce.order_history AS SELECT * FROM EXTERNAL_QUERY('$PROJECT_ID.$REGION.my_connection_id', 'SELECT * FROM orders;');"
+```
+
 ### Congratulations 🎉 for completing the Lab !😄
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
