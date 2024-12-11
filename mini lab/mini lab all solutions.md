@@ -57,7 +57,7 @@ sudo chmod +x minilab5.sh
 
 - BIGQUERY
 ## **mini lab : BigQuery : 1:**
-### 🔗Solution [here](https://youtu.be/sx3KnHGDFPg)
+### 🔗Solution [here](https://youtu.be/cfr-5xoK1yw)
 
 
 
