@@ -69,7 +69,7 @@ sudo chmod +x minilabbq1.sh
 ```
 
 ## **mini lab : BigQuery : 2:**
-### 🔗Solution [here](https://youtu.be/sx3KnHGDFPg)
+### 🔗Solution [here](https://youtu.be/gHiiZIO8ywg)
 
 
 
