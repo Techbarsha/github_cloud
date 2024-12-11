@@ -45,7 +45,7 @@ sudo chmod +x minilab4.sh
 ```
 
 ## **mini lab : Cloud Storage : 5:**
-### 🔗Solution [here](https://youtu.be/sx3KnHGDFPg)
+### 🔗Solution [here](https://youtu.be/VzjmiWVPpVw)
 
 
 
