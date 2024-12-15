@@ -11,7 +11,7 @@
 - CLOUD STORAGE
 
 ## **mini lab : Cloud Storage : 1:**
-### 🔗Solution [here](https://youtu.be/sx3KnHGDFPg)
+### 🔗Solution [here](https://youtu.be/WksrZODOlfI)
 
 
 
@@ -22,7 +22,7 @@ sudo chmod +x minilab1.sh
 ```
 
 ## **mini lab : Cloud Storage : 2:**
-### 🔗Solution [here](https://youtu.be/sx3KnHGDFPg)
+### 🔗Solution [here](https://youtu.be/ZzCsDiFTsIA)
 
 
 
@@ -34,7 +34,7 @@ sudo chmod +x minilab2.sh
 
 
 ## **mini lab : Cloud Storage : 4:**
-### 🔗Solution [here](https://youtu.be/sx3KnHGDFPg)
+### 🔗Solution [here](https://youtu.be/fMtpMeVaetU)
 
 
 
@@ -46,7 +46,6 @@ sudo chmod +x minilab4.sh
 
 ## **mini lab : Cloud Storage : 5:**
 ### 🔗Solution [here](https://youtu.be/VzjmiWVPpVw)
-
 
 
 ```
