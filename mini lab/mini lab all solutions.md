@@ -62,7 +62,15 @@ curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/mini%
 sudo chmod +x minilab5.sh
 ./minilab5.sh
 ```
+## **mini lab : Cloud Storage : 6:**
+### 🔗Solution [here](https://youtu.be/VzjmiWVPpVw)
 
+
+```
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/mini%20lab/minilab5.sh
+sudo chmod +x minilab5.sh
+./minilab5.sh
+```
 - BIGQUERY
 ## **mini lab : BigQuery : 1:**
 ### 🔗Solution [here](https://youtu.be/cfr-5xoK1yw)
