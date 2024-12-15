@@ -31,7 +31,16 @@ curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/mini%
 sudo chmod +x minilab2.sh
 ./minilab2.sh
 ```
+## **mini lab : Cloud Storage : 3:**
+### 🔗Solution [here](https://youtu.be/ZzCsDiFTsIA)
 
+
+
+```
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/mini%20lab/minilab3.sh
+sudo chmod +x minilab3.sh
+./minilab3.sh
+```
 
 ## **mini lab : Cloud Storage : 4:**
 ### 🔗Solution [here](https://youtu.be/fMtpMeVaetU)
