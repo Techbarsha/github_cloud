@@ -7,7 +7,7 @@
 # Follow the instructions:
 ### If you consider that the video helped you to complete your lab, so please do like and subscribe [Edutech Barsha](https://www.youtube.com/@edutechbarsha)
 
-### 🔗Solution [here](https://youtu.be/3pKbQPqIhCY)
+### 🔗Solution [here](https://youtu.be/96m0sY8Qb6U)
 
 ### Run the following Commands in CloudShell
 
