@@ -1,4 +1,4 @@
-# Analyze Customer Reviews with Gemini Using SQL || [GSP1246](https://www.cloudskillsboost.google/focuses/600?parent=catalog) ||
+# Analyze Customer Reviews with Gemini Using Python Notebooks || [GSP1249](https://www.cloudskillsboost.google/focuses/600?parent=catalog) ||
 
 ---
 ### ⚠️ Disclaimer
@@ -12,9 +12,9 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO raw.githubusercontent.com/Techbarsha/shorttricks/refs/heads/main/gsp1246.sh
-sudo chmod +x gsp1246.sh
-./gsp1246.sh
+curl -LO raw.githubusercontent.com/Techbarsha/shorttricks/refs/heads/main/gsp1249.sh
+sudo chmod +x gsp1249.sh
+./gsp1249.sh
 ```
 
 ### Congratulations 🎉 for completing the Lab !😄
