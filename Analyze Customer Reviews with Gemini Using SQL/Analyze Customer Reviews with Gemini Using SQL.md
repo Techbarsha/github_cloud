@@ -12,10 +12,11 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Cloud%20Data%20Loss%20Prevention%20API%3A%20Qwik%20Start/gsp107.sh
-sudo chmod +x gsp107.sh
-./gsp107.sh
+curl -LO raw.githubusercontent.com/Techbarsha/shorttricks/refs/heads/main/gsp1246.sh
+sudo chmod +x gsp1246.sh
+./gsp1246.sh
 ```
+
 ### Congratulations 🎉 for completing the Lab !😄
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
