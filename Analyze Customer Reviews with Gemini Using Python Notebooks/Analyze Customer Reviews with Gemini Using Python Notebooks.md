@@ -1,4 +1,4 @@
-# Analyze Customer Reviews with Gemini Using Python Notebooks || [GSP1249](https://www.cloudskillsboost.google/focuses/600?parent=catalog) ||
+# Analyze Customer Reviews with Gemini Using Python Notebooks|| [GSP1249](https://www.cloudskillsboost.google/focuses/600?parent=catalog) ||
 
 ---
 ### ⚠️ Disclaimer
