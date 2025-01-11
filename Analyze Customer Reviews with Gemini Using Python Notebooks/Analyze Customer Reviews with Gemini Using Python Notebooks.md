@@ -18,7 +18,7 @@ sudo chmod +x gsp1249.sh
 ```
 * **Download required [file](https://github.com/Techbarsha/github_cloud/blob/main/Analyze%20Customer%20Reviews%20with%20Gemini%20Using%20Python%20Notebooks/edutechbarsha.ipynb)**
 
-* 
+  
 ### Congratulations 🎉 for completing the Lab !😄
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
