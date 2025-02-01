@@ -6,9 +6,6 @@
 
 ### Run the following Commands in CloudShell
 ```
-export MESSAGE=""
-```
-```
 curl -LO raw.githubusercontent.com/Techbarsha/shorttricks/refs/heads/main/arc112.sh
 sudo chmod +x arc112.sh
 
