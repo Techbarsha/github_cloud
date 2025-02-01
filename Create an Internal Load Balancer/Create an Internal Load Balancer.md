@@ -7,12 +7,11 @@
 ### Run the following Commands in CloudShell
 
 ```
-export ZONE=
-export STATIC_IP=
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Create%20an%20Internal%20Load%20Balancer/gsp216.sh
 
-curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Create%20an%20Internal%20Load%20Balancer/gsp216.sh
-sudo chmod +x gsp216.sh
-./gsp216.sh
+sudo chmod +x *.sh
+
+./*.sh
 ```
 
 ### Congratulations 🎉 for completing the Lab !😄
