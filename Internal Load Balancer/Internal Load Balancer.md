@@ -1,4 +1,4 @@
-# Internal Load Balancer || [GSP041](https://www.cloudskillsboost.google/focuses/600?parent=catalog) ||
+# Internal Load Balancer || [GSP041](https://www.cloudskillsboost.google/focuses/1910?parent=catalog) ||
 
 ---
 ### ⚠️ Disclaimer
