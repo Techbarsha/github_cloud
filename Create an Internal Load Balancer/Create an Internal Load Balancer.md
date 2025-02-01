@@ -7,8 +7,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Create%20an%20Internal%20Load%20Balancer/gsp216.sh
-
+curl -LO raw.githubusercontent.com/Techbarsha/shorttricks/refs/heads/main/gsp216.sh
 sudo chmod +x *.sh
 
 ./*.sh
