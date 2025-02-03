@@ -9,7 +9,7 @@
 export REGION=
 ```
 ```
-curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/App%20Engine%3A%20Qwik%20Start%20-%20Python/gsp067.sh
+curl -LO raw.githubusercontent.com/Techbarsha/shorttricks/refs/heads/main/gsp067.sh
 sudo chmod +x gsp067.sh
 ./gsp067.sh
 ```
