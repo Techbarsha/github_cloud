@@ -11,7 +11,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO rraw.githubusercontent.com/Techbarsha/shorttricks/refs/heads/main/arc1200.sh
+curl -LO raw.githubusercontent.com/Techbarsha/shorttricks/refs/heads/main/arc1200.sh
 sudo chmod +x arc1200.sh
 ./arc1200.sh
 ```
