@@ -103,7 +103,7 @@ bq query --use_legacy_sql=false "CREATE VIEW ecommerce.order_history AS SELECT *
 ```
 
 ## **mini lab : BigQuery : 4**
-### 🔗Solution [here](https://youtu.be/gHiiZIO8ywg)
+### 🔗Solution [here](https://youtu.be/6xrybo6mPOs)
 
 ```
 export PROJECT_ID=$(gcloud config get-value project)
