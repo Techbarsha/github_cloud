@@ -15,8 +15,7 @@
 export ZONE=
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/GKE%20Workload%20Optimization/gsp769.sh
-
+curl -LO raw.githubusercontent.com/Techbarsha/shorttricks/refs/heads/main/gsp769.sh
 sudo chmod +x gsp769.sh
 
 ./gsp769.sh
