@@ -89,9 +89,6 @@ sudo chmod +x minilabbq1.sh
 
 ## **mini lab : BigQuery : 2:**
 ### 🔗Solution [here](https://youtu.be/gHiiZIO8ywg)
-
-
-
 ```
 REGION=""
 ```
@@ -102,9 +99,20 @@ bq query --use_legacy_sql=false "SELECT * FROM EXTERNAL_QUERY('$PROJECT_ID.$REGI
 bq query --use_legacy_sql=false "CREATE VIEW ecommerce.order_history AS SELECT * FROM EXTERNAL_QUERY('$PROJECT_ID.$REGION.my_connection_id', 'SELECT * FROM orders;');"
 ```
 
+## **mini lab : BigQuery : 3:**
+### 🔗Solution [here](https://youtu.be/cfr-5xoK1yw)
+
+
+
+```
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/mini%20lab/minilabbig3.sh
+sudo chmod +x minilabbig3.sh
+
+./minilabbig3.sh
+```
+
 ## **mini lab : BigQuery : 4**
 ### 🔗Solution [here](https://youtu.be/6xrybo6mPOs)
-
 ```
 export PROJECT_ID=$(gcloud config get-value project)
 export REGION=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-region])")
