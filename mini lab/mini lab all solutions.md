@@ -1,4 +1,4 @@
-# mini lab all solutions || [LAB](https://www.cloudskillsboost.google/catalog) ||
+# Mini Lab All Solutions 2025 || [LAB](https://www.cloudskillsboost.google/catalog) ||
 
 ---
 ### ⚠️ Disclaimer
