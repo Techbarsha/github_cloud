@@ -17,6 +17,7 @@ sudo chmod +x gsp373.sh
 
 ./gsp373.sh
 ```
+# Now Follow the video's instructions
 
 ### Congratulations 🎉 for completing the Lab !😄
 
