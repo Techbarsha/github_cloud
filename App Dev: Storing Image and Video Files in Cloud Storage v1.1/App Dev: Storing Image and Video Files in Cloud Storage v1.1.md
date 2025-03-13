@@ -12,11 +12,11 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/App%20Dev%20Storing%20Image%20and%20Video%20Files%20in%20Cloud%20Storage%20v1.1/arcadecrew.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/App%20Dev%3A%20Storing%20Image%20and%20Video%20Files%20in%20Cloud%20Storage%20v1.1/edutechbarsha.sh
 
-sudo chmod +x arcadecrew.sh
+sudo chmod +x edutechbarsha.sh
 
-./arcadecrew.sh
+./edutechbarsha.sh
 ```  
 ### Congratulations 🎉 for completing the Lab !😄
 
