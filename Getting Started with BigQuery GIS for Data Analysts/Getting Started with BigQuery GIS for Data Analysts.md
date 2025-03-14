@@ -13,11 +13,11 @@
 
 ## *TASK1*
 ```
-curl -LO raw.githubusercontent.com/gcpsolution99/GCP-solution/refs/heads/main/GSP/GSP866.sh
+curl -LO raw.githubusercontent.com/Techbarsha/shorttricks/refs/heads/main/gsp866.sh
 
-sudo chmod +x GSP866.sh
+sudo chmod +x gsp866.sh
 
-./GSP866.sh
+./gsp866.sh
 ```
 ## *Visualize the query results in Geo Viz*(NOW FOLLOW VIDEO'S INSTRUCTIONS) 
 
