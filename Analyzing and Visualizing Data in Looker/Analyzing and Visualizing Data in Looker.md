@@ -12,7 +12,7 @@
 ## Task 1: Single Value Visualization:
 ```
 explore: +airports { 
-    query: ArcadeCrew_Task1 {
+    query: Eduetchbarsha_Task1 {
       measures: [average_elevation]
     }
   }
@@ -28,7 +28,7 @@ explore: +airports {
 ## Task 2: Bar Chart (`Average Elevation by Facility Type`)
 ```
 explore: +airports {
-    query: ArcadeCrew_Task2 {
+    query: Eduetchbarsha_Task2 {
       dimensions: [facility_type]
       measures: [average_elevation, count]
   }
@@ -46,7 +46,7 @@ explore: +airports {
 ## Task 3: Line Chart (`Number of Flights Cancelled Each Week in 2004`)
 ```
 explore: +flights {
-    query: ArcadeCrew_Task3 {
+    query: Eduetchbarsha_Task3 {
       dimensions: [depart_week]
       measures: [cancelled_count]
       filters: [flights.depart_date: "2004"]
@@ -64,7 +64,7 @@ explore: +flights {
 ## Task 4: Line Chart (`Number of Flights by Distance Tier in 2003`)
 ```
 explore: +flights {
-    query: ArcadeCrew_Task4 {
+    query: Eduetchbarsha_Task4 {
       dimensions: [depart_week, distance_tiered]
       measures: [count]
       filters: [flights.depart_date: "2003"]
