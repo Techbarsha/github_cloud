@@ -1,4 +1,4 @@
-# Getting Started with Analyzing and Visualizing Data in Looker || [LAB](https://www.cloudskillsboost.google/focuses/25305?parent=catalog) ||
+# Getting Started with Analyzing and Visualizing Data in Looker|| [LAB](https://www.cloudskillsboost.google/focuses/25305?parent=catalog) ||
 
 ---
 ### ⚠️ Disclaimer
