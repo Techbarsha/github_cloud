@@ -21,12 +21,12 @@ sudo chmod +x gsp130.sh
 
 ## Task 9:
 ```
-curl -LO raw.githubusercontent.com/gcpsolution99/GCP-solution/refs/heads/main/GSP/130Task9.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Using%20gsutil%20to%20Perform%20Operations%20on%20Buckets%20and%20Objects/edutechb.sh
 
-sudo chmod +x 130Task9.sh
+sudo chmod +x edutechb.sh
 
-./130Task9.sh
-``
+./edutechb.sh
+```
   
 
 ### Congratulations 🎉 for completing the Lab !😄
