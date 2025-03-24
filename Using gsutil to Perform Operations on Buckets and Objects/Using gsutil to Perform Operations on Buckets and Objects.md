@@ -1,4 +1,4 @@
-# Using gsutil to Perform Operations on Buckets and Objects || [GSP130](https://www.cloudskillsboost.google/focuses/7530?parent=catalog) ||
+# Using gsutil to Perform Operations on Buckets and Objects|| [GSP130](https://www.cloudskillsboost.google/focuses/7530?parent=catalog) ||
 
 ---
 ### ⚠️ Disclaimer
