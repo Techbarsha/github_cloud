@@ -19,7 +19,14 @@ sudo chmod +x gsp130.sh
 ```
 **CHECK UPTO TASK 8**
 
-### NOW FOLLOW VIDEO'S INSTRUCTIONS
+## Task 9:
+```
+curl -LO raw.githubusercontent.com/gcpsolution99/GCP-solution/refs/heads/main/GSP/130Task9.sh
+
+sudo chmod +x 130Task9.sh
+
+./130Task9.sh
+``
   
 
 ### Congratulations 🎉 for completing the Lab !😄
