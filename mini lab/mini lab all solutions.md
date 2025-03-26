@@ -143,7 +143,8 @@ bq extract --destination_format=CSV customer_details.male_customers gs://${PROJE
 ```
 PROJECT_ID=$(gcloud config get-value project)
 REGION="us"
-
+```
+```
 gcloud iam service-accounts add-iam-policy-binding ${PROJECT_ID}@${PROJECT_ID}.iam.gserviceaccount.com \
 --role='roles/iam.serviceAccountTokenCreator'
 
