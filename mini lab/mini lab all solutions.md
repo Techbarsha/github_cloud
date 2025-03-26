@@ -137,6 +137,21 @@ bq query --use_legacy_sql=false 'CREATE OR REPLACE TABLE customer_details.male_c
 
 bq extract --destination_format=CSV customer_details.male_customers gs://${PROJECT_ID}-bucket/exported_male_customers.csv
 ```
+
+## **mini lab : BigQuery : 5**
+### 🔗Solution [here](https://youtu.be/6xrybo6mPOs)
+```
+PROJECT_ID=$(gcloud config get-value project)
+REGION="us"
+
+gcloud iam service-accounts add-iam-policy-binding ${PROJECT_ID}@${PROJECT_ID}.iam.gserviceaccount.com \
+--role='roles/iam.serviceAccountTokenCreator'
+
+sleep 20
+
+bq mk --transfer_config --project_id="${PROJECT_ID}" --target_dataset=ecommerce --display_name="Monthly Customer Orders Backup" --params='{"query":"SELECT * FROM `'${PROJECT_ID}'.ecommerce.customer_orders`", "destination_table_name_template":"backup_orders", "write_disposition":"WRITE_TRUNCATE"}' --data_source=scheduled_query --schedule="1 of month 00:00" --location="${REGION}"
+```
+
 ### Congratulations 🎉 for completing the Lab !😄
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
