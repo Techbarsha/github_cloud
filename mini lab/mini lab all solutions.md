@@ -138,7 +138,7 @@ bq query --use_legacy_sql=false 'CREATE OR REPLACE TABLE customer_details.male_c
 bq extract --destination_format=CSV customer_details.male_customers gs://${PROJECT_ID}-bucket/exported_male_customers.csv
 ```
 
-## **mini lab : BigQuery : 5**
+## **mini lab : BigQuery : 6**
 ### 🔗Solution [here](https://youtu.be/6xrybo6mPOs)
 ```
 PROJECT_ID=$(gcloud config get-value project)
