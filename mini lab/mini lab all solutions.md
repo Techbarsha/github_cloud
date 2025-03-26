@@ -125,6 +125,18 @@ bq query --use_legacy_sql=false "CREATE SEARCH INDEX IF NOT EXISTS products.p_i_
 
 bq query --use_legacy_sql=false "SELECT * FROM products.products_information WHERE SEARCH(STRUCT(), '22 oz Water Bottle') = TRUE;"
 ```
+
+## **mini lab : BigQuery : 5**
+### 🔗Solution [here](https://youtu.be/6xrybo6mPOs)
+```
+PROJECT_ID=$(gcloud config get-value project)
+
+bq load --autodetect --source_format=CSV customer_details.customers customers.csv
+
+bq query --use_legacy_sql=false 'CREATE OR REPLACE TABLE customer_details.male_customers AS SELECT CustomerID, Gender FROM customer_details.customers WHERE Gender = "Male"'
+
+bq extract --destination_format=CSV customer_details.male_customers gs://${PROJECT_ID}-bucket/exported_male_customers.csv
+```
 ### Congratulations 🎉 for completing the Lab !😄
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
