@@ -139,7 +139,7 @@ bq extract --destination_format=CSV customer_details.male_customers gs://${PROJE
 ```
 
 ## **mini lab : BigQuery : 6**
-### 🔗Solution [here](https://youtu.be/6xrybo6mPOs)
+### 🔗Solution [here](https://youtu.be/rokK4OCp6aM)
 ```
 PROJECT_ID=$(gcloud config get-value project)
 REGION="us"
