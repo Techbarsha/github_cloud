@@ -127,7 +127,7 @@ bq query --use_legacy_sql=false "SELECT * FROM products.products_information WHE
 ```
 
 ## **mini lab : BigQuery : 5**
-### 🔗Solution [here](https://youtu.be/6xrybo6mPOs)
+### 🔗Solution [here](https://youtu.be/czXRD7wiGYI)
 ```
 PROJECT_ID=$(gcloud config get-value project)
 
