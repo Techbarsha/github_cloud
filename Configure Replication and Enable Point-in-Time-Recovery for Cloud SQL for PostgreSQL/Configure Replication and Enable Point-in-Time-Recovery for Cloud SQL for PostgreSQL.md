@@ -30,16 +30,16 @@ export TIMESTAMP=$(date --rfc-3339=seconds)
 gcloud sql connect postgres-orders --user=postgres --quiet
 ```
 
-* enter the below password when prompted. A psql session will start in Cloud Shell.
+### Enter the below password when prompted. A psql session will start in Cloud Shell.
 
 ```
 supersecret!
 ```
-* In psql, change to the orders database:
+### In psql, change to the orders database:
 ```
 \c orders
 ```
-* When prompted, enter the password again.
+### When prompted, enter the password again.
 ```
 supersecret!
 ```
@@ -72,3 +72,10 @@ supersecret!
 SELECT COUNT(*) FROM distribution_centers;
 ```
 
+### Congratulations 🎉 for completing the Lab !😄
+
+##### *You Have Successfully Demonstrated Your Skills And Determination.*
+
+#### *Well done!*
+
+# Thanks For Watching:)
