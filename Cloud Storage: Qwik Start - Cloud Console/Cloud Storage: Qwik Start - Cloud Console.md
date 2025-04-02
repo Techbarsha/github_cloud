@@ -8,7 +8,8 @@
 
 ```
 export REGION=
-
+```
+```
 curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Cloud%20Storage%3A%20Qwik%20Start%20-%20Cloud%20Console/gsp073.sh
 sudo chmod +x gsp073.sh
 ./gsp073.sh
