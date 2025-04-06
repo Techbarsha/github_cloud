@@ -1,4 +1,4 @@
-# ✨ Creating a Gmail Add-on || GSP249 [LAB](https://www.cloudskillsboost.google/focuses/4049?parent=catalog) ||
+# Creating a Gmail Add-on || GSP249 [LAB](https://www.cloudskillsboost.google/focuses/4049?parent=catalog) ||
 
 ---
 ### ⚠️ Disclaimer
