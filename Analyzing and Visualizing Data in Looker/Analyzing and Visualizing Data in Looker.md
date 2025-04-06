@@ -19,7 +19,7 @@
     <img src="https://img.shields.io/badge/Subscribe-EduTech%20Barsha-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube Channel">
   </a>
 </div>
----
+
 # Follow the instructions:
 ### 🔗Solution [here](https://youtu.be/qmEAyQ4pluI)
 
