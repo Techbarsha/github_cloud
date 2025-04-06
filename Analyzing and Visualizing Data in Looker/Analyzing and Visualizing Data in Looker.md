@@ -21,7 +21,7 @@
 </div>
 
 # Follow the instructions:
-### 🔗Solution [here](https://youtu.be/qmEAyQ4pluI)
+### Solution [here](https://youtu.be/qmEAyQ4pluI)
 
 ## Task 1: Single Value Visualization:
 ```
