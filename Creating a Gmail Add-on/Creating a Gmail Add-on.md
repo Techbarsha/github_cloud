@@ -20,12 +20,15 @@
   </a>
 </div>
 
-## ⚙️ Lab Environment Setup
+# Follow the instructions:
+### Solution [here](https://youtu.be/qmEAyQ4pluI)
+
+## 🤖 Lab Environment Setup
 
 <div style="padding: 15px; margin: 10px 0;">
 
-* Code.gs
-```bash
+# * Code.gs
+```
 /**
  * Copyright Google LLC
  *
@@ -148,7 +151,7 @@ function getLabelArray(labelsObjects){
 }
 ```
 
-* appsscript.json
+# * appsscript.json
 ```
 {
   "oauthScopes": [
@@ -172,9 +175,6 @@ function getLabelArray(labelsObjects){
   }
 }
 ```
-</div>
-
----
 
 ### Congratulations 🎉 for completing the Lab !😄
 
