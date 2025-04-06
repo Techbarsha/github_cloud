@@ -84,5 +84,27 @@ explore: +flights {
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 
 #### *Well done!*
+<div align="center" style="padding: 5px;">
+  <h3>📱 Join the EduTech Barsha Community</h3>
+  
+  <a href="https://chat.whatsapp.com/KkNEauOhBQXHdVcmqIlv9F">
+    <img src="https://img.shields.io/badge/Join_WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Join WhatsApp">
+  </a>
+  &nbsp;
+  <a href="https://t.me/your_telegram_channel_or_group">
+    <img src="https://img.shields.io/badge/Join_Telegram-229ED9?style=for-the-badge&logo=telegram&logoColor=white" alt="Join Telegram">
+  </a>
+  &nbsp;
+  <a href="https://www.youtube.com/@Arcade61432?sub_confirmation=1">
+    <img src="https://img.shields.io/badge/Subscribe-Arcade%20Crew-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube Channel">
+  </a>
+</div>
+
+
+
+</div>
+
 
 # Thanks For Watching:)
+
+
