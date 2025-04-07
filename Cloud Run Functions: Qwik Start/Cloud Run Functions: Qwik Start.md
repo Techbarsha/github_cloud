@@ -24,11 +24,10 @@
 
 ### Run the following Commands in CloudShell
 ```
-curl -LO raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/Cloud%20Run%20Functions%20Qwik%20Start/arcadecrew.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Cloud%20Run%20Functions%3A%20Qwik%20Start/gsp1089.sh
+sudo chmod +x gsp1089.sh
 
-sudo chmod +x arcadecrew.sh
-
-./arcadecrew.shh
+./gsp1089.sh
 ```
 ### Congratulations 🎉 for completing the Lab !😄
 
