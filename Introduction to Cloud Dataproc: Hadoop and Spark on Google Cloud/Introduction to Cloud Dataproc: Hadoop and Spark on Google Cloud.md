@@ -1,4 +1,4 @@
-# App Engine: Qwik Start - PHP|| [GSP069](https://www.cloudskillsboost.google/focuses/2755?parent=catalog) ||
+# Introduction to Cloud Dataproc: Hadoop and Spark on Google Cloud|| [GSP123](https://www.cloudskillsboost.google/focuses/672?parent=catalog) ||
 ---
 ### ⚠️ Disclaimer
 - **This script and guide are provided for  the educational purposes to help you understand the lab services and boost your career. Before using the script, please open and review it to familiarize yourself with Google Cloud services. Ensure that you follow 'Qwiklabs' terms of service and YouTube’s community guidelines. The goal is to enhance your learning experience, not to bypass it.**
@@ -24,10 +24,10 @@
 
 ### Run the following Commands in CloudShell
 ```
-curl -LO raw.githubusercontent.com/Techbarsha/shorttricks/refs/heads/main/gsp069.sh
-sudo chmod +x gsp069.sh
+curl -LO raw.githubusercontent.com/Techbarsha/shorttricks/refs/heads/main/gsp123.sh
+sudo chmod +x gsp123.sh
 
-./gsp069.sh
+./gsp123.sh
 ```
 ### Congratulations 🎉 for completing the Lab !😄
 
