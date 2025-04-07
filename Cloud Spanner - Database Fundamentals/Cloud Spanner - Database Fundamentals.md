@@ -20,7 +20,7 @@
 </div>
 
 # Follow the instructions
-## Solution [here](https://youtu.be/B_yaZVAnMSA)
+## Solution [here](https://youtu.be/uJ8YseD7z3c)
 
 ### Run the following Commands in CloudShell
 ```
