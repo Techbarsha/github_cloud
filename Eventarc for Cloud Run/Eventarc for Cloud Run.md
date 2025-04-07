@@ -1,4 +1,4 @@
-# Eventarc for Cloud Run || [GSP1089](https://www.cloudskillsboost.google/focuses/15657?parent=catalog) ||
+# Eventarc for Cloud Run || [GSP773](https://www.cloudskillsboost.google/focuses/15657?parent=catalog) ||
 ---
 ### ⚠️ Disclaimer
 - **This script and guide are provided for  the educational purposes to help you understand the lab services and boost your career. Before using the script, please open and review it to familiarize yourself with Google Cloud services. Ensure that you follow 'Qwiklabs' terms of service and YouTube’s community guidelines. The goal is to enhance your learning experience, not to bypass it.**
@@ -20,7 +20,7 @@
 </div>
 
 # Follow the instructions
-## Solution [here](https://youtu.be/ppY00YqRybk)
+## Solution [here](https://youtu.be/P8LGBuvYkf4)
 
 ### Run the following Commands in CloudShell
 ```
