@@ -1,4 +1,4 @@
-# De-identifying DICOM Data with the Healthcare API || [GSP626](https://www.cloudskillsboost.google/focuses/6920?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=31981719) ||
+# De-identifying DICOM Data with the Healthcare API || [GSP626](https://www.cloudskillsboost.google/focuses/6920?parent=catalog) ||
 
 ---
 ### ⚠️ Disclaimer
@@ -24,10 +24,6 @@
 ## Solution [here](https://youtu.be/y4TOR3belTU)
 
 ### Run the following Commands in CloudShell
-
-### Copy Command from ```Task 4```
-### then copy this 👇
-
 ```
 export REGION=
 ```
