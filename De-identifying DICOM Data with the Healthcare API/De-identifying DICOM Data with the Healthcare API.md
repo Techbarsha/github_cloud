@@ -32,7 +32,7 @@
 export REGION=
 ```
 ```
-curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/De-identifying%20DICOM%20Data%20with%20the%20Healthcare%20API/gsp626.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/De-identifying%20DICOM%20Data%20with%20the%20Healthcare%20API/gsp626.sh
 sudo chmod +x gsp626.sh
 
 ./gsp626.sh
