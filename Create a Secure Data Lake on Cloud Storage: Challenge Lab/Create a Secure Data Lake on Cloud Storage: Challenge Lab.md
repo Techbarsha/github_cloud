@@ -16,7 +16,19 @@ Solution : [Link](https://youtu.be/DAnpSlnUe_w)
  1. Create a Cloud Storage bucket 
  2. Create a lake in Dataplex and add a zone to your lake 
  3. Create an entry group  
- 4. Create a tag template (Storage bucket)  
+ 4. Create a tag template (Storage bucket)
+    
+### Run the following Commands in CloudShell
+ ```
+export ZONE=
+```
+```
+curl -LO raw.githubusercontent.com/gcpsolution99/GCP-solution/refs/heads/main/ARC/ARC119_1.sh
+
+sudo chmod +x ARC119_1.sh
+
+./ARC119_1.sh
+```   
 
 ------------------------------------------------------------------------------------------------------------------------
 
@@ -27,8 +39,19 @@ Solution : [Link](https://youtu.be/VRTeOICeCq4)
 1. Create a lake in Dataplex and add a zone to your lake 
 2. Create an entry group 
 3. Attach an existing Cloud Storage bucket to the zone  
-4. Create a tag template (Storage bucket)  
+4. Create a tag template (Storage bucket)
 
+### Run the following Commands in CloudShell
+```
+export ZONE=
+```
+```
+curl -LO raw.githubusercontent.com/gcpsolution99/GCP-solution/refs/heads/main/ARC/ARC119_2.sh
+
+sudo chmod +x ARC119_2.sh
+
+./ARC119_2.sh
+```
 ------------------------------------------------------------------------------------------------------------------------
 
 ### 📕 Form 3: 
@@ -40,6 +63,17 @@ Solution : [Link](https://youtu.be/rYN19z0zUuU)
 3. Attach an existing BigQuery Dataset to the Lake 
 4. Create a tag template (BigQuery Dataset)  
 
+### Run the following Commands in CloudShell
+```
+export ZONE=
+```
+```
+curl -LO raw.githubusercontent.com/gcpsolution99/GCP-solution/refs/heads/main/ARC/ARC119_3.sh
+
+sudo chmod +x ARC119_3.sh
+
+./ARC119_3.sh
+```
 ------------------------------------------------------------------------------------------------------------------------
 
 ### 📕 Form 4: 
@@ -50,7 +84,18 @@ Solution : [Link](https://youtu.be/UCgFPqBtRxM)
 2. Attach an existing Cloud Storage bucket to the zone 
 3. Attach an existing BigQuery Dataset to the Lake  
 4. Create Entities
+   
+### Run the following Commands in CloudShell
+```
+export ZONE=
+```
+```
+curl -LO raw.githubusercontent.com/gcpsolution99/GCP-solution/refs/heads/main/ARC/ARC119_3.sh
 
+sudo chmod +x ARC119_3.sh
+
+./ARC119_3.sh
+```
 
   
 ### Congratulations 🎉 for completing the Lab !😄
