@@ -23,6 +23,7 @@
 ## Solution [here](https://youtu.be/y4TOR3belTU)
 
 ### Run the following Commands in CloudShell
+
 ```
 curl -LO raw.githubusercontent.com/Techbarsha/shorttricks/refs/heads/main/gsp123.sh
 sudo chmod +x gsp123.sh
