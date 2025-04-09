@@ -23,11 +23,11 @@ Solution : [Link](https://youtu.be/DAnpSlnUe_w)
 export ZONE=
 ```
 ```
-curl -LO raw.githubusercontent.com/gcpsolution99/GCP-solution/refs/heads/main/ARC/ARC119_1.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Create%20a%20Secure%20Data%20Lake%20on%20Cloud%20Storage%3A%20Challenge%20Lab/form1.sh
 
-sudo chmod +x ARC119_1.sh
+sudo chmod +x form1.sh
 
-./ARC119_1.sh
+./form1.sh
 ```   
 
 ------------------------------------------------------------------------------------------------------------------------
@@ -46,11 +46,11 @@ Solution : [Link](https://youtu.be/VRTeOICeCq4)
 export ZONE=
 ```
 ```
-curl -LO raw.githubusercontent.com/gcpsolution99/GCP-solution/refs/heads/main/ARC/ARC119_2.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Create%20a%20Secure%20Data%20Lake%20on%20Cloud%20Storage%3A%20Challenge%20Lab/form2.sh
 
-sudo chmod +x ARC119_2.sh
+sudo chmod +x form2.sh
 
-./ARC119_2.sh
+./form2.sh
 ```
 ------------------------------------------------------------------------------------------------------------------------
 
@@ -68,11 +68,11 @@ Solution : [Link](https://youtu.be/rYN19z0zUuU)
 export ZONE=
 ```
 ```
-curl -LO raw.githubusercontent.com/gcpsolution99/GCP-solution/refs/heads/main/ARC/ARC119_3.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Create%20a%20Secure%20Data%20Lake%20on%20Cloud%20Storage%3A%20Challenge%20Lab/form3.sh
 
-sudo chmod +x ARC119_3.sh
+sudo chmod +x form3.sh
 
-./ARC119_3.sh
+./form3.sh
 ```
 ------------------------------------------------------------------------------------------------------------------------
 
@@ -90,11 +90,10 @@ Solution : [Link](https://youtu.be/UCgFPqBtRxM)
 export ZONE=
 ```
 ```
-curl -LO raw.githubusercontent.com/gcpsolution99/GCP-solution/refs/heads/main/ARC/ARC119_3.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Create%20a%20Secure%20Data%20Lake%20on%20Cloud%20Storage%3A%20Challenge%20Lab/form4.sh
+sudo chmod +x form4.sh
 
-sudo chmod +x ARC119_3.sh
-
-./ARC119_3.sh
+./form4.sh
 ```
 
   
