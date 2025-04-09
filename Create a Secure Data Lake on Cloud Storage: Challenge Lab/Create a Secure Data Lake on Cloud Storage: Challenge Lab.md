@@ -24,7 +24,7 @@
 ------------------------------------------------------------------------------------------------------------------------
 
 ### 📕 Form 1: 
-Solution : [Link](https://youtu.be/DAnpSlnUe_w)
+Solution : [Link](https://youtu.be/ZpeiPebilvQ)
 
 📋 Tasks:
  1. Create a Cloud Storage bucket 
@@ -47,7 +47,7 @@ sudo chmod +x form1.sh
 ------------------------------------------------------------------------------------------------------------------------
 
 ### 📕 Form 2: 
-Solution : [Link](https://youtu.be/VRTeOICeCq4)
+Solution : [Link](https://youtu.be/ZpeiPebilvQ)
 
 📋 Tasks:
 1. Create a lake in Dataplex and add a zone to your lake 
@@ -69,7 +69,7 @@ sudo chmod +x form2.sh
 ------------------------------------------------------------------------------------------------------------------------
 
 ### 📕 Form 3: 
-Solution : [Link](https://youtu.be/rYN19z0zUuU)
+Solution : [Link](https://youtu.be/ZpeiPebilvQ)
 
 📋 Tasks:
 1. Create a BigQuery dataset 
@@ -91,7 +91,7 @@ sudo chmod +x form3.sh
 ------------------------------------------------------------------------------------------------------------------------
 
 ### 📕 Form 4: 
-Solution : [Link](https://youtu.be/UCgFPqBtRxM)
+Solution : [Link](https://youtu.be/ZpeiPebilvQ)
 
 📋 Tasks:
 1. Create a lake in Dataplex and add a zone to your lake 
