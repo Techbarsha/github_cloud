@@ -24,7 +24,7 @@
 
 ### Run the following Commands in CloudShell
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/HTTP%20Google%20Cloud%20Run%20Functions%20in%20Go/gsp602.sh
+curl -LO raw.githubusercontent.com/Techbarsha/shorttricks/refs/heads/main/gsp1162.sh
 
 sudo chmod +x *.sh
 
