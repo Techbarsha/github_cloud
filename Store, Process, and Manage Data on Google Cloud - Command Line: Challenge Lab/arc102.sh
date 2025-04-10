@@ -41,7 +41,7 @@ gcloud projects add-iam-policy-binding $PROJECT_ID \
   --role roles/pubsub.publisher
   
 
-mkdir ~/quicklab && cd $_
+mkdir ~/edutechbarsha && cd $_
 touch index.js && touch package.json
 
 
@@ -172,7 +172,7 @@ EOF_END
         break
       else
         echo "Waiting for Cloud Run service to be created..."
-        echo "Meantime Subscribe to Quicklab[https://www.youtube.com/@quick_lab]."
+        echo "Meantime Subscribe to Edutechbarsha[https://www.youtube.com/@edutechbarsha]."
         sleep 10
       fi
     done
