@@ -14,7 +14,7 @@
 export ZONE=
 ```
 ```
-curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Cloud%20Monitoring%3A%20Qwik%20Start/gsp089.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Cloud%20Monitoring%3A%20Qwik%20Start/gsp089.sh
 
 
 sudo chmod +x gsp089.sh
