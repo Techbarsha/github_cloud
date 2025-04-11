@@ -26,7 +26,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Weather%20Data%20in%20BigQuery/gsp009.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Weather%20Data%20in%20BigQuery/gsp109.sh
 
 sudo chmod +x *.sh
 
