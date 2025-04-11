@@ -8,8 +8,9 @@
 
 ```
 export ZONE=
-
-curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Measuring%20and%20Improving%20Speech%20Accuracy/gsp758.sh
+```
+```
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Measuring%20and%20Improving%20Speech%20Accuracy/gsp758.sh
 sudo chmod +x gsp758.sh
 
 ./gsp758.sh
