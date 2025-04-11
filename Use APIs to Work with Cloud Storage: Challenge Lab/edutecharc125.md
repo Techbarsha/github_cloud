@@ -40,14 +40,14 @@ curl -X POST -H "Authorization: Bearer $(gcloud auth print-access-token)" -H "Co
 
 ```
 # Upload image file to bucket1
-curl -X POST -H "Authorization: Bearer $(gcloud auth print-access-token)" -H "Content-Type: image/jpeg" --data-binary @world.jpeg "https://storage.googleapis.com/upload/storage/v1/b/$DEVSHELL_PROJECT_ID-bucket-1/o?uploadType=media&name=quicklab.jpeg"
+curl -X POST -H "Authorization: Bearer $(gcloud auth print-access-token)" -H "Content-Type: image/jpeg" --data-binary @world.jpeg "https://storage.googleapis.com/upload/storage/v1/b/$DEVSHELL_PROJECT_ID-bucket-1/o?uploadType=media&name=edutech.jpeg"
 ```
 
 ### TASK 3 :
 
 ```
 # Copy file from bucket1 to bucket2
-curl -X POST -H "Authorization: Bearer $(gcloud auth print-access-token)" -H "Content-Type: application/json" --data '{"destination": "$DEVSHELL_PROJECT_ID-bucket-2"}' "https://storage.googleapis.com/storage/v1/b/$DEVSHELL_PROJECT_ID-bucket-1/o/quicklab.jpeg/copyTo/b/$DEVSHELL_PROJECT_ID-bucket-2/o/quicklab.jpeg"
+curl -X POST -H "Authorization: Bearer $(gcloud auth print-access-token)" -H "Content-Type: application/json" --data '{"destination": "$DEVSHELL_PROJECT_ID-bucket-2"}' "https://storage.googleapis.com/storage/v1/b/$DEVSHELL_PROJECT_ID-bucket-1/o/quicklab.jpeg/copyTo/b/$DEVSHELL_PROJECT_ID-bucket-2/o/edutech.jpeg"
 ```
 
 ### TASK 4 :
@@ -62,14 +62,14 @@ cat > public_access.json <<EOF
 EOF
 
 
-curl -X POST --data-binary @public_access.json -H "Authorization: Bearer $(gcloud auth print-access-token)" -H "Content-Type: application/json" "https://storage.googleapis.com/storage/v1/b/$DEVSHELL_PROJECT_ID-bucket-1/o/quicklab.jpeg/acl"
+curl -X POST --data-binary @public_access.json -H "Authorization: Bearer $(gcloud auth print-access-token)" -H "Content-Type: application/json" "https://storage.googleapis.com/storage/v1/b/$DEVSHELL_PROJECT_ID-bucket-1/o/edutech.jpeg/acl"
 ```
 
 ### TASK 5 :
 
 ```
 # Delete the object
-curl -X DELETE -H "Authorization: Bearer $(gcloud auth print-access-token)" "https://storage.googleapis.com/storage/v1/b/$DEVSHELL_PROJECT_ID-bucket-1/o/quicklab.jpeg"
+curl -X DELETE -H "Authorization: Bearer $(gcloud auth print-access-token)" "https://storage.googleapis.com/storage/v1/b/$DEVSHELL_PROJECT_ID-bucket-1/o/edutech.jpeg"
 
 
 # Delete bucket1
