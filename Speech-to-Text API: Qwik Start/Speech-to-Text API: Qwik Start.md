@@ -21,7 +21,7 @@
 </div>
 
 # Follow the instructions
-## Solution [here](https://youtu.be/y4TOR3belTU)
+## Solution [here](https://youtu.be/DIQwWHyIpbg)
 
 ### Run the following Commands in SSH
 ```
