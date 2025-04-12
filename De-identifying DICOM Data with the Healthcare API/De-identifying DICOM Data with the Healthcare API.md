@@ -1,4 +1,4 @@
-# De-identifying DICOM Data with the Healthcare API || [GSP626](https://www.cloudskillsboost.google/focuses/6920?parent=catalog) ||
+# De-identifying DICOM Data with the Healthcare API|| [GSP626](https://www.cloudskillsboost.google/focuses/6920?parent=catalog) ||
 
 ---
 ### ⚠️ Disclaimer
