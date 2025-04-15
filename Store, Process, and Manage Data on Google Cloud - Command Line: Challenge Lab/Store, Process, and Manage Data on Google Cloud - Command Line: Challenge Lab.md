@@ -20,8 +20,7 @@
 </div>
 
 # Follow the instructions
-## Solution [here](https://youtu.be/EkH2rH0vkmE)
-
+## Solution [here](https://www.youtube.com/watch?v=oTMfdK3qsDs)
 ### Run the following Commands in CloudShell
 ```
 curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Store%2C%20Process%2C%20and%20Manage%20Data%20on%20Google%20Cloud%20-%20Command%20Line%3A%20Challenge%20Lab/arc102.sh
