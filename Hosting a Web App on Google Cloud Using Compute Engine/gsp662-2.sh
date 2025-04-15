@@ -20,7 +20,7 @@ BOLD=`tput bold`
 RESET=`tput sgr0`
 #----------------------------------------------------start--------------------------------------------------#
 
-echo "${RED}${BOLD}Starting${RESET}" "${GREEN}${BOLD}Execution${RESET}"
+echo "${YELLOW}${BOLD}Starting${RESET}" "${GREEN}${BOLD}Execution${RESET}"
 
 export REGION="${ZONE%-*}"
 
@@ -99,6 +99,6 @@ gcloud compute instance-groups managed rolling-action replace fancy-fe-mig \
   --zone=$ZONE \
   --max-unavailable=100%
 
-echo "${BLUE}${BOLD}Congratulations${RESET}" "${WHITE}${BOLD}for${RESET}" "${RED}${BOLD}Completing the Lab!! Subscribre Now!!${RESET}"
+echo "${RED}${BOLD}Congratulations${RESET}" "${WHITE}${BOLD}for${RESET}" "${GREEN}${BOLD}Completing the Lab !!!${RESET}"
 
 #-----------------------------------------------------end----------------------------------------------------------#
