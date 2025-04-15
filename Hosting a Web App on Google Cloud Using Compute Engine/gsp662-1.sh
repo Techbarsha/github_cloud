@@ -20,7 +20,7 @@ BOLD=`tput bold`
 RESET=`tput sgr0`
 #----------------------------------------------------start--------------------------------------------------#
 
-echo "${RED}${BOLD}Starting${RESET}" "${GREEN}${BOLD}Execution${RESET}"
+echo "${YELLOW}${BOLD}Starting${RESET}" "${GREEN}${BOLD}Execution${RESET}"
 
 export REGION="${ZONE%-*}"
 
