@@ -7,9 +7,9 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Get%20Started%20with%20Google%20Workspace%20Tools%3A%20Challenge%20Lab/gsp009.sh
-sudo chmod +x gsp009.sh
-./gsp009.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Deploy%20Kubernetes%20Applications%20on%20Google%20Cloud%3A%20Challenge%20Lab/gsp318.sh
+sudo chmod +x gsp318.sh
+./gsp318.sh
 ```
 ### Congratulations 🎉 for completing the Lab !😄
 
