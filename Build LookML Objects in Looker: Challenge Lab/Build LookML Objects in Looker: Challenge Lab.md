@@ -27,40 +27,40 @@
 
 ```
 view: order_items_challenge {
-  sql_table_name: `cloud-training-demos.looker_ecomm.order_items’  ;;
+  sql_table_name: `cloud-training-demos.looker_ecomm.order_items`  ;;
   drill_fields: [order_item_id]
   dimension: order_item_id {
-    primary_key: yes
-    type: number
-    sql: ${TABLE}.id ;;
+  primary_key: yes
+  type: number
+  sql: ${TABLE}.id ;;
   }
 
   dimension: is_search_source {
-    type: yesno
-    sql: ${users.traffic_source} = "Search" ;;
+  type: yesno
+  sql: ${users.traffic_source} = "Search" ;;
   }
 
 
   measure: sales_from_complete_search_users {
-    type: sum
-    sql: ${TABLE}.sale_price ;;
-    filters: [is_search_source: "Yes", order_items.status: "Complete"]
+  type: sum
+  sql: ${TABLE}.sale_price ;;
+  filters: [is_search_source: "Yes", order_items.status: "Complete"]
   }
 
 
   measure: total_gross_margin {
-    type: sum
-    sql: ${TABLE}.sale_price - ${inventory_items.cost} ;;
+  type: sum
+  sql: ${TABLE}.sale_price - ${inventory_items.cost} ;;
   }
 
 
   dimension: return_days {
-    type: number
-    sql: DATE_DIFF(${order_items.delivered_date}, ${order_items.returned_date}, DAY);;
+  type: number
+  sql: DATE_DIFF(${order_items.delivered_date}, ${order_items.returned_date}, DAY);;
   }
   dimension: order_id {
-    type: number
-    sql: ${TABLE}.order_id ;;
+  type: number
+  sql: ${TABLE}.order_id ;;
   }
 
 }
@@ -74,37 +74,37 @@ view: order_items_challenge {
 
 view: user_details {
   derived_table: {
-    explore_source: order_items {
-      column: order_id {}
-      column: user_id {}
-      column: total_revenue {}
-      column: age { field: users.age }
-      column: city { field: users.city }
-      column: state { field: users.state }
-    }
+  explore_source: order_items {
+    column: order_id {}
+    column: user_id {}
+    column: total_revenue {}
+    column: age { field: users.age }
+    column: city { field: users.city }
+    column: state { field: users.state }
+  }
   }
   dimension: order_id {
-    description: ""
-    type: number
+  description: ""
+  type: number
   }
   dimension: user_id {
-    description: ""
-    type: number
+  description: ""
+  type: number
   }
   dimension: total_revenue {
-    description: ""
-    value_format: "$#,##0.00"
-    type: number
+  description: ""
+  value_format: "$#,##0.00"
+  type: number
   }
   dimension: age {
-    description: ""
-    type: number
+  description: ""
+  type: number
   }
   dimension: city {
-    description: ""
+  description: ""
   }
   dimension: state {
-    description: ""
+  description: ""
   }
 }
 ```
@@ -141,9 +141,9 @@ explore: order_items {
 
   conditionally_filter: {
 
-    filters: [order_items.shipped_date: "2018"]
+  filters: [order_items.shipped_date: "2018"]
 
-    unless: [order_items.status, order_items.delivered_date]
+  unless: [order_items.status, order_items.delivered_date]
 
   }
 
@@ -151,71 +151,71 @@ explore: order_items {
   sql_always_having: ${average_sale_price} > VALUE_2 ;;
 
   always_filter: {
-    filters: [order_items.status: "Shipped", users.state: "California", users.traffic_source:
-      "Search"]
+  filters: [order_items.status: "Shipped", users.state: "California", users.traffic_source:
+    "Search"]
   }
 
 
 
   join: user_details {
 
-    type: left_outer
+  type: left_outer
 
-    sql_on: ${order_items.user_id} = ${user_details.user_id} ;;
+  sql_on: ${order_items.user_id} = ${user_details.user_id} ;;
 
-    relationship: many_to_one
+  relationship: many_to_one
 
   }
 
 
   join: order_items_challenge {
-    type: left_outer
-    sql_on: ${order_items.order_id} = ${order_items_challenge.order_id} ;;
-    relationship: many_to_one
+  type: left_outer
+  sql_on: ${order_items.order_id} = ${order_items_challenge.order_id} ;;
+  relationship: many_to_one
   }
 
   join: users {
-    type: left_outer
-    sql_on: ${order_items.user_id} = ${users.id} ;;
-    relationship: many_to_one
+  type: left_outer
+  sql_on: ${order_items.user_id} = ${users.id} ;;
+  relationship: many_to_one
   }
 
 
 
   join: inventory_items {
-    type: left_outer
-    sql_on: ${order_items.inventory_item_id} = ${inventory_items.id} ;;
-    relationship: many_to_one
+  type: left_outer
+  sql_on: ${order_items.inventory_item_id} = ${inventory_items.id} ;;
+  relationship: many_to_one
   }
 
   join: products {
-    type: left_outer
-    sql_on: ${inventory_items.product_id} = ${products.id} ;;
-    relationship: many_to_one
+  type: left_outer
+  sql_on: ${inventory_items.product_id} = ${products.id} ;;
+  relationship: many_to_one
   }
 
   join: distribution_centers {
-    type: left_outer
-    sql_on: ${products.distribution_center_id} = ${distribution_centers.id} ;;
-    relationship: many_to_one
+  type: left_outer
+  sql_on: ${products.distribution_center_id} = ${distribution_centers.id} ;;
+  relationship: many_to_one
   }
 }
 
 explore: events {
   join: event_session_facts {
-    type: left_outer
-    sql_on: ${events.session_id} = ${event_session_facts.session_id} ;;
-    relationship: many_to_one
+  type: left_outer
+  sql_on: ${events.session_id} = ${event_session_facts.session_id} ;;
+  relationship: many_to_one
   }
   join: event_session_funnel {
-    type: left_outer
-    sql_on: ${events.session_id} = ${event_session_funnel.session_id} ;;
-    relationship: many_to_one
+  type: left_outer
+  sql_on: ${events.session_id} = ${event_session_funnel.session_id} ;;
+  relationship: many_to_one
   }
   join: users {
-    type: left_outer
-    sql_on: ${events.user_id} = ${users.id} ;;
-    relationship: many_to_one
+  type: left_outer
+  sql_on: ${events.user_id} = ${users.id} ;;
+  relationship: many_to_one
   }
 }
 ```
@@ -245,63 +245,63 @@ label: "E-Commerce Training"
 explore: order_items {
   join: user_details {
 
-    type: left_outer
+  type: left_outer
 
-    sql_on: ${order_items.user_id} = ${user_details.user_id} ;;
+  sql_on: ${order_items.user_id} = ${user_details.user_id} ;;
 
-    relationship: many_to_one
+  relationship: many_to_one
 
   }
 
 
   join: order_items_challenge {
-    type: left_outer
-    sql_on: ${order_items.order_id} = ${order_items_challenge.order_id} ;;
-    relationship: many_to_one
+  type: left_outer
+  sql_on: ${order_items.order_id} = ${order_items_challenge.order_id} ;;
+  relationship: many_to_one
   }
 
   join: users {
-    type: left_outer
-    sql_on: ${order_items.user_id} = ${users.id} ;;
-    relationship: many_to_one
+  type: left_outer
+  sql_on: ${order_items.user_id} = ${users.id} ;;
+  relationship: many_to_one
   }
 
 
 
   join: inventory_items {
-    type: left_outer
-    sql_on: ${order_items.inventory_item_id} = ${inventory_items.id} ;;
-    relationship: many_to_one
+  type: left_outer
+  sql_on: ${order_items.inventory_item_id} = ${inventory_items.id} ;;
+  relationship: many_to_one
   }
 
   join: products {
-    type: left_outer
-    sql_on: ${inventory_items.product_id} = ${products.id} ;;
-    relationship: many_to_one
+  type: left_outer
+  sql_on: ${inventory_items.product_id} = ${products.id} ;;
+  relationship: many_to_one
   }
 
   join: distribution_centers {
-    type: left_outer
-    sql_on: ${products.distribution_center_id} = ${distribution_centers.id} ;;
-    relationship: many_to_one
+  type: left_outer
+  sql_on: ${products.distribution_center_id} = ${distribution_centers.id} ;;
+  relationship: many_to_one
   }
 }
 
 explore: events {
   join: event_session_facts {
-    type: left_outer
-    sql_on: ${events.session_id} = ${event_session_facts.session_id} ;;
-    relationship: many_to_one
+  type: left_outer
+  sql_on: ${events.session_id} = ${event_session_facts.session_id} ;;
+  relationship: many_to_one
   }
   join: event_session_funnel {
-    type: left_outer
-    sql_on: ${events.session_id} = ${event_session_funnel.session_id} ;;
-    relationship: many_to_one
+  type: left_outer
+  sql_on: ${events.session_id} = ${event_session_funnel.session_id} ;;
+  relationship: many_to_one
   }
   join: users {
-    type: left_outer
-    sql_on: ${events.user_id} = ${users.id} ;;
-    relationship: many_to_one
+  type: left_outer
+  sql_on: ${events.user_id} = ${users.id} ;;
+  relationship: many_to_one
   }
 }
 ```
