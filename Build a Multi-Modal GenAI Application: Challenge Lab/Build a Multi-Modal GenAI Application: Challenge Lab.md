@@ -24,6 +24,9 @@
 
 ### Run the following Commands in CloudShell
 ```
+export REGION=
+```
+```
 curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Build%20a%20Multi-Modal%20GenAI%20Application%3A%20Challenge%20Lab/edutechbarsha.sh
 
 source edutechbarsha.sh
