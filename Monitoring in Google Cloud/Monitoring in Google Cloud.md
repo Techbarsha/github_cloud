@@ -21,7 +21,7 @@
 </div>
 
 # Follow the instructions
-## Solution [here](https://youtu.be/y4TOR3belTU)
+## Solution [here](https://youtu.be/NNAqFzjLepY)
 
 ### Run the following Commands in CloudShell
 
@@ -33,7 +33,7 @@ sudo chmod +x arc115.sh
 ./arc115.sh
 ```
 
-### NOW FOLLOW [VIDEO'S](https://youtu.be/y4TOR3belTU) INSTRUCTIONS.
+### NOW FOLLOW [VIDEO'S](https://youtu.be/NNAqFzjLepY) INSTRUCTIONS.
 
 * Go to `Create Uptime Check` from [here](https://console.cloud.google.com/monitoring/uptime/create?)
 
