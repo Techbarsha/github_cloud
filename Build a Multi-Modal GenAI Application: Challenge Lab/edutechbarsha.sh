@@ -82,9 +82,7 @@ generate_image(
 )
 EOF_END
 
-echo "${YELLOW_TEXT}${BOLD_TEXT}Generating an image... Please wait.${RESET_FORMAT}"
 /usr/bin/python3 /home/student/GenerateImage.py
-echo "${GREEN_TEXT}${BOLD_TEXT}Image generated successfully! Check 'image.jpeg' in your working directory.${RESET_FORMAT}"
 
 ID="$(gcloud projects list --format='value(PROJECT_ID)')"
 
@@ -118,16 +116,11 @@ response = generate_text(project_id, location)
 print(response)
 EOF_END
 
-echo "${YELLOW_TEXT}${BOLD_TEXT}Processing text with multimodal model first time... Please wait.${RESET_FORMAT}"
 /usr/bin/python3 /home/student/genai.py
-echo "${GREEN_TEXT}${BOLD_TEXT}Text process completed, see output above.${RESET_FORMAT}"
 
-echo "${YELLOW_TEXT}${BOLD_TEXT}Waiting 30 seconds before running the process again...${RESET_FORMAT}"
 sleep 30
 
-echo "${YELLOW_TEXT}${BOLD_TEXT}Processing text with multimodal model second time... Please wait.${RESET_FORMAT}"
 /usr/bin/python3 /home/student/genai.py
-echo "${GREEN_TEXT}${BOLD_TEXT}Text process completed, see output above.${RESET_FORMAT}"
 
 
 # Pick another random color for the final message
