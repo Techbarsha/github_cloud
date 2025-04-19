@@ -24,9 +24,9 @@
 
 ### Run the following Commands in CloudShell
 ```
-curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Build%20a%20Multi-Modal%20GenAI%20Application%3A%20Challenge%20Lab/bb-ide-genai-004.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Build%20a%20Multi-Modal%20GenAI%20Application%3A%20Challenge%20Lab/edutechbarsha.sh
 
-source bb-ide-genai-004.sh
+source edutechbarsha.sh
 ```
 ### Congratulations 🎉 for completing the Lab !😄
 
