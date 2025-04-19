@@ -70,7 +70,7 @@ echo "${GREEN_TEXT}Script execution completed.${RESET_FORMAT}"
 echo
 
 echo "${CYAN_TEXT}${BOLD_TEXT}Creating uptime check for the instance...${RESET_FORMAT}"
-gcloud monitoring uptime create arcadecrew \
+gcloud monitoring uptime create edutechbarsha \
   --resource-type="gce-instance" \
   --resource-labels=project_id=$DEVSHELL_PROJECT_ID,instance_id=$INSTANCE_ID,zone=$ZONE
 echo "${GREEN_TEXT}Uptime check created successfully.${RESET_FORMAT}"
