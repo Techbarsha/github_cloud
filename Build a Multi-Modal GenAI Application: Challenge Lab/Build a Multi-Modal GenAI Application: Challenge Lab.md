@@ -24,9 +24,9 @@
 
 ### Run the following Commands in CloudShell
 ```
-curl -LO raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/Build%20a%20Multi-Modal%20GenAI%20Application%20Challenge%20Lab/arcadecrew.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Build%20a%20Multi-Modal%20GenAI%20Application%3A%20Challenge%20Lab/bb-ide-genai-004.sh
 
-source arcadecrew.sh
+source bb-ide-genai-004.sh
 ```
 ### Congratulations 🎉 for completing the Lab !😄
 
