@@ -129,7 +129,7 @@ echo "${YELLOW_TEXT}${BOLD_TEXT}Processing text with multimodal model second tim
 /usr/bin/python3 /home/student/genai.py
 echo "${GREEN_TEXT}${BOLD_TEXT}Text process completed, see output above.${RESET_FORMAT}"
 
-echo
+
 # Pick another random color for the final message
 FINAL_TEXT_COLOR=${TEXT_COLORS[$RANDOM % ${#TEXT_COLORS[@]}]}
 FINAL_BG_COLOR=${BG_COLORS[$RANDOM % ${#BG_COLORS[@]}]}
@@ -146,4 +146,4 @@ SUBSCRIBE_TEXT_COLOR=${TEXT_COLORS[$RANDOM % ${#TEXT_COLORS[@]}]}
 SUBSCRIBE_BG_COLOR=${BG_COLORS[$RANDOM % ${#BG_COLORS[@]}]}
 
 echo "${SUBSCRIBE_BG_COLOR}${SUBSCRIBE_TEXT_COLOR}${BOLD}📢 SUBSCRIBE TO OUR CHANNEL: https://www.youtube.com/@edutechbarsha ${RESET}"
-echo
+
