@@ -21,7 +21,7 @@
 </div>
 
 # Follow the instructions
-## Solution [here](https://youtu.be/y4TOR3belTU)
+## Solution [here](https://youtu.be/40HfPEABsqw)
 
 1. Create a .view file name `order_items_challenge` and paste the following:
 
