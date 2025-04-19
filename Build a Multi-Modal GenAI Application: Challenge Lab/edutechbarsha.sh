@@ -1,44 +1,17 @@
 #!/bin/bash
-
-BLACK_TEXT=$'\033[0;90m'
-RED_TEXT=$'\033[0;91m'
-GREEN_TEXT=$'\033[0;92m'
-YELLOW_TEXT=$'\033[0;93m'
-BLUE_TEXT=$'\033[0;94m'
-MAGENTA_TEXT=$'\033[0;95m'
-CYAN_TEXT=$'\033[0;96m'
-WHITE_TEXT=$'\033[0;97m'
-
-NO_COLOR=$'\033[0m'
-RESET_FORMAT=$'\033[0m'
-BOLD_TEXT=$'\033[1m'
-UNDERLINE_TEXT=$'\033[4m'
-
-# Pick random colors
-RANDOM_TEXT_COLOR=${TEXT_COLORS[$RANDOM % ${#TEXT_COLORS[@]}]}
-RANDOM_BG_COLOR=${BG_COLORS[$RANDOM % ${#BG_COLORS[@]}]}
-
-# Display Welcome Banner
-echo "${RANDOM_BG_COLOR}${RANDOM_TEXT_COLOR}${BOLD}######################################################################${RESET}"
-echo "${RANDOM_BG_COLOR}${RANDOM_TEXT_COLOR}${BOLD}#                                                                    #${RESET}"
-echo "${RANDOM_BG_COLOR}${RANDOM_TEXT_COLOR}${BOLD}#             WELCOME TO EDUTECH BARSHA                              #${RESET}"
-echo "${RANDOM_BG_COLOR}${RANDOM_TEXT_COLOR}${BOLD}#                                                                    #${RESET}"
-echo "${RANDOM_BG_COLOR}${RANDOM_TEXT_COLOR}${BOLD}######################################################################${RESET}"
-
-clear
-
-echo "${BLUE_TEXT}${BOLD_TEXT}=======================================${RESET_FORMAT}"
-echo "${BLUE_TEXT}${BOLD_TEXT}         Starting Execution...         ${RESET_FORMAT}"
-echo "${BLUE_TEXT}${BOLD_TEXT}=======================================${RESET_FORMAT}"
-echo
-
-# Instruction for Region Input
-read -p "${BLUE_TEXT}${BOLD_TEXT}Enter REGION: ${RESET_FORMAT}" REGION
-echo
-
-# Displaying confirmation of user input
-echo "${GREEN_TEXT}${BOLD_TEXT}You have entered the region: ${REGION}${RESET_FORMAT}"
-echo
+YELLOW='\033[0;33m'
+NC='\033[0m' 
+pattern=(
+"**********************************************************"
+"**                 welcome  TO                **" 
+"**                 EDUTECH BARSHA                      **"
+"**                                                      **"
+"**********************************************************"
+)
+for line in "${pattern[@]}"
+do
+    echo -e "${YELLOW}${line}${NC}"
+done
 
 ID="$(gcloud projects list --format='value(PROJECT_ID)')"
 
@@ -84,7 +57,7 @@ EOF_END
 
 /usr/bin/python3 /home/student/GenerateImage.py
 
-ID="$(gcloud projects list --format='value(PROJECT_ID)')"
+ID="$(gcloud projects list --format='value(PROJECT_ID')"
 
 cat > genai.py <<EOF_END
 import vertexai
@@ -122,21 +95,14 @@ sleep 30
 
 /usr/bin/python3 /home/student/genai.py
 
-
-# Pick another random color for the final message
-FINAL_TEXT_COLOR=${TEXT_COLORS[$RANDOM % ${#TEXT_COLORS[@]}]}
-FINAL_BG_COLOR=${BG_COLORS[$RANDOM % ${#BG_COLORS[@]}]}
-
-# Display Congratulations Message
-echo "${FINAL_BG_COLOR}${FINAL_TEXT_COLOR}${BOLD}######################################################################${RESET}"
-echo "${FINAL_BG_COLOR}${FINAL_TEXT_COLOR}${BOLD}#                                                                    #${RESET}"
-echo "${FINAL_BG_COLOR}${FINAL_TEXT_COLOR}${BOLD}#       🎉🎉 CONGRATULATIONS FOR COMPLETING THE LAB! 🎉🎉        #${RESET}"
-echo "${FINAL_BG_COLOR}${FINAL_TEXT_COLOR}${BOLD}#                                                                    #${RESET}"
-echo "${FINAL_BG_COLOR}${FINAL_TEXT_COLOR}${BOLD}######################################################################${RESET}"
-
-# Subscribe message with random colors
-SUBSCRIBE_TEXT_COLOR=${TEXT_COLORS[$RANDOM % ${#TEXT_COLORS[@]}]}
-SUBSCRIBE_BG_COLOR=${BG_COLORS[$RANDOM % ${#BG_COLORS[@]}]}
-
-echo "${SUBSCRIBE_BG_COLOR}${SUBSCRIBE_TEXT_COLOR}${BOLD}📢 SUBSCRIBE TO OUR CHANNEL: https://www.youtube.com/@edutechbarsha ${RESET}"
-
+pattern=(
+"**********************************************************"
+"**                 S U B S C R I B E  TO                **"
+"**                 EDUTECH BARSHA                      **"
+"**                                                      **"
+"**********************************************************"
+)
+for line in "${pattern[@]}"
+do
+    echo -e "${YELLOW}${line}${NC}"
+done
