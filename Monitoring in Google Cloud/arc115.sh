@@ -79,8 +79,8 @@ echo
 cat > email-channel.json <<EOF_CP
 {
   "type": "email",
-  "displayName": "arcadecrew",
-  "description": "Arcade Crew",
+  "displayName": "edutechbarsha",
+  "description": "Edutech Barsha",
   "labels": {
     "email_address": "$USER_EMAIL"
   }
