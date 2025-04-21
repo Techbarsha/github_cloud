@@ -8,7 +8,7 @@
 
 ### Run the following Commands in CloudShell
 
-## Go to Task 3. Run the pipeline
+## Go to Task 4 to find region
 * Copy Region
 
 ```
