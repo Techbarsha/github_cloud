@@ -30,10 +30,11 @@ sleep 45
 ```
 ```
 gcloud dataflow jobs run iotflow \
---gcs-location gs://dataflow-templates/latest/PubSub_to_BigQuery \
---region $REGION \
---staging-location gs://$DEVSHELL_PROJECT_ID/temp \
---parameters inputTopic=projects/pubsub-public-data/topics/taxirides-realtime,outputTableSpec=$DEVSHELL_PROJECT_ID:taxirides.realtime
+    --gcs-location gs://dataflow-templates-us-east1/latest/PubSub_to_BigQuery \
+    --region us-east1 \
+    --worker-machine-type e2-medium \
+    --staging-location gs://qwiklabs-gcp-04-3414bbfeff94/temp \
+    --parameters inputTopic=projects/pubsub-public-data/topics/taxirides-realtime,outputTableSpec=qwiklabs-gcp-04-3414bbfeff94:taxirides.realtime
 ```
 
 ### Congratulations 🎉 for completing the Lab !😄
