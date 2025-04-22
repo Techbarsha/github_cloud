@@ -24,9 +24,9 @@
 
 ### Run the following Commands in CloudShell
 ```
-curl -LO raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/Tag%20and%20Discover%20BigLake%20Data%20Challenge%20Lab/arcadecrew.sh
-sudo chmod +x arcadecrew.sh
-./arcadecrew.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Tag%20and%20Discover%20BigLake%20Data%3A%20Challenge%20Lab/c
+sudo chmod +x ARC123.sh
+./ARC123.sh
 ```
 ### Congratulations 🎉 for completing the Lab !😄
 
