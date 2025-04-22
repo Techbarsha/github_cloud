@@ -19,7 +19,7 @@ clear
 
 # Welcome message with branding
 echo "${CYAN_TEXT}${BOLD_TEXT}=======================================================${RESET_FORMAT}"
-echo "${CYAN_TEXT}${BOLD_TEXT}      🌟 Welcome to EduTechBarsha 🌟                  ${RESET_FORMAT}"
+echo "${CYAN_TEXT}${BOLD_TEXT}      🌟  Welcome to EduTechBarsha 🌟                  ${RESET_FORMAT}"
 echo "${CYAN_TEXT}${BOLD_TEXT}=======================================================${RESET_FORMAT}"
 echo
 echo "${BLUE_TEXT}${BOLD_TEXT}=======================================${RESET_FORMAT}"
