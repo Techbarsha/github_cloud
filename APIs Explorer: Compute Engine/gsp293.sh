@@ -37,7 +37,7 @@ echo "${RANDOM_BG_COLOR}${RANDOM_TEXT_COLOR}${BOLD}#############################
 
 #----------------------------------------------------start--------------------------------------------------#
 
-echo "${RANDOM_BG_COLOR}${RANDOM_TEXT_COLOR}${BOLD}Starting Execution!!${RESET}"
+echo "${RANDOM_BG_COLOR}${RANDOM_TEXT_COLOR}${BOLD}Starting Execution${RESET}"
 
 # Step 1: Set Compute Zone
 echo "${BOLD}${BLUE}Setting Compute Zone${RESET}"
