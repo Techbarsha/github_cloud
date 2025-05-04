@@ -6,13 +6,11 @@
 
 ### Run the following Commands in CloudShell
 ```
-export ZONE=
-```
-```
-curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Compute%20Engine%3A%20Qwik%20Start%20-%20Windows/gsp093.sh
-sudo chmod +x gsp093.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Compute%20Engine%3A%20Qwik%20Start%20-%20Windows/gsp093.sh
 
-./gsp093.sh
+sudo chmod +x *.sh
+
+./*.sh
 ```
 ### Congratulations 🎉 for completing the Lab !😄
 
