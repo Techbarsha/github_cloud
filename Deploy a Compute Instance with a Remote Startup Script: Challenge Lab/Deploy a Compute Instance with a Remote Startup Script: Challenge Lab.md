@@ -8,7 +8,7 @@
 ```
 export ZONE=
 
-curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Deploy%20a%20Compute%20Instance%20with%20a%20Remote%20Startup%20Script%3A%20Challenge%20Lab/edutechbarshagsp301.sh
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Deploy%20a%20Compute%20Instance%20with%20a%20Remote%20Startup%20Script%20Challenge%20Lab/gsp301.sh
 sudo chmod +x edutechbarshagsp301.sh
 ./edutechbarshagsp301.sh
 ```
