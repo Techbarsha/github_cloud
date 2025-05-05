@@ -23,7 +23,7 @@
 # Follow the instructions
 ## Solution [here](https://youtu.be/ckTp8NUu01A)
 
-### **Replace the following with users.view**
+### **Replace the following with ```users.view```**
 
 ```
 view: users {
@@ -131,7 +131,7 @@ view: users {
   }
 }
 ```
-### **Replace the following with order_items.view**
+### **Replace the following with ```order_items.view```**
 ```
 view: order_items {
   sql_table_name: `cloud-training-demos.looker_ecomm.order_items`
