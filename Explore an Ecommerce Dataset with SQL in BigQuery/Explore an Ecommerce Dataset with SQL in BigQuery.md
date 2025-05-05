@@ -24,12 +24,11 @@
 
 ### Run the following Commands in CloudShell
 ```
-curl -LO github.com/quiccklabs/Labs_solutions/raw/master/Exploring%20Your%20Ecommerce%20Dataset%20with%20SQL%20in%20Google%20BigQuery/quicklabgsp407.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Explore%20an%20Ecommerce%20Dataset%20with%20SQL%20in%20BigQuery/gsp407.sh
 
+sudo chmod +x gsp407.sh
 
-sudo chmod +x quicklabgsp407.sh
-
-./quicklabgsp407.sh
+./gsp407.sh
 ```
 ### Congratulations 🎉 for completing the Lab !😄
 
