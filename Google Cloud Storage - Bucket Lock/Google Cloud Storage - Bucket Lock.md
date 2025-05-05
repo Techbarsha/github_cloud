@@ -6,7 +6,7 @@
 
 ### Run the following Commands in CloudShell
 ```
-curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/main/Google%20Cloud%20Storage%20-%20Bucket%20Lock/gsp297.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Google%20Cloud%20Storage%20-%20Bucket%20Lock/gsp297.sh
 
 sudo chmod +x gsp297.sh
 
