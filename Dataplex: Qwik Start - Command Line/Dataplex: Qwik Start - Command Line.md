@@ -29,7 +29,7 @@
 export REGION=
 ```
 ```
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Dataplex%20Qwik%20Start%20-%20Command%20Line/gsp1144.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Dataplex%3A%20Qwik%20Start%20-%20Command%20Line/gsp1144.sh
 
 sudo chmod +x gsp1144.sh
 
