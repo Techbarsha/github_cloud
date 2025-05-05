@@ -1,3 +1,4 @@
+#  Modularizing LookML Code with Extends || [GSP936](https://www.cloudskillsboost.google/focuses/21218?parent=catalog) ||
 ---
 ### ⚠️ Disclaimer
 - **This script and guide are provided for  the educational purposes to help you understand the lab services and boost your career. Before using the script, please open and review it to familiarize yourself with Google Cloud services. Ensure that you follow 'Qwiklabs' terms of service and YouTube’s community guidelines. The goal is to enhance your learning experience, not to bypass it.**
@@ -57,7 +58,7 @@ view: location {
 }
 ```
 
-### 2. Update **`users.view`**
+###  Update **`users.view`**
 ```lookml
 include: location.view
 view: users {
@@ -155,7 +156,7 @@ view: users {
 }
 ```
 
-### 3. Update **`events.view`**
+### Update **`events.view`**
 ```lookml
 include: location.view
 view: events {
@@ -279,7 +280,7 @@ view: events {
 }
 ```
 
-### 4. Update **`training_ecommerce.model`**
+###  Update **`training_ecommerce.model`**
 ```lookml
 connection: "bigquery_public_data_looker"
 
