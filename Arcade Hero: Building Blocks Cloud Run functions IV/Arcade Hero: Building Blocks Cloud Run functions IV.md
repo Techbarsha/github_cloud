@@ -24,10 +24,44 @@
 
 ### Run the following Commands in CloudShell
 ```
-curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Arcade%20Hero%3A%20Building%20Blocks%20Cloud%20Run%20functions%20IV/arc1223.sh
-sudo chmod +x arc1223.sh
+export PROJECT_ID=$(gcloud config get-value project)
+export REGION="your region"
+export FUNCTION_NAME="your function name"
+```
+```
+mkdir -p cloud-function
+cat > cloud-function/index.js <<EOF
+exports.helloWorld = (req, res) => {
+  res.send('Hello from Cloud Function!');
+};
+EOF
 
-./arc1223.sh
+cat > cloud-function/package.json <<EOF
+{
+  "name": "cf-nodejs",
+  "version": "1.0.0",
+  "main": "index.js"
+}
+EOF
+
+gcloud functions deploy ${FUNCTION_NAME} \
+  --gen2 \
+  --runtime=nodejs20 \
+  --region=${REGION} \
+  --source=cloud-function \
+  --entry-point=helloWorld \
+  --trigger-http \
+  --max-instances=5 \
+  --allow-unauthenticated
+
+cd ~
+for file in *; do
+  if [[ "$file" == gsp* || "$file" == arc* || "$file" == shell* ]]; then
+    if [[ -f "$file" ]]; then
+      rm "$file"
+    fi
+  fi
+done
 ```
 ### Congratulations 🎉 for completing the Lab !😄
 
