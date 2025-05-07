@@ -25,9 +25,9 @@
 ### Run the following Commands in CloudShell
 ```
 curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Arcade%20Hero%3A%20Building%20Blocks%20Cloud%20Run%20functions%20II/gsp1221.sh
-sudo chmod +x gsp1221.sh
+sudo chmod +x arc1221.sh
 
-./gsp1221.sh
+./arc1221.sh
 ```
 ### Congratulations 🎉 for completing the Lab !😄
 
