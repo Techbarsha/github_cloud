@@ -26,7 +26,7 @@
 ```
 export PROJECT_ID=$(gcloud config get-value project)
 export REGION="your region"
-export FUNCTION_NAME(e.g.,cf-nodejs)="your function name"
+export FUNCTION_NAME="your function name"
 ```
 ```
 mkdir -p cloud-function
