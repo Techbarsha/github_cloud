@@ -2,9 +2,9 @@
 
 # Prompt user for input
 read -p "Enter region for HTTP function (e.g., us-central1): " REGION1
-read -p "Enter name for HTTP function (e.g., cf-http-go): " FUNCTION_NAME1
+read -p "Enter name for HTTP function (e.g., cf-http-go[step3]): " FUNCTION_NAME1
 read -p "Enter region for Pub/Sub function (e.g., us-central1): " REGION2
-read -p "Enter name for Pub/Sub function (e.g., cf-pubsub-go): " FUNCTION_NAME2
+read -p "Enter name for Pub/Sub function (e.g., cf-pubsub-go[step3]): " FUNCTION_NAME2
 
 export PROJECT_ID=$(gcloud config get-value project)
 
