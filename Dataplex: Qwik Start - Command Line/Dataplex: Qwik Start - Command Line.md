@@ -21,7 +21,7 @@
 </div>
 
 # Follow the instructions
-## Solution [here](https://youtu.be/-I69WOVO6Bs)
+## Solution [here](https://youtu.be/r-qMlKhIqG0)
 
 ### Run the following Commands in CloudShell
 
