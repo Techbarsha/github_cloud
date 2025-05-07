@@ -27,7 +27,7 @@
 curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Arcade%20Hero%3A%20Building%20Blocks%20Cloud%20Run%20functions%20IV/arc1223.sh
 sudo chmod +x arc1223.sh
 
-.arc1223.sh
+./arc1223.sh
 ```
 ### Congratulations 🎉 for completing the Lab !😄
 
