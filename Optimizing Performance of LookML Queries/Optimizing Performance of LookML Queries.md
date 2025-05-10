@@ -20,7 +20,7 @@
 </div>
 
 # Follow the instructions
-## Solution [here](https://youtu.be/40HfPEABsqw)
+## Solution [here](https://youtu.be/a7DKb_QbkgE)
 
 ### Create View Named **`incremental_pdt`** and add the following LookML code->
 
