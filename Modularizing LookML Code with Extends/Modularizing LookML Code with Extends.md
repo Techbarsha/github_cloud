@@ -20,7 +20,7 @@
 </div>
 
 # Follow the instructions
-## Solution [here](https://youtu.be/40HfPEABsqw)
+## Solution [here](https://youtu.be/74j0fIKk91A)
 
 ### Create View Named **`location`** and add the following LookML code->
 
