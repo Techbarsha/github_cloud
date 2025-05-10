@@ -21,7 +21,7 @@
 </div>
 
 # Follow the instructions
-## Solution [here](https://youtu.be/ckTp8NUu01A)
+## Solution [here](https://youtu.be/e9gxAqztte8)
 
 ### **Replace the following with ```users.view```**
 
