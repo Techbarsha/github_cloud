@@ -25,7 +25,7 @@
 
 ---
 
-### 📄 Step 1: Create the `order_details` View
+###  Step 1: Create the `order_details` View
 
 1.  **Create a new view file** in your LookML project. Name this file `order_details`
 2.  **Paste the following LookML code** into the `order_details` view file:
@@ -33,7 +33,7 @@
 <details>
 <summary>💻 Click to see LookML code for <code>order_details</code></summary>
 
-```lookml
+```
 view: order_details {
   derived_table: {
     sql: SELECT
@@ -82,7 +82,7 @@ view: order_details {
 
 ---
 
-### 📑 Step 2: Create the `order_details_summary` View
+###  Step 2: Create the `order_details_summary` View
 
 1.  **Create another new view file.** Name this file `order_details_summary`
 2.  **Paste the following LookML code** into the `order_details_summary` view file:
@@ -90,7 +90,7 @@ view: order_details {
 <details>
 <summary>💻 Click to see LookML code for <code>order_details_summary</code></summary>
 
-```lookml
+```
 # If necessary, uncomment the line below to include explore_source.
 # include: "training_ecommerce.model.lkml"
 
@@ -126,7 +126,7 @@ view: add_a_unique_name_1718592811 {
 
 ---
 
-### 💾 Step 3: Update the `training_ecommerce.model` File
+###  Step 3: Update the `training_ecommerce.model` File
 
 1.  **Open your existing `training_ecommerce.model.lkml` file** (or the main model file for your project).
 2.  **Carefully paste the following LookML code** into this model file. Depending on the lab instructions, you might be adding this to existing code or replacing parts of it.
@@ -135,7 +135,7 @@ view: add_a_unique_name_1718592811 {
 <details>
 <summary>💻 Click to see LookML code for <code>training_ecommerce.model</code></summary>
 
-```lookml
+```
 connection: "bigquery_public_data_looker"
 
 # include all the views
