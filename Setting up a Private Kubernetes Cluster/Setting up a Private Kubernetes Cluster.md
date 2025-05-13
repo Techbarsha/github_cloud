@@ -24,11 +24,11 @@
 
 ### Run the following Commands in CloudShell
 ```
-curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Orchestrating%20the%20Cloud%20with%20Kubernetes/gsp021.sh
+curl -LO /raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Setting%20up%20a%20Private%20Kubernetes%20Cluster/gsp178.sh
 
-sudo chmod +x gsp021.sh
+sudo chmod +x gsp178.sh
 
-./gsp021.sh
+./gsp178.sh
 ```
 ### Congratulations 🎉 for completing the Lab !😄
 
