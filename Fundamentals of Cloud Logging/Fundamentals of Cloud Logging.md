@@ -28,6 +28,8 @@ curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Funda
 sudo chmod +x gsp610.sh
 ./gsp610.sh
 ```
+### NOW FOLLOW VIDEO STEPS👨‍💻
+
 ### Congratulations 🎉 for completing the Lab !😄
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
