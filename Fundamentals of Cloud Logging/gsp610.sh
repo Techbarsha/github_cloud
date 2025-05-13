@@ -35,7 +35,7 @@ echo
 echo "${YELLOW_TEXT}${BOLD_TEXT}📊  Now, let's set up some Cloud Logging Metrics. ${RESET_FORMAT}"
 echo
 
-msg=$(echo "U3Vic2NyaWJlIHRvIEFyY2FkZSBDcmV3" | base64 --decode)
+msg=$(echo "U3Vic2NyaWJlIHRvIEVkdXRlY2ggQmFyc2hh" | base64 --decode)
 
 echo "${CYAN_TEXT}${BOLD_TEXT}📈  Creating a logging metric named '200responses' to count successful App Engine responses... ${RESET_FORMAT}"
 gcloud logging metrics create 200responses \
