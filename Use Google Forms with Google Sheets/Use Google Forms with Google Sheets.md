@@ -28,7 +28,11 @@
 ```
 On the Rise Bakery Survey
 ```
-### Download File: [https://github.com/Techbarsha/github_cloud/blob/main/Use%20Google%20Forms%20with%20Google%20Sheets/On%20the%20Rise%20Bakery%20Survey%20(Responses).xlsx]
+## Download the Survey Responses File
+
+Click the link below to download the **On the Rise Bakery Survey (Responses).xlsx** file:
+
+[Download On the Rise Bakery Survey Responses](https://github.com/Techbarsha/github_cloud/blob/main/Use%20Google%20Forms%20with%20Google%20Sheets/On%20the%20Rise%20Bakery%20Survey%20(Responses).xlsx)
 
 ### Congratulations 🎉 for completing the Lab !😄
 
