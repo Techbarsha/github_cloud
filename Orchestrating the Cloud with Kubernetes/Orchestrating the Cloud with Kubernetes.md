@@ -24,11 +24,11 @@
 
 ### Run the following Commands in CloudShell
 ```
-curl -LO raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/Orchestrating%20the%20Cloud%20with%20Kubernetes/arcadecrew.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Orchestrating%20the%20Cloud%20with%20Kubernetes/gsp021.sh
 
-sudo chmod +x arcadecrew.sh
+sudo chmod +x gsp021.sh
 
-./arcadecrew.sh
+./gsp021.sh
 ```
 ### Congratulations 🎉 for completing the Lab !😄
 
