@@ -21,7 +21,7 @@
 </div>
 
 # Follow the instructions
-## Solution [here](https://youtu.be/ckTp8NUu01A)
+## Solution [here](https://youtu.be/CFA0VdsQVSk)
 
 ### Rename the Google form
 
