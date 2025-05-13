@@ -1,4 +1,4 @@
-# Setting up a Private Kubernetes Cluster || [GSP178](https://www.cloudskillsboost.google/focuses/557?parent=catalog) ||
+# Setting up a Private Kubernetes Cluster || [GSP178](https://www.cloudskillsboost.google/focuses/867?parent=catalog) ||
 ---
 ### ⚠️ Disclaimer
 - **This script and guide are provided for  the educational purposes to help you understand the lab services and boost your career. Before using the script, please open and review it to familiarize yourself with Google Cloud services. Ensure that you follow 'Qwiklabs' terms of service and YouTube’s community guidelines. The goal is to enhance your learning experience, not to bypass it.**
