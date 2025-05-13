@@ -24,7 +24,7 @@
 
 ### Run the following Commands in CloudShell
 ```
-curl -LO /raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Setting%20up%20a%20Private%20Kubernetes%20Cluster/gsp178.sh
+curl -LO raw.githubusercontent.com/Techbarsha/github_cloud/refs/heads/main/Setting%20up%20a%20Private%20Kubernetes%20Cluster/gsp178.sh
 
 sudo chmod +x gsp178.sh
 
